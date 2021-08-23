@@ -1,0 +1,3610 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<HTML>
+<HEAD>
+	
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="LibreOffice 3.5  (Linux)">
+	<META NAME="AUTHOR" CONTENT="SPLN ">
+	<META NAME="CREATED" CONTENT="20130310;19383000">
+	<META NAME="CHANGED" CONTENT="0;0">
+	
+	<STYLE>
+		<!-- 
+		BODY,DIV,TABLE,THEAD,TBODY,TFOOT,TR,TH,TD,P { font-family:"Arial"; font-size:x-small }
+		 -->
+	</STYLE>
+	
+</HEAD>
+
+<BODY TEXT="#000000">
+<TABLE CELLSPACING="0" COLS="3" BORDER="0">
+	<COLGROUP WIDTH="169"></COLGROUP>
+	<COLGROUP WIDTH="185"></COLGROUP>
+	<COLGROUP WIDTH="669"></COLGROUP>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Barrel Bomb S</TD>
+		<TD ALIGN="LEFT">Pt bombe baril</TD>
+		<TD ALIGN="LEFT">Une petite bombe à retardement. Utilisable sous l'eau.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Barrel Bomb L</TD>
+		<TD ALIGN="LEFT">Gd bombe baril</TD>
+		<TD ALIGN="LEFT">Bombe puissante déclenchée par un impact. Fonctionne sous l'eau.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Pitfall Trap</TD>
+		<TD ALIGN="LEFT">Fosse piégée</TD>
+		<TD ALIGN="LEFT">Déclenché par un poids important. Piège destiné à attraper les monstres. </TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Shock Trap</TD>
+		<TD ALIGN="LEFT">Piège à choc</TD>
+		<TD ALIGN="LEFT">Immobilise une cible. Utilisable pour capturer des monstres.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Flash Bomb</TD>
+		<TD ALIGN="LEFT">Bombe flash</TD>
+		<TD ALIGN="LEFT">Bombe émettant un flash aveuglant les monstres à l'impact.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Oxygen Supply</TD>
+		<TD ALIGN="LEFT">Bonbonne oxygène</TD>
+		<TD ALIGN="LEFT">Ballon rempli d'oxygène. Pratique en cas de panne d'air sous l'eau.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sonic Bomb</TD>
+		<TD ALIGN="LEFT">Bombe sonique</TD>
+		<TD ALIGN="LEFT">Émet un son à haute fréquence au moment de la détonation.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Throwing Knife</TD>
+		<TD ALIGN="LEFT">Cout. de lancer</TD>
+		<TD ALIGN="LEFT">Couteau de lancer standard. File en ligne droite vers la cible. ~C05 (Fourniture)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Poison Knife</TD>
+		<TD ALIGN="LEFT">Couteau poison</TD>
+		<TD ALIGN="LEFT">Couteau de lancer à lame empoisonnée. Effet toxique. ~C05 (Fourniture)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sleep Knife</TD>
+		<TD ALIGN="LEFT">Cout. somnifère</TD>
+		<TD ALIGN="LEFT">Couteau de lancer dont la lame a été imprégnée de somnifère. ~C05 (Fourniture)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Paralysis Knife</TD>
+		<TD ALIGN="LEFT">Cout. paralysant</TD>
+		<TD ALIGN="LEFT">Couteau de lancer à la lame couverte d'une toxine para- lysante. ~C05 (Fourniture)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Tranq Knife</TD>
+		<TD ALIGN="LEFT">Cout. tranq.</TD>
+		<TD ALIGN="LEFT">Couteau permettant la capture des monstres piégés. ~C05 (Fourniture)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="16" ALIGN="LEFT">Potion</TD>
+		<TD ALIGN="LEFT">Potion</TD>
+		<TD ALIGN="LEFT">Restaure une petite quantité de Santé. Combinez- la pour un méga-résultat&nbsp;!</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Mega Potion</TD>
+		<TD ALIGN="LEFT">Méga potion</TD>
+		<TD ALIGN="LEFT">Restaure une quantité modérée de Santé. C'est la meilleure amie du chasseur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Dash Juice</TD>
+		<TD ALIGN="LEFT">Jus d'énergie</TD>
+		<TD ALIGN="LEFT">Vous permet de courir sans ressentir de fatigue pendant un certain temps.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Mega Dash Juice</TD>
+		<TD ALIGN="LEFT">Méga jus énergie</TD>
+		<TD ALIGN="LEFT">Pour courir sans fatigue plus longtemps qu'avec le Jus d'énergie.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="16" ALIGN="LEFT">Antidote</TD>
+		<TD ALIGN="LEFT">Antidote</TD>
+		<TD ALIGN="LEFT">Débarrasse votre système de toute trace de poison.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Demondrug</TD>
+		<TD ALIGN="LEFT">Drogue du démon</TD>
+		<TD ALIGN="LEFT">Augmente l'Attaque en vous conférant la force... d'un démon.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Mega Demondrug</TD>
+		<TD ALIGN="LEFT">Méga drogue dém.</TD>
+		<TD ALIGN="LEFT">Augmente l'Attaque plus encore que la Drogue du démon.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Might Pill</TD>
+		<TD ALIGN="LEFT">Pilule pouvoir</TD>
+		<TD ALIGN="LEFT">Pilule qui vous confère temporairement la puissance d'un dieu redoutable.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Armorskin</TD>
+		<TD ALIGN="LEFT">Peau armure</TD>
+		<TD ALIGN="LEFT">Augmente votre Défense en rendant votre peau aussi dure que de la pierre.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Mega Armorskin</TD>
+		<TD ALIGN="LEFT">Méga peau armure</TD>
+		<TD ALIGN="LEFT">Augmente votre Défense plus encore que la Peau armure.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Adamant Pill</TD>
+		<TD ALIGN="LEFT">Pilule armure</TD>
+		<TD ALIGN="LEFT">Rend temporairement votre peau aussi dure que du métal. Puissante&nbsp;!</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="16" ALIGN="LEFT">Cool Drink</TD>
+		<TD ALIGN="LEFT">Breuvage frais</TD>
+		<TD ALIGN="LEFT">Confère une résistance temporaire à la chaleur extrême.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Hot Drink</TD>
+		<TD ALIGN="LEFT">Breuvage chaud</TD>
+		<TD ALIGN="LEFT">Confère une résistance temporaire au froid extrême.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Well-done Steak</TD>
+		<TD ALIGN="LEFT">Steak à point</TD>
+		<TD ALIGN="LEFT">Donne un bonus moyen de Stamina. Viande à point !</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="16" ALIGN="LEFT">Rare Steak</TD>
+		<TD ALIGN="LEFT">Steak saignant</TD>
+		<TD ALIGN="LEFT">Donne un petit bonus de Stamina. Viande saignante.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Burnt Meat</TD>
+		<TD ALIGN="LEFT">Viande brûlée</TD>
+		<TD ALIGN="LEFT">Viande calcinée. Peut redonner de la Stamina ou vous affaiblir...</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Raw Meat</TD>
+		<TD ALIGN="LEFT">Viande crue</TD>
+		<TD ALIGN="LEFT">Viande obtenue en dépeçant un monstre. A de nombreux usages.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Poisoned Meat</TD>
+		<TD ALIGN="LEFT">Viande poison</TD>
+		<TD ALIGN="LEFT">Viande crue empoisonnée. Utilisée comme appât pour les pièges.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Tinged Meat</TD>
+		<TD ALIGN="LEFT">Viande teintée</TD>
+		<TD ALIGN="LEFT">Viande crue paralysante. Utilisée comme appât pour les pièges.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Drugged Meat</TD>
+		<TD ALIGN="LEFT">Viande droguée</TD>
+		<TD ALIGN="LEFT">Viande crue somnifère. Utilisée comme appât pour les pièges.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="16" ALIGN="LEFT">Paintball</TD>
+		<TD ALIGN="LEFT">Marqueur</TD>
+		<TD ALIGN="LEFT">Peut être lancé sur un monstre pour le marquer et le suivre facilement.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Old Pickaxe</TD>
+		<TD ALIGN="LEFT">Vieille pioche</TD>
+		<TD ALIGN="LEFT">Une pioche bon marché dont la lame s'ébrèche aisément.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Iron Pickaxe</TD>
+		<TD ALIGN="LEFT">Pioche de fer</TD>
+		<TD ALIGN="LEFT">Une pioche en fer avec une lame plutôt résistante.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Mega Pickaxe</TD>
+		<TD ALIGN="LEFT">Méga pioche</TD>
+		<TD ALIGN="LEFT">Une pioche en acier trempé, très difficile à ébrécher.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Old Bug Net</TD>
+		<TD ALIGN="LEFT">Vieux Filinsecte</TD>
+		<TD ALIGN="LEFT">Filet bon marché pour attraper les insectes. Se déchire facilement.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bug Net</TD>
+		<TD ALIGN="LEFT">Filinsecte</TD>
+		<TD ALIGN="LEFT">Filet résistant pour attraper les insectes.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Mega Bug Net</TD>
+		<TD ALIGN="LEFT">Méga Filinsecte</TD>
+		<TD ALIGN="LEFT">Filet extrêmement résistant pour attraper les insectes.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">BBQ Spit</TD>
+		<TD ALIGN="LEFT">Broche BBQ</TD>
+		<TD ALIGN="LEFT">Permet de cuire la viande. Un objet essentiel pour tout chasseur affamé.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Great Jaggi Head</TD>
+		<TD ALIGN="LEFT">Tête de gd Jaggi</TD>
+		<TD ALIGN="LEFT">Le jabot serait vraiment sensationnel... sans cette tête tranchée.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Map</TD>
+		<TD ALIGN="LEFT">Carte</TD>
+		<TD ALIGN="LEFT">Une carte qui montre la zone de chasse. ~C05(Fourniture)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Torch</TD>
+		<TD ALIGN="LEFT">Torche</TD>
+		<TD ALIGN="LEFT">Éclaire les endroits sombres et trompe certains monstres. ~C05(Fourniture)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">First-aid Med</TD>
+		<TD ALIGN="LEFT">Premiers soins</TD>
+		<TD ALIGN="LEFT">Restaure un peu de Santé... Fait du bien en quelque sorte ! ~C05(Fourniture)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="16" ALIGN="LEFT">Ration</TD>
+		<TD ALIGN="LEFT">Ration</TD>
+		<TD ALIGN="LEFT">Restaure un peu de Stamina. Dégoûte la plupart des chasseurs. ~C05(Fourniture)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Mini Oxy Supply</TD>
+		<TD ALIGN="LEFT">Mini bonb. oxy.</TD>
+		<TD ALIGN="LEFT">Fournie par la guilde. Un vrai bol d'air frais ! ~C05(Fourniture)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Portable Spit</TD>
+		<TD ALIGN="LEFT">Broche portable</TD>
+		<TD ALIGN="LEFT">Une broche BBQ fournie par la guilde pour chasseurs novices. ~C05(Fourniture)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Mini Whetstone</TD>
+		<TD ALIGN="LEFT">Mini aiguisoir</TD>
+		<TD ALIGN="LEFT">Aiguisoir portable pour entretenir le Tranchant des armes. ~C05(Fourniture)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">EZ Shock Trap</TD>
+		<TD ALIGN="LEFT">Piège choc port.</TD>
+		<TD ALIGN="LEFT">Immobilise une cible pour la capturer facilement. ~C05(Fourniture)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">EZ Flash Bomb</TD>
+		<TD ALIGN="LEFT">Flash bmb four.</TD>
+		<TD ALIGN="LEFT">Une bombe à lancer qui émet un flash à l'impact. ~C05(Fourniture)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="16" ALIGN="LEFT">Max Potion</TD>
+		<TD ALIGN="LEFT">Potion max</TD>
+		<TD ALIGN="LEFT">Restaure la Santé à son niveau maximum pour un rétablissement complet.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Barrel Bomb L+</TD>
+		<TD ALIGN="LEFT">Gd bombe baril+</TD>
+		<TD ALIGN="LEFT">Grande bombe baril améliorée. Mortelle. Fonctionne sous l'eau.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Normal S Lv1</TD>
+		<TD ALIGN="LEFT">Mn Normale Nv1</TD>
+		<TD ALIGN="LEFT">Munition bon marché. Peu puissante. Feu à volonté ! Munitions illimitées.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Normal S Lv2</TD>
+		<TD ALIGN="LEFT">Mn Normale Nv2</TD>
+		<TD ALIGN="LEFT">Munition non spécialisée. Plus puissante que Nv1. Max 99 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Normal S Lv3</TD>
+		<TD ALIGN="LEFT">Mn Normale Nv3</TD>
+		<TD ALIGN="LEFT">Munition non spécialisée qui ricoche et cause donc plus de dégâts. Max 99 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Pierce S Lv1</TD>
+		<TD ALIGN="LEFT">Mn Perç. Nv1</TD>
+		<TD ALIGN="LEFT">Balle perçante causant des impacts multiples aux monstres. Max 60 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Pierce S Lv2</TD>
+		<TD ALIGN="LEFT">Mn Perç. Nv2</TD>
+		<TD ALIGN="LEFT">Balle perçante causant plus d'impacts que le Nv1. Max 50 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Pierce S Lv3</TD>
+		<TD ALIGN="LEFT">Mn Perç. Nv3</TD>
+		<TD ALIGN="LEFT">Balle perçante causant le plus d'impacts dans sa catégorie. Max 40 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Pellet S Lv1</TD>
+		<TD ALIGN="LEFT">Mn Plomb Nv1</TD>
+		<TD ALIGN="LEFT">Large zone d'effet. Cause des impacts multiples de près. Max 60 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Pellet S Lv2</TD>
+		<TD ALIGN="LEFT">Mn Plomb Nv2</TD>
+		<TD ALIGN="LEFT">Large zone d'effet. Cause plus d'impacts que Nv1. Max 60 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Pellet S Lv3</TD>
+		<TD ALIGN="LEFT">Mn Plomb Nv3</TD>
+		<TD ALIGN="LEFT">Large zone d'effet. Cause le plus d'impacts dans sa catégorie. Max 60 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Crag S Lv1</TD>
+		<TD ALIGN="LEFT">Mn Explos. Nv1</TD>
+		<TD ALIGN="LEFT">Munition puissante qui pénètre dans une cible et explose. Max 9 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Crag S Lv2</TD>
+		<TD ALIGN="LEFT">Mn Explos. Nv2</TD>
+		<TD ALIGN="LEFT">Munition très puissante qui pénètre dans une cible et explose. Max 9 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Crag S Lv3</TD>
+		<TD ALIGN="LEFT">Mn Explos. Nv3</TD>
+		<TD ALIGN="LEFT">Munition extrêmement puis- sante qui pénètre dans une cible et explose. Max 9 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Clust S Lv1</TD>
+		<TD ALIGN="LEFT">Mn Frag. Nv1</TD>
+		<TD ALIGN="LEFT">Se divise en trois bombes à l'impact. Attention aux tirs alliés ! Max 5 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Clust S Lv2</TD>
+		<TD ALIGN="LEFT">Mn Frag. Nv2</TD>
+		<TD ALIGN="LEFT">Se divise en quatre bombes à l'impact. Attention aux tirs alliés ! Max 5 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Clust S Lv3</TD>
+		<TD ALIGN="LEFT">Mn Frag. Nv3</TD>
+		<TD ALIGN="LEFT">Se divise en cinq bombes à l'impact. Attention aux tirs alliés ! Max 5 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Flaming S</TD>
+		<TD ALIGN="LEFT">Mn Enflammée</TD>
+		<TD ALIGN="LEFT">Munition efficace contre les monstres vulnérables au Feu. Max 60 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Water S</TD>
+		<TD ALIGN="LEFT">Mn Aquatique</TD>
+		<TD ALIGN="LEFT">Munition efficace contre les monstres vulnérables à l'Eau. Max 60 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Thunder S</TD>
+		<TD ALIGN="LEFT">Mn Foudre</TD>
+		<TD ALIGN="LEFT">Munition efficace contre les monstres vulnérables à la Foudre. Max 60 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Freeze S</TD>
+		<TD ALIGN="LEFT">Mn Gel</TD>
+		<TD ALIGN="LEFT">Munition efficace contre les monstres vulnérables à la Glace. Max 60 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Dragon S</TD>
+		<TD ALIGN="LEFT">Mn Dragon</TD>
+		<TD ALIGN="LEFT">Mystérieuse. Inexploitable par un Fusarbalète normal. Max 20 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Recov S Lv1</TD>
+		<TD ALIGN="LEFT">Mn Guér. Nv1</TD>
+		<TD ALIGN="LEFT">Restaure un petit peu de la Santé de la cible. Max 12 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Recov S Lv2</TD>
+		<TD ALIGN="LEFT">Mn Guér. Nv2</TD>
+		<TD ALIGN="LEFT">Restaure une quantité modérée de la Santé de la cible. Max 12 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Poison S Lv1</TD>
+		<TD ALIGN="LEFT">Mn Poison Nv1</TD>
+		<TD ALIGN="LEFT">Empoisonne la cible mais requiert parfois plusieurs essais. Max 12 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Poison S Lv2</TD>
+		<TD ALIGN="LEFT">Mn Poison Nv2</TD>
+		<TD ALIGN="LEFT">Poison plus puissant. Peut requérir plusieurs essais. Max 8 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Para S Lv1</TD>
+		<TD ALIGN="LEFT">Mn Para Nv1</TD>
+		<TD ALIGN="LEFT">Paralyse la cible mais requiert parfois plusieurs essais. Max 12 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Para S Lv2</TD>
+		<TD ALIGN="LEFT">Mn Para Nv2</TD>
+		<TD ALIGN="LEFT">Paralyse rapidement mais peut requérir plus d'un essai. Max 8 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sleep S Lv1</TD>
+		<TD ALIGN="LEFT">Mn Sommeil Nv1</TD>
+		<TD ALIGN="LEFT">Endort la cible mais requiert parfois plusieurs essais. Max 12 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sleep S Lv2</TD>
+		<TD ALIGN="LEFT">Mn Sommeil Nv2</TD>
+		<TD ALIGN="LEFT">Somnifère plus puissant mais peut requérir plus d'un essai. Max 8 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Tranq S</TD>
+		<TD ALIGN="LEFT">Mn Tranq.</TD>
+		<TD ALIGN="LEFT">Tranquillisant pour capturer les monstres piégés. Max 8 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Paint S</TD>
+		<TD ALIGN="LEFT">Mn Marqueur</TD>
+		<TD ALIGN="LEFT">Signale momentanément la position d'un monstre sur la carte. Max 99 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Demon S I</TD>
+		<TD ALIGN="LEFT">Mn Démon I</TD>
+		<TD ALIGN="LEFT">Dote la cible d'une force phénoménale.  Max 5 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Demon S II</TD>
+		<TD ALIGN="LEFT">Mn Démon II</TD>
+		<TD ALIGN="LEFT">Dote la cible d'une force phénoménale.  Max 5 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Armor S I</TD>
+		<TD ALIGN="LEFT">Mn Armure I</TD>
+		<TD ALIGN="LEFT">Durcit la peau, efficace contre les attaques et la pression du vent. Max 5 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Armor S II</TD>
+		<TD ALIGN="LEFT">Mn Armure II</TD>
+		<TD ALIGN="LEFT">Durcit la peau, efficace contre les attaques et la pression du vent. Max 5 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sub S Lv1</TD>
+		<TD ALIGN="LEFT">Mn SM Nv1</TD>
+		<TD ALIGN="LEFT">Puissante quand elle est utilisée sous l'eau. Max 60 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sub S Lv2</TD>
+		<TD ALIGN="LEFT">Mn SM Nv2</TD>
+		<TD ALIGN="LEFT">Puissante quand elle est utilisée sous l'eau. Mieux que Nv1. Max 60 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Exhaust S</TD>
+		<TD ALIGN="LEFT">Mn Épuis.</TD>
+		<TD ALIGN="LEFT">Munition spéciale qui draine la Stamina du monstre. Max 20 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Slicing S</TD>
+		<TD ALIGN="LEFT">Mn Tranchante</TD>
+		<TD ALIGN="LEFT">Munition spéciale qui lance des lames à l'impact. Max 30 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">WyvernFire Lv1</TD>
+		<TD ALIGN="LEFT">Feu Wyv. Nv1</TD>
+		<TD ALIGN="LEFT">Inspiré des études sur le souffle de feu Wyvern. Comp. Tir rapide. Max 10 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">WyvernFire Lv2</TD>
+		<TD ALIGN="LEFT">Feu Wyv. Nv2</TD>
+		<TD ALIGN="LEFT">Inspiré des études sur le souffle de feu Wyvern. Comp. Tir rapide. Max 10 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">WyvernFire Lv3</TD>
+		<TD ALIGN="LEFT">Feu Wyv. Nv3</TD>
+		<TD ALIGN="LEFT">Inspiré des études sur le souffle de feu Wyvern. Comp. Tir rapide. Max 10 mun.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Binoculars</TD>
+		<TD ALIGN="LEFT">Jumelles</TD>
+		<TD ALIGN="LEFT">Vous permet de regarder au loin.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Tranq Bomb</TD>
+		<TD ALIGN="LEFT">Bombe tranq</TD>
+		<TD ALIGN="LEFT">Grenade manuelle utilisée pour capturer les monstres piégés.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Stone</TD>
+		<TD ALIGN="LEFT">Pierre</TD>
+		<TD ALIGN="LEFT">Un petit caillou au poids adéquat. Testé et approuvé !</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Whetstone</TD>
+		<TD ALIGN="LEFT">Aiguisoir</TD>
+		<TD ALIGN="LEFT">Une pierre à aiguiser standard. Restaure le Tranchant des armes.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Iron Ore</TD>
+		<TD ALIGN="LEFT">Minerai de fer</TD>
+		<TD ALIGN="LEFT">Contient du fer. Peut être fondu et forgé pour de nombreux équipements.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Earth Crystal</TD>
+		<TD ALIGN="LEFT">Cristal de terre</TD>
+		<TD ALIGN="LEFT">Les restes cristallisés d'organismes microbio- tiques. Abrasif pour arme.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Machalite Ore</TD>
+		<TD ALIGN="LEFT">Miner. Machalite</TD>
+		<TD ALIGN="LEFT">Supérieur au minerai de fer, mais aussi bien plus difficile à forger.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Dragonite Ore</TD>
+		<TD ALIGN="LEFT">Miner. Dragonite</TD>
+		<TD ALIGN="LEFT">Meilleur que la Machalite. Rare et précieux.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Carbalite Ore</TD>
+		<TD ALIGN="LEFT">Miner. Carbalite</TD>
+		<TD ALIGN="LEFT">Minerai toujours recherché. Supérieur à la Dragonite.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Pelagicite Ore</TD>
+		<TD ALIGN="LEFT">Mine. Pelagicite</TD>
+		<TD ALIGN="LEFT">Plutôt un os préhistorique d'un point de vue technique. Trouvé sous l'eau.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bathycite Ore</TD>
+		<TD ALIGN="LEFT">Miner. Bathycite</TD>
+		<TD ALIGN="LEFT">Formé sous pression à base d'os préhistoriques. Jamais vu sur terre.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Firestone</TD>
+		<TD ALIGN="LEFT">Pierre-feu</TD>
+		<TD ALIGN="LEFT">Brûle à temp. ambiante. Sa température élevée peut fusionner des composants.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Ice Crystal</TD>
+		<TD ALIGN="LEFT">Cristal glacé</TD>
+		<TD ALIGN="LEFT">Ne dégèle pas à temp. ambiante. Peut augmenter la densité des minerais.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Lightcrystal</TD>
+		<TD ALIGN="LEFT">Cristal lumière</TD>
+		<TD ALIGN="LEFT">Cristal très dur doté d'un léger éclat. Utilisé pour fabriquer des outils.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sharq Ticket</TD>
+		<TD ALIGN="LEFT">Ticket Requin</TD>
+		<TD ALIGN="LEFT">Échangeable contre un requin rare empaillé -- indispo. dans les quêtes normales.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rustshard</TD>
+		<TD ALIGN="LEFT">Rouille-éclat</TD>
+		<TD ALIGN="LEFT">Un caillou&nbsp;? Non, on dirait du métal... Enfin, on verra mieux une fois poli.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Ancient Shard</TD>
+		<TD ALIGN="LEFT">Ancien éclat</TD>
+		<TD ALIGN="LEFT">Un fossile&nbsp;? Non, c'est du métal en fait... Poli, ça se verra encore plus</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Isisium</TD>
+		<TD ALIGN="LEFT">Isisium</TD>
+		<TD ALIGN="LEFT">Métal précieux aux multiples usages... D'un blanc pur éclatant à la lumière.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Gracium</TD>
+		<TD ALIGN="LEFT">Gracium</TD>
+		<TD ALIGN="LEFT">Métal précieux aux multiples usages... Bleu pâle à la lumière. A de la valeur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Godbug</TD>
+		<TD ALIGN="LEFT">Insecte-dieu</TD>
+		<TD ALIGN="LEFT">Un insecte supposé vivre mille ans, mais personne ne peut le confirmer.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bitterbug</TD>
+		<TD ALIGN="LEFT">Amerinsecte</TD>
+		<TD ALIGN="LEFT">Améliore votre capacité naturelle à guérir. Soigne aussi le poison... parfois.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Flashbug</TD>
+		<TD ALIGN="LEFT">Flashinsecte</TD>
+		<TD ALIGN="LEFT">Un insecte nocturne visible parfois de jour. Émet un flash puissant en mourant.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Thunderbug</TD>
+		<TD ALIGN="LEFT">Foudrinsecte</TD>
+		<TD ALIGN="LEFT">Électrocute quand on le frappe. Éclaire les pièces et démarre les feux.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Gluehopper</TD>
+		<TD ALIGN="LEFT">Saute-colle</TD>
+		<TD ALIGN="LEFT">Ces expectorations d'insecte sont un fort adhésif qui peut coller tout composant.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Killer Beetle</TD>
+		<TD ALIGN="LEFT">Scarabée tueur</TD>
+		<TD ALIGN="LEFT">La carapace dure de cet insecte sert souvent d'abrasif.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rare Scarab</TD>
+		<TD ALIGN="LEFT">Scarabée rare</TD>
+		<TD ALIGN="LEFT">Un insecte recherché. Très utile pour coller les composants.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Royal Rhino</TD>
+		<TD ALIGN="LEFT">Rhino royal</TD>
+		<TD ALIGN="LEFT">Les amateurs paient très cher pour son éclat de diamant. ~C05(Objet compté)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Herb</TD>
+		<TD ALIGN="LEFT">Herbe</TD>
+		<TD ALIGN="LEFT">Restaure un peu de Santé, mais au goût assez fade.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Antidote Herb</TD>
+		<TD ALIGN="LEFT">Herbe antidote</TD>
+		<TD ALIGN="LEFT">Une plante servant d'antidote. Soigne parfois le poison quand on la mange.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sleep Herb</TD>
+		<TD ALIGN="LEFT">Herbe sommeil</TD>
+		<TD ALIGN="LEFT">Une plante aux qualités somnifères.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Fire Herb</TD>
+		<TD ALIGN="LEFT">Herbe de feu</TD>
+		<TD ALIGN="LEFT">Une plante superbe aux propriétés inflammables.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sap Plant</TD>
+		<TD ALIGN="LEFT">Plante à sève</TD>
+		<TD ALIGN="LEFT">Une plante couverte de sève gluante. Attention à ne pas coller votre bourse fermée !</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Paintberry</TD>
+		<TD ALIGN="LEFT">Baie-peinture</TD>
+		<TD ALIGN="LEFT">Une baie de couleur vive au parfum enivrant. Attention : ça va TACHER !</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Needleberry</TD>
+		<TD ALIGN="LEFT">Baiguille</TD>
+		<TD ALIGN="LEFT">Une baie couverte de fines épines.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Huskberry</TD>
+		<TD ALIGN="LEFT">Baie-coque</TD>
+		<TD ALIGN="LEFT">Une baie creuse.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Scatternut</TD>
+		<TD ALIGN="LEFT">Frag-noix</TD>
+		<TD ALIGN="LEFT">Une noix qui éjecte violemment son contenu quand on la frappe.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bomberry</TD>
+		<TD ALIGN="LEFT">Bombaie</TD>
+		<TD ALIGN="LEFT">Une baie qui explose quand on la frappe.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Ivy</TD>
+		<TD ALIGN="LEFT">Lierre</TD>
+		<TD ALIGN="LEFT">Une plante très résistante. Tressée, elle peut supporter le poids d'une personne.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Might Seed</TD>
+		<TD ALIGN="LEFT">Graine pouvoir</TD>
+		<TD ALIGN="LEFT">Augmente temporairement l'Attaque en améliorant le flux d'énergie.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Adamant Seed</TD>
+		<TD ALIGN="LEFT">Graine armure</TD>
+		<TD ALIGN="LEFT">Augmente temporairement la Défense en durcissant les tissus.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Hot Pepper</TD>
+		<TD ALIGN="LEFT">Piment fort</TD>
+		<TD ALIGN="LEFT">Diablement épicé. Vous réchauffera, mais est trop fort pour être pris seul.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Cactus Flower</TD>
+		<TD ALIGN="LEFT">Fleur de cactus</TD>
+		<TD ALIGN="LEFT">Contient des substances antidotes mais n'a pas d'effet tel quel.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Airweed</TD>
+		<TD ALIGN="LEFT">Herbe d'air</TD>
+		<TD ALIGN="LEFT">La mâcher libère de l'oxygène, mais c'est dur car ça colle vraiment.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Wyvern Egg</TD>
+		<TD ALIGN="LEFT">Œuf de Wyvern</TD>
+		<TD ALIGN="LEFT">Un œuf volé dans un nid de Wyvern. Très fragile, manipuler avec soin.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Unknown Skull</TD>
+		<TD ALIGN="LEFT">Crâne inconnu</TD>
+		<TD ALIGN="LEFT">Crâne d'animal. Usé au point d'être impossible à identifier.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Honey</TD>
+		<TD ALIGN="LEFT">Miel</TD>
+		<TD ALIGN="LEFT">Plein de nutriments, mais indigérable sous cette forme.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Blue Mushroom</TD>
+		<TD ALIGN="LEFT">Champi bleu</TD>
+		<TD ALIGN="LEFT">Utilisé pour augmenter la puissance. Plus il est bleu, mieux c'est.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Choice Mushroom</TD>
+		<TD ALIGN="LEFT">Champi sélection</TD>
+		<TD ALIGN="LEFT">Forme et goût parfaits. Même mieux qu'un champignon unique. ~C05(Objet compté)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Unique Mushroom</TD>
+		<TD ALIGN="LEFT">Champi unique</TD>
+		<TD ALIGN="LEFT">Champignon minuscule prisé pour son goût inhabituel. ~C05(Objet compté)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Exciteshroom</TD>
+		<TD ALIGN="LEFT">Champexciteur</TD>
+		<TD ALIGN="LEFT">Champignon à l'odeur étrange... Que provoquerait sa consommation ?</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Parashroom</TD>
+		<TD ALIGN="LEFT">Champaralysie</TD>
+		<TD ALIGN="LEFT">Champignon induisant la paralysie.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Nitroshroom</TD>
+		<TD ALIGN="LEFT">Champinitro</TD>
+		<TD ALIGN="LEFT">Champignon rare ayant le pouvoir de générer de la chaleur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Black Pearl</TD>
+		<TD ALIGN="LEFT">Perle noire</TD>
+		<TD ALIGN="LEFT">La flotte en ramène parfois. L'éclat noir rapporte un bon prix.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Jumbo Pearl</TD>
+		<TD ALIGN="LEFT">Perle Jumbo</TD>
+		<TD ALIGN="LEFT">Une perle énorme -- à tel point qu'on risque de la prendre pour une fausse.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Broken Shell</TD>
+		<TD ALIGN="LEFT">Carapace cassée</TD>
+		<TD ALIGN="LEFT">Un beau fragment -- mais comme il est cassé, il aura peu de valeur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Dragonbone Relic</TD>
+		<TD ALIGN="LEFT">Relique os drag.</TD>
+		<TD ALIGN="LEFT">Os curieusement non fossilisé d'un dragon qui vivait par ici autrefois.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Monster Bone S</TD>
+		<TD ALIGN="LEFT">Os monstre petit</TD>
+		<TD ALIGN="LEFT">Un composant très utile pour l'équipement et les objets du quotidien.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Monster Bone M</TD>
+		<TD ALIGN="LEFT">Os monstre moyen</TD>
+		<TD ALIGN="LEFT">Un os de belle taille. À la fois fort et souple comme l'acier et le bois.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Monster Bone L</TD>
+		<TD ALIGN="LEFT">Os monstre grand</TD>
+		<TD ALIGN="LEFT">Os nécessaire pour créer de plus gros objets. Os et carapace sont joignables.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Eldest Saturnian</TD>
+		<TD ALIGN="LEFT">Ancien Saturnien</TD>
+		<TD ALIGN="LEFT">Un produit rare ★. Utilisez cet ancien rampant pour un échange rare.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Hercudrome</TD>
+		<TD ALIGN="LEFT">Hercudrome</TD>
+		<TD ALIGN="LEFT">Censé être l'insecte le plus fort. Sert à forger, cuisiner, etc.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Chilled Meat</TD>
+		<TD ALIGN="LEFT">Viande fraîche</TD>
+		<TD ALIGN="LEFT">Pour se rafraîchir, re- pousser la chaleur et re- prendre un peu de Stamina.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Hot Meat</TD>
+		<TD ALIGN="LEFT">Viande chaude</TD>
+		<TD ALIGN="LEFT">Pour se réchauffer, re- pousser le froid et re- prendre un peu de Stamina.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rathian Scale+</TD>
+		<TD ALIGN="LEFT">Écaille Rathian+</TD>
+		<TD ALIGN="LEFT">D'apparence normale, mais extrêmement rigide.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rathian Carapace</TD>
+		<TD ALIGN="LEFT">Cuirasse Rathian</TD>
+		<TD ALIGN="LEFT">Plus dure qu'une carapace de Rathian normale.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rath Medulla</TD>
+		<TD ALIGN="LEFT">Medulla Rath</TD>
+		<TD ALIGN="LEFT">Ôtable grâce à des techniques récentes, mais difficile à forger.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rathian Spike+</TD>
+		<TD ALIGN="LEFT">Pointe Rathian+</TD>
+		<TD ALIGN="LEFT">Pointe hyper tranchante. Plus longue et solide que d'autres pointes.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rathian Ruby</TD>
+		<TD ALIGN="LEFT">Rubis Rathian</TD>
+		<TD ALIGN="LEFT">Gemme rare formée dans une Rathian. Presque trop belle pour être forgée.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rathalos Ruby</TD>
+		<TD ALIGN="LEFT">Rubis Rathalos</TD>
+		<TD ALIGN="LEFT">Gemme rare formée dans un Rathalos. Presque trop belle pour être forgée.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Inferno Sac</TD>
+		<TD ALIGN="LEFT">Poche infernale</TD>
+		<TD ALIGN="LEFT">Organe de monstre contenant une poudre qui s'enflamme au contact de l'air. Danger !</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rathalos Scale+</TD>
+		<TD ALIGN="LEFT">Écail. Rathalos+</TD>
+		<TD ALIGN="LEFT">Une écaille de Rathalos extraordinairement solide.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">RathalosCarapace</TD>
+		<TD ALIGN="LEFT">Cuiras. Rathalos</TD>
+		<TD ALIGN="LEFT">Plus dure qu'une Carapace de Rathalos normale.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Qurupeco Scale+</TD>
+		<TD ALIGN="LEFT">Écail. Qurupeco+</TD>
+		<TD ALIGN="LEFT">Écaille cachée par un plumage vif. À échanger contre de l'argent de poche.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Wonderful Beak</TD>
+		<TD ALIGN="LEFT">Bec merveilleux</TD>
+		<TD ALIGN="LEFT">Un bec de forme étrange, mais incontestablement beau.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Unnerving Talon</TD>
+		<TD ALIGN="LEFT">Serre redoutable</TD>
+		<TD ALIGN="LEFT">Dépecer un de ces objets sur un Gigginox n'est pas chose aisée.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Fearsome Maw</TD>
+		<TD ALIGN="LEFT">Gueule terrif.</TD>
+		<TD ALIGN="LEFT">Une gueule caractéristique de Gigginox qui ressemble à celle du Khezu.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Wyvern Stone</TD>
+		<TD ALIGN="LEFT">Pierre de Wyvern</TD>
+		<TD ALIGN="LEFT">Les impuretés forment cette pierre étrange au cours de la vie d'une Wyvern.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="16" ALIGN="LEFT">Freezer Sac</TD>
+		<TD ALIGN="LEFT">Poche de gel</TD>
+		<TD ALIGN="LEFT">Un organe de monstre doté d'un pouvoir de gel extraordinaire.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Wyvrnhide Ticket</TD>
+		<TD ALIGN="LEFT">Ticket cuir wyv.</TD>
+		<TD ALIGN="LEFT">Le seul moyen d'obtenir un morceau épais de cuir de Wyvern.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Black Gem Ticket</TD>
+		<TD ALIGN="LEFT">Tckt gemme noire</TD>
+		<TD ALIGN="LEFT">Le seul moyen d'obtenir un cristal qui tourbillonne avec les ténèbres.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Flabby Hide+</TD>
+		<TD ALIGN="LEFT">Cuir flasque+</TD>
+		<TD ALIGN="LEFT">Dur à travailler, mais très recherché quand même. Aux propriétés mystérieuses.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Uncanny Hide+</TD>
+		<TD ALIGN="LEFT">Cuir étrange+</TD>
+		<TD ALIGN="LEFT">Changeait de couleur quand son propriétaire vivait. Prisé des collectionneurs.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Toxin Sac</TD>
+		<TD ALIGN="LEFT">Poche de toxine</TD>
+		<TD ALIGN="LEFT">Organe de monstre empli de toxine mortelle. Manipuler très soigneusement.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Unnerving Talon+</TD>
+		<TD ALIGN="LEFT">Serre redout.+</TD>
+		<TD ALIGN="LEFT">Dépecer un de ces objets sur un Gigginox n'est pas chose aisée.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Stunning Quill</TD>
+		<TD ALIGN="LEFT">Plume étourdi.</TD>
+		<TD ALIGN="LEFT">Un produit de qualité. Même une de ces plumes arc-en- ciel fait un bon échange.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Pittance Fang</TD>
+		<TD ALIGN="LEFT">Croc de pitance</TD>
+		<TD ALIGN="LEFT">Un croc de Wyvern de la forêt Moga à échanger contre de la petite monnaie. </TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Vermilion Scale</TD>
+		<TD ALIGN="LEFT">Écail. vermillon</TD>
+		<TD ALIGN="LEFT">Un produit rare ★★★★. À utiliser dans un échange rare.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Fishing Harpoon</TD>
+		<TD ALIGN="LEFT">Harpon de pêche</TD>
+		<TD ALIGN="LEFT">Un must en matière de pêche. Affaiblissez le poisson, puis harponnez-le.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Insect Husk</TD>
+		<TD ALIGN="LEFT">Coque d'insecte</TD>
+		<TD ALIGN="LEFT">Les restes d'un insecte. Il faut un cœur bien accroché pour s'y intéresser</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bone</TD>
+		<TD ALIGN="LEFT">Os</TD>
+		<TD ALIGN="LEFT">Un os long, fin. De la camelote, mais pas totale- ment sans valeur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Dung</TD>
+		<TD ALIGN="LEFT">Bouse</TD>
+		<TD ALIGN="LEFT">Excrément de monstre. Maximise la fertilité d'un sillon.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="16" ALIGN="LEFT">Spider Web</TD>
+		<TD ALIGN="LEFT">Toile d'araignée</TD>
+		<TD ALIGN="LEFT">Une toile d'araignée très collante.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bomb Casing</TD>
+		<TD ALIGN="LEFT">Gaine bombe</TD>
+		<TD ALIGN="LEFT">Ingrédient de base pour créer des bombes lancées à la main.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Small Barrel</TD>
+		<TD ALIGN="LEFT">Petit baril</TD>
+		<TD ALIGN="LEFT">Combien de bouffées faut-il pour savoir ce qu'il contient ? Une seule !</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="16" ALIGN="LEFT">Large Barrel</TD>
+		<TD ALIGN="LEFT">Grand baril</TD>
+		<TD ALIGN="LEFT">Combien de coups de langue faut-il pour savoir ce qu'il contient ? Un seul !</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="16" ALIGN="LEFT">Cricket</TD>
+		<TD ALIGN="LEFT">Grillon</TD>
+		<TD ALIGN="LEFT">Un appât. Saute très loin -- parfois dans la gueule d'un poisson !</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Worm</TD>
+		<TD ALIGN="LEFT">Ver</TD>
+		<TD ALIGN="LEFT">Un appât. Se tortille sous l'eau, incitant les poissons à mordre.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Firefly</TD>
+		<TD ALIGN="LEFT">Luciole</TD>
+		<TD ALIGN="LEFT">Un appât. Sa lueur durable dit aux poissons &quot;mordez-moi&quot;.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Mega Fishing Fly</TD>
+		<TD ALIGN="LEFT">Méga mouche</TD>
+		<TD ALIGN="LEFT">Un appât. Déclenche une fringale. Aucun poisson ne peut y résister !</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Frog</TD>
+		<TD ALIGN="LEFT">Grenouille</TD>
+		<TD ALIGN="LEFT">Un appât. Vous connaissez un monstre doué en pêche ? Combattez le feu par le feu.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Whetfish</TD>
+		<TD ALIGN="LEFT">Poissaiguiseur</TD>
+		<TD ALIGN="LEFT">Un poisson doté d'une nageoire dorsale assez dure pour aiguiser les armes.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sushifish</TD>
+		<TD ALIGN="LEFT">Sushipoisson</TD>
+		<TD ALIGN="LEFT">Un poisson gras et délicieux qui restaure un peu de Santé.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Pin Tuna</TD>
+		<TD ALIGN="LEFT">Pointhon</TD>
+		<TD ALIGN="LEFT">Un poisson à la mâchoire couverte de minuscules pointes acérées.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Popfish</TD>
+		<TD ALIGN="LEFT">Poisséclate</TD>
+		<TD ALIGN="LEFT">Un poisson qui éclate littéralement en mourant.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sleepyfish</TD>
+		<TD ALIGN="LEFT">Somnipoisson</TD>
+		<TD ALIGN="LEFT">Un poisson aux propriétés somnifères.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Burst Arowana</TD>
+		<TD ALIGN="LEFT">Arowana éclat</TD>
+		<TD ALIGN="LEFT">Un poisson qui s'ouvre en deux en mourant.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bomb Arowana</TD>
+		<TD ALIGN="LEFT">Arowana bombe</TD>
+		<TD ALIGN="LEFT">Un poisson qui explose lorsqu'on le tue.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Glutton Tuna</TD>
+		<TD ALIGN="LEFT">Thon glouton</TD>
+		<TD ALIGN="LEFT">Dévore tout, ce qui vous permet parfois de récupérer des choses à l'intérieur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Scatterfish</TD>
+		<TD ALIGN="LEFT">Frag-poisson</TD>
+		<TD ALIGN="LEFT">Un poisson qui éclate en morceaux en mourant.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Small Goldenfish</TD>
+		<TD ALIGN="LEFT">Pt Poissondor</TD>
+		<TD ALIGN="LEFT">Un poisson rare qui vaut très cher, mais attention à sa férocité, bleus !</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Goldenfish</TD>
+		<TD ALIGN="LEFT">Poissondor</TD>
+		<TD ALIGN="LEFT">Un poisson rare en or. Vendez-le contre une belle somme. ~C05(Objet compté)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Beautiful Scale</TD>
+		<TD ALIGN="LEFT">Jolie écaille</TD>
+		<TD ALIGN="LEFT">Un produit du quotidien. Ces écailles ambrées doivent être échangées en masse.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Giant Skull</TD>
+		<TD ALIGN="LEFT">Crâne géant</TD>
+		<TD ALIGN="LEFT">Un produit rare ★. Utilisez ce crâne massif dans un échange rare.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Pirate Booty</TD>
+		<TD ALIGN="LEFT">Butin de pirate</TD>
+		<TD ALIGN="LEFT">Le trésor du roi pirate, arr ! Qui sait quelles richesses il vaudra ?</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="16" ALIGN="LEFT">Net</TD>
+		<TD ALIGN="LEFT">Filet</TD>
+		<TD ALIGN="LEFT">Un filet solide capable de supporter un certain poids sans casser.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="16" ALIGN="LEFT">No Item</TD>
+		<TD ALIGN="LEFT">Pas d'objet</TD>
+		<TD ALIGN="LEFT">--</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Shroom Germ</TD>
+		<TD ALIGN="LEFT">Champigerme</TD>
+		<TD ALIGN="LEFT">Fertilisant pour boîte à champi. Bactérie présente dans certains monstres.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">BugMaker! Pro</TD>
+		<TD ALIGN="LEFT">Pro des insectes</TD>
+		<TD ALIGN="LEFT">Fertilisant pour boîte à insectes. &quot;10 insectes par goutte ou on en MANGERA un&quot;.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bizzy Bees</TD>
+		<TD ALIGN="LEFT">Abeilles actives</TD>
+		<TD ALIGN="LEFT">Fertilisant pour boîte à miel. Ces abeilles actives ne se reposent jamais.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Saturnian</TD>
+		<TD ALIGN="LEFT">Saturnien</TD>
+		<TD ALIGN="LEFT">Un produit de qualité. Même un de ces rampants fait un bon échange.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Fortune Fang</TD>
+		<TD ALIGN="LEFT">Croc de fortune</TD>
+		<TD ALIGN="LEFT">Croc de monstre de la forêt Moga de grande valeur. Vaut une petite fortune.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Shining Starfish</TD>
+		<TD ALIGN="LEFT">Étoile brillante</TD>
+		<TD ALIGN="LEFT">Un produit du quotidien pêché par les chasseurs. Échanger en masse.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Mystic Narwhal</TD>
+		<TD ALIGN="LEFT">Narval mystique</TD>
+		<TD ALIGN="LEFT">Un produit de qualité. Même un de ces poissons vénérés fait un bon échange.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Atlantis Crab</TD>
+		<TD ALIGN="LEFT">Crabe d'Atlantis</TD>
+		<TD ALIGN="LEFT">Un produit rare ★. Contient une gemme précieuse. À uti- liser dans un échange rare.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Gold Needle</TD>
+		<TD ALIGN="LEFT">Aiguille en or</TD>
+		<TD ALIGN="LEFT">Obtenue sur certains monstres. Échanger contre de l'argent de poche.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Armorfish Morsel</TD>
+		<TD ALIGN="LEFT">Mrc. Poissarmure</TD>
+		<TD ALIGN="LEFT">Un produit du quotidien. Ces poissons vivent près des cô- tes Moga. Échanger en masse.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Fish Finder</TD>
+		<TD ALIGN="LEFT">Trouve-poisson</TD>
+		<TD ALIGN="LEFT">Améliore la prise de la flotte à la pêche ; moins efficace sinon.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Treasure Tracker</TD>
+		<TD ALIGN="LEFT">Marqueur trésor</TD>
+		<TD ALIGN="LEFT">Améliore la prise de la flotte cherchant un tré- sor ; moins efficace sinon.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Spare Spear</TD>
+		<TD ALIGN="LEFT">Lance de secours</TD>
+		<TD ALIGN="LEFT">Améliore la prise de la flotte à la chasse ; moins efficace sinon.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Perfect Paddle</TD>
+		<TD ALIGN="LEFT">Rame parfaite</TD>
+		<TD ALIGN="LEFT">Un produit de qualité.  Réduit d'1 jour les voyages. Est aussi un bon échange.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Shroom Germ+</TD>
+		<TD ALIGN="LEFT">Champigerme +</TD>
+		<TD ALIGN="LEFT">Fertilisant pour boîte à champi. Bactérie imbattable. C'est le Germinator !</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Pink Liver</TD>
+		<TD ALIGN="LEFT">Foie rose</TD>
+		<TD ALIGN="LEFT">Foie âpre obtenu sur certains grands monstres. Peu apprécié des humains.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Ethnic Wyvrnmeat</TD>
+		<TD ALIGN="LEFT">Viand.wyv. ethnq</TD>
+		<TD ALIGN="LEFT">Viande rare filandreuse d'une Wyvern à cornes. Peu appréciée des humains.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Ancient Skin Oil</TD>
+		<TD ALIGN="LEFT">Huil.peau ancie.</TD>
+		<TD ALIGN="LEFT">Un produit rare ★★. Vient du Ludroth royal et du Lagiacrus. Pour éch. rare.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Queen's Spirit</TD>
+		<TD ALIGN="LEFT">Esprit reine</TD>
+		<TD ALIGN="LEFT">Un produit rare ★★★. Faites un échange rare avec ce sérum d'os de Rathian.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Funky Pheromones</TD>
+		<TD ALIGN="LEFT">Super phéromones</TD>
+		<TD ALIGN="LEFT">Fertil. pour boîte à insec- tes. Odeur de certains mons- tres. Les insectes adorent.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Saturnian Trap</TD>
+		<TD ALIGN="LEFT">Piège Saturnien</TD>
+		<TD ALIGN="LEFT">Fertilisant pour ferme. Essayez de chasser les rampants bizarres avec.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Super-sized Dung</TD>
+		<TD ALIGN="LEFT">Bouse démesurée</TD>
+		<TD ALIGN="LEFT">Fertilisant de champs. Les Aptonoth ont grandi... comme ça ! Mieux que la bouse.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Fine Pelt</TD>
+		<TD ALIGN="LEFT">Belle peau</TD>
+		<TD ALIGN="LEFT">Un produit du quotidien. Échangez ces peaux de Kelbi solides en masse.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Moonlight Fang</TD>
+		<TD ALIGN="LEFT">Croc clair lune</TD>
+		<TD ALIGN="LEFT">Un produit de qualité. Même un de ces crocs étranges fait un bon échange.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Queen Needle</TD>
+		<TD ALIGN="LEFT">Aiguille reine</TD>
+		<TD ALIGN="LEFT">Un produit rare ★. Faites un échange rare avec cette aiguille de reine Bnahabra.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Power Paddle</TD>
+		<TD ALIGN="LEFT">Rame puissante</TD>
+		<TD ALIGN="LEFT">Un produit de qualité.  Réduit d'1/2 jour les voyages. Échanger en masse.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Curved Fang</TD>
+		<TD ALIGN="LEFT">Croc courbé</TD>
+		<TD ALIGN="LEFT">Un produit de qualité. Ces  crocs de wyv. aviaires doi- vent être échangés en masse.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Flamboyant Quill</TD>
+		<TD ALIGN="LEFT">Plume flamboy.</TD>
+		<TD ALIGN="LEFT">Un produit rare ★★. Faites un échange rare avec cette plume aux couleurs vives.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Glittering Scale</TD>
+		<TD ALIGN="LEFT">Écail. éclatante</TD>
+		<TD ALIGN="LEFT">Un produit de qualité. Ce croc usé brille en blanc. Fait un bon échange.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sea-King's Scale</TD>
+		<TD ALIGN="LEFT">Écaille roi mer</TD>
+		<TD ALIGN="LEFT">Un produit rare ★★★★. Cette écaille ne se dessèche jamais. Pour échanges rares.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Wyverngold</TD>
+		<TD ALIGN="LEFT">Or Wyvern</TD>
+		<TD ALIGN="LEFT">Pierre en or cristallisée dans une Wyvern pendant des décennies. Vaut cher.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Felvine Bomb</TD>
+		<TD ALIGN="LEFT">Bombe Felvine</TD>
+		<TD ALIGN="LEFT">Émet une odeur que les Felynes adorent. Essayez de toucher les monstres avec.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Double BBQ Spit</TD>
+		<TD ALIGN="LEFT">Db. broche BBQ</TD>
+		<TD ALIGN="LEFT">Le must en BBQ ! Maintenez le bouton Énergie pour continuer à cuire !</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Dragonbone Piece</TD>
+		<TD ALIGN="LEFT">Morc. os dragon</TD>
+		<TD ALIGN="LEFT">Un produit du quotidien. Convertible en ressources ou échangeable en masse.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Abalone Piece</TD>
+		<TD ALIGN="LEFT">Morc. d'Abalone</TD>
+		<TD ALIGN="LEFT">Un produit du quotidien. Convertible en ressources ou échangeable en masse.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Fossil Piece</TD>
+		<TD ALIGN="LEFT">Morc. de fossile</TD>
+		<TD ALIGN="LEFT">Un produit du quotidien. Convertible en ressources ou échangeable en masse.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Odd Egg</TD>
+		<TD ALIGN="LEFT">Œuf bizarre</TD>
+		<TD ALIGN="LEFT">Œuf mystérieux très rare de la forêt Moga. Convertible en ressources.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Mystery Bone</TD>
+		<TD ALIGN="LEFT">Os mystère</TD>
+		<TD ALIGN="LEFT">Un os très usé. Pas assez solide pour forger avec.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Herbal Medicine</TD>
+		<TD ALIGN="LEFT">Phyto médicament</TD>
+		<TD ALIGN="LEFT">Guérit les effets du poison et restaure un peu de Santé.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rathian Scale</TD>
+		<TD ALIGN="LEFT">Écaille Rathian</TD>
+		<TD ALIGN="LEFT">Écaille de Wyvern volante endémique. La Rathian est la femelle du Rathalos.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rathian Shell</TD>
+		<TD ALIGN="LEFT">Carapace Rathian</TD>
+		<TD ALIGN="LEFT">Carapace composée de couches d'écailles, la rendant plus dure qu'une seule écaille.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rathian Webbing</TD>
+		<TD ALIGN="LEFT">Palmure Rathian</TD>
+		<TD ALIGN="LEFT">Dure à forger, mais aux pro- priétés thermiques idéales pour renforcer une armure.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rathian Spike</TD>
+		<TD ALIGN="LEFT">Pointe Rathian</TD>
+		<TD ALIGN="LEFT">Poils acérés trouvés sur le dos et les ailes d'une Rathian. Empoisonnée.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rathian Plate</TD>
+		<TD ALIGN="LEFT">Plaque Rathian</TD>
+		<TD ALIGN="LEFT">Écaille de queue brûlante. Dure et aussi ardente que la Wyvern qui la portait.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Flame Sac</TD>
+		<TD ALIGN="LEFT">Poche de flamme</TD>
+		<TD ALIGN="LEFT">Organe de monstre. Contient une poudre très inflammable. Manipuler avec soin.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Wyvern Tear</TD>
+		<TD ALIGN="LEFT">Larmes de Wyvern</TD>
+		<TD ALIGN="LEFT">Larmes mystérieuses versées pour les occasions spé- ciales. ~C05(Objet compté)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rathalos Scale</TD>
+		<TD ALIGN="LEFT">Écaille Rathalos</TD>
+		<TD ALIGN="LEFT">Écailles de Wyvern et cara- paces plus dures sont des objets de forgeage de base.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rathalos Shell</TD>
+		<TD ALIGN="LEFT">Carapa. Rathalos</TD>
+		<TD ALIGN="LEFT">Carapace composée de couches d'écailles, la rendant plus dure qu'une seule écaille.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rathalos Webbing</TD>
+		<TD ALIGN="LEFT">Palmure Rathalos</TD>
+		<TD ALIGN="LEFT">Dure à forger, mais aux pro- priétés thermiques idéales pour renforcer une armure.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rath Marrow</TD>
+		<TD ALIGN="LEFT">Moelle Rath</TD>
+		<TD ALIGN="LEFT">Ôtable grâce à des techniques récentes, prend feu au contact de l'air.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rathalos Plate</TD>
+		<TD ALIGN="LEFT">Plaque Rathalos</TD>
+		<TD ALIGN="LEFT">Écaille de queue brûlante. Dure et aussi ardente que la Wyvern qui la portait.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rathalos Tail</TD>
+		<TD ALIGN="LEFT">Queue Rathalos</TD>
+		<TD ALIGN="LEFT">La queue coupée d'un Rathalos. A de multiples usages.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Qurupeco Scale</TD>
+		<TD ALIGN="LEFT">Écail. Qurupeco</TD>
+		<TD ALIGN="LEFT">Écaille cachée par un plumage vif. À échanger contre de l'argent de poche.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Qurupeco Feather</TD>
+		<TD ALIGN="LEFT">Plume Qurupeco</TD>
+		<TD ALIGN="LEFT">Plume au panache tropical. Sert souvent à créer des souvenirs du village Moga.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Vivid Feather</TD>
+		<TD ALIGN="LEFT">Plume vive</TD>
+		<TD ALIGN="LEFT">Plume aux couleurs vives. Fragile, mais idéale pour ceux qui aiment l'éclat.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Strange Beak</TD>
+		<TD ALIGN="LEFT">Bec étrange</TD>
+		<TD ALIGN="LEFT">Sa forme bizarre en fait un sujet de conversation à part entière.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Flabby Hide</TD>
+		<TD ALIGN="LEFT">Cuir flasque</TD>
+		<TD ALIGN="LEFT">Dur à forger, mais très recherché quand même. Aux propriétés mystérieuses.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Uncanny Hide</TD>
+		<TD ALIGN="LEFT">Cuir étrange</TD>
+		<TD ALIGN="LEFT">Changeait de couleur quand son propriétaire vivait. Prisé des collectionneurs.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="16" ALIGN="LEFT">Poison Sac</TD>
+		<TD ALIGN="LEFT">Poche de poison</TD>
+		<TD ALIGN="LEFT">Organe de monstre empli de toxine mortelle. Manipuler très soigneusement.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Pale Extract</TD>
+		<TD ALIGN="LEFT">Extrait pâle</TD>
+		<TD ALIGN="LEFT">Peut amplifier les effets de certains remèdes.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Diablos Fang</TD>
+		<TD ALIGN="LEFT">Croc Diablos</TD>
+		<TD ALIGN="LEFT">Un large croc solide poly- valent, des armes aux ornements.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Diablos Shell</TD>
+		<TD ALIGN="LEFT">Carapace Diablos</TD>
+		<TD ALIGN="LEFT">Cette carapace est dense et plus lourde qu'il n'y paraît.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Diablos Ridge</TD>
+		<TD ALIGN="LEFT">Vertèbre Diablos</TD>
+		<TD ALIGN="LEFT">Plaque arrière dure comme la pierre, utilisable pour créer des équipements.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Diablos Tailcase</TD>
+		<TD ALIGN="LEFT">Étui queue Diab.</TD>
+		<TD ALIGN="LEFT">Étui de queue cuirassé à faire pâlir les marteaux. Une protection hors pair.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Barroth Shell</TD>
+		<TD ALIGN="LEFT">Carapace Barroth</TD>
+		<TD ALIGN="LEFT">Carapace Barroth. Souvent recouverte de boue, mais solide malgré tout.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Barroth Ridge</TD>
+		<TD ALIGN="LEFT">Vertèbre Barroth</TD>
+		<TD ALIGN="LEFT">Vient de la plaque arrière. Plus rare que la carapace, a donc plus de valeur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Barroth Claw</TD>
+		<TD ALIGN="LEFT">Griffe Barroth</TD>
+		<TD ALIGN="LEFT">Peu aiguisée, mais assez solide pour être polyvalente en forgeage.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Barroth Tail</TD>
+		<TD ALIGN="LEFT">Queue Barroth</TD>
+		<TD ALIGN="LEFT">Sans grande valeur, mais dont la viande est un mets raffiné.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Barroth Scalp</TD>
+		<TD ALIGN="LEFT">Scalp Barroth</TD>
+		<TD ALIGN="LEFT">Cette partie solide du crâne est aussi la plus dure à enlever.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bird Wyvern Fang</TD>
+		<TD ALIGN="LEFT">Croc wyv.aviaire</TD>
+		<TD ALIGN="LEFT">De valeur similaire à ceux du Velociprey. Compose les munitions de Fusarbalète.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Jaggi Hide</TD>
+		<TD ALIGN="LEFT">Cuir Jaggi</TD>
+		<TD ALIGN="LEFT">Souvent utilisé par ici. Peut être transformé en beaucoup de choses.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Jaggi Scale</TD>
+		<TD ALIGN="LEFT">Écaille Jaggi</TD>
+		<TD ALIGN="LEFT">A peu de valeur, mais les débutants ne peuvent pas décider.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Great Jaggi Claw</TD>
+		<TD ALIGN="LEFT">Griffe gd.Jaggi</TD>
+		<TD ALIGN="LEFT">Provient d'un de ces grands chefs de meute. Sert à fabriquer des armes.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Great Jaggi Hide</TD>
+		<TD ALIGN="LEFT">Cuir gd.Jaggi</TD>
+		<TD ALIGN="LEFT">Mieux qu'un cuir normal. Peut être transformé en beaucoup de choses.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Screamer</TD>
+		<TD ALIGN="LEFT">Hurleur</TD>
+		<TD ALIGN="LEFT">Organe de monstre. Émet un son aigu si on le brise.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Lagiacrus Hide</TD>
+		<TD ALIGN="LEFT">Cuir Lagiacrus</TD>
+		<TD ALIGN="LEFT">Pas très solide, mais souple et malléable. Pour forger de l'équipement de valeur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Lagiacrus Scale</TD>
+		<TD ALIGN="LEFT">Écail. Lagiacrus</TD>
+		<TD ALIGN="LEFT">Écaille souple aux éclats bleus à la lumière. Très demandée.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Lagiacrus Claw</TD>
+		<TD ALIGN="LEFT">Griffe Lagiacrus</TD>
+		<TD ALIGN="LEFT">Griffe aiguisée poussant sur la nageoire. Ne rapportera pas beaucoup d'argent.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Shell Shocker+</TD>
+		<TD ALIGN="LEFT">Électricarapace+</TD>
+		<TD ALIGN="LEFT">Libère de l'électricité, n'en génère pas. Manipulable sans danger.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Lagiacrus Tail</TD>
+		<TD ALIGN="LEFT">Queue Lagiacrus</TD>
+		<TD ALIGN="LEFT">Entre dans la fabrication d'armes et relève aussi les plats Moga.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Lagiacrus Plate</TD>
+		<TD ALIGN="LEFT">Plaque Lagiacrus</TD>
+		<TD ALIGN="LEFT">L'écaille la plus grande et prisée. Améliore l'effica- cité de l'équipement.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Spongy Hide</TD>
+		<TD ALIGN="LEFT">Cuir spongieux</TD>
+		<TD ALIGN="LEFT">Cuir étonnamment élastique. Idéal pour isoler du froid.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">R.Ludroth Scale</TD>
+		<TD ALIGN="LEFT">Écail.Ludroth R.</TD>
+		<TD ALIGN="LEFT">Plus petite que l'écaille de Wyvern volante. Il vous en faudra beaucoup pour forger.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">R.Ludroth Claw</TD>
+		<TD ALIGN="LEFT">Grif.Ludroth R.</TD>
+		<TD ALIGN="LEFT">Ces griffes sont plus adaptées au déplacement qu'à l'attaque.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">R.Ludroth Tail</TD>
+		<TD ALIGN="LEFT">Queue Ludroth R.</TD>
+		<TD ALIGN="LEFT">Toute la queue du Ludroth royal. Utilisée pour construire des bateaux.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Dash Extract</TD>
+		<TD ALIGN="LEFT">Extrait sprint</TD>
+		<TD ALIGN="LEFT">Une substance mystérieuse extractible sur certains monstres.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Hydro Hide</TD>
+		<TD ALIGN="LEFT">Cuir aquatique</TD>
+		<TD ALIGN="LEFT">Très résistant à l'eau, mais ne rapportera pas grand chose.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Immature Sponge</TD>
+		<TD ALIGN="LEFT">Éponge immature</TD>
+		<TD ALIGN="LEFT">Composant spongieux jeune. Recherché pour le quotidien plus que pour l'équipement.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Gobul Spike</TD>
+		<TD ALIGN="LEFT">Pointe Gobul</TD>
+		<TD ALIGN="LEFT">Un des nombreux piquants de Gobul, et l'une des quelques parties immangeables.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Gobul Hide</TD>
+		<TD ALIGN="LEFT">Cuir Gobul</TD>
+		<TD ALIGN="LEFT">Peau gluante -- un goût ac- quis, mais les connaisseurs ne peuvent s'en passer.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Paralysis Sac</TD>
+		<TD ALIGN="LEFT">Poche paralysie</TD>
+		<TD ALIGN="LEFT">Organe de monstre empli d'une neurotoxine paralysante.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Gobul Fin</TD>
+		<TD ALIGN="LEFT">Nageoire Gobul</TD>
+		<TD ALIGN="LEFT">Moins belle que d'autres composants aquatiques, mais a quand même ses adeptes.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Armor Sphere</TD>
+		<TD ALIGN="LEFT">Sphère d'armure</TD>
+		<TD ALIGN="LEFT">Réaction unique à la chaleur, permet d'augmen- ter la force de l'armure.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Armor Sphere+</TD>
+		<TD ALIGN="LEFT">Sphère d'armure+</TD>
+		<TD ALIGN="LEFT">Armure de haute qualité. Appréciée comme ajout à la force de l'armure.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Gobul Lantern</TD>
+		<TD ALIGN="LEFT">Lanterne Gobul</TD>
+		<TD ALIGN="LEFT">Composant le plus connu, utilisé comme leurre. C'est aussi un conservateur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Warm Pelt</TD>
+		<TD ALIGN="LEFT">Peau chaude</TD>
+		<TD ALIGN="LEFT">La peau d'un petit animal. A de multiples usages, prin- cipalement les vêtements.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Nutrients</TD>
+		<TD ALIGN="LEFT">Nutriments</TD>
+		<TD ALIGN="LEFT">Augmente très légèrement le niveau maximum de Santé.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Mega Nutrients</TD>
+		<TD ALIGN="LEFT">Méga nutriments</TD>
+		<TD ALIGN="LEFT">Augmente légèrement le niveau maximum de Santé.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Dragon Toadstool</TD>
+		<TD ALIGN="LEFT">Champi dragon</TD>
+		<TD ALIGN="LEFT">Un dangereux champignon supposé drainer la vie des gens. Prudence !</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Immunizer</TD>
+		<TD ALIGN="LEFT">Immunisateur</TD>
+		<TD ALIGN="LEFT">Médicament qui améliore la capacité naturelle de récupération.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Catalyst</TD>
+		<TD ALIGN="LEFT">Catalyseur</TD>
+		<TD ALIGN="LEFT">Se mélange à d'autres composants pour améliorer leur effet. Inutile seul.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bomb Sac</TD>
+		<TD ALIGN="LEFT">Poche bombe</TD>
+		<TD ALIGN="LEFT">Un composant de base pour fabriquer des bombes lancées à la main.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Kelbi Horn</TD>
+		<TD ALIGN="LEFT">Corne de Kelbi</TD>
+		<TD ALIGN="LEFT">Les infusions de poudre de corne de Kelbi servent de médicament. Secret local !</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Blue Kelbi Horn</TD>
+		<TD ALIGN="LEFT">Corn.Kelbi bleue</TD>
+		<TD ALIGN="LEFT">Une corne de Kelbi extrê- mement rare. Prisée chez les marchands.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bnahabra Shell</TD>
+		<TD ALIGN="LEFT">Carapa. Bnahabra</TD>
+		<TD ALIGN="LEFT">Aussi solide qu'une armure de Wyvern dans les mains d'un artisan intelligent.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bnahabra Wing</TD>
+		<TD ALIGN="LEFT">Aile Bnahabra</TD>
+		<TD ALIGN="LEFT">Dure à forger -- les résultats dépendront de la surface utilisée.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Monster Fluid</TD>
+		<TD ALIGN="LEFT">Fluide monstre</TD>
+		<TD ALIGN="LEFT">Fluide collant trouvé souvent dans les insectes après leur repas.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bone Husk S</TD>
+		<TD ALIGN="LEFT">Pt coque d'os</TD>
+		<TD ALIGN="LEFT">Enveloppe de munitions. Plus résistante que la baie-coque.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bone Husk L</TD>
+		<TD ALIGN="LEFT">Gd coque d'os</TD>
+		<TD ALIGN="LEFT">Enveloppe de munitions pouvant supporter de puissantes explosions.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Toadstool</TD>
+		<TD ALIGN="LEFT">Champi vénéneux</TD>
+		<TD ALIGN="LEFT">La logique dit de ne pas le manger, mais ne l'éliminez pas complètement.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Smoke Bomb</TD>
+		<TD ALIGN="LEFT">Bombe de fumée</TD>
+		<TD ALIGN="LEFT">Crée un large nuage de fumée dans la zone où elle atterrit.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Poison Smoke Bmb</TD>
+		<TD ALIGN="LEFT">Bombe de poison</TD>
+		<TD ALIGN="LEFT">Contient un gaz toxique. Utilisée aussi pour la fumigation.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Dung Bomb</TD>
+		<TD ALIGN="LEFT">Bombe de bouse</TD>
+		<TD ALIGN="LEFT">Diffuse une horrible odeur repoussant les monstres... ou pas.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Gunpowder</TD>
+		<TD ALIGN="LEFT">Poudre</TD>
+		<TD ALIGN="LEFT">Un produit dangereux qui explose lorsqu'il est frappé ou chauffé.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Trap Tool</TD>
+		<TD ALIGN="LEFT">Pose-piège</TD>
+		<TD ALIGN="LEFT">Outil requis pour installer différents pièges, comme la Fosse piégée.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Yambug</TD>
+		<TD ALIGN="LEFT">Patatinsecte</TD>
+		<TD ALIGN="LEFT">Nommé d'après sa forme. Utilisez-le comme appât ; son odeur excite les thons.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Tuna Bait</TD>
+		<TD ALIGN="LEFT">Appât pour thon</TD>
+		<TD ALIGN="LEFT">L'appât préféré des thons. &quot;Miam&quot;.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bughopper</TD>
+		<TD ALIGN="LEFT">Insecte sauteur</TD>
+		<TD ALIGN="LEFT">Insecte replet. Utilisez-le comme appât ; son odeur excite les Arowanas.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Arowana Bait</TD>
+		<TD ALIGN="LEFT">Appât Arowana</TD>
+		<TD ALIGN="LEFT">L'appât préféré des Arowanas. &quot;Miam&quot;.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Snakebee Larva</TD>
+		<TD ALIGN="LEFT">Larve-serpent</TD>
+		<TD ALIGN="LEFT">Une larve inhabituelle dont l'odeur excite les Poissondors. Bon appât.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Goldenfish Bait</TD>
+		<TD ALIGN="LEFT">Appât Poissondor</TD>
+		<TD ALIGN="LEFT">L'appât préféré des Poissondor. &quot;Miam&quot;.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Antiseptic Stone</TD>
+		<TD ALIGN="LEFT">Pierre antisept.</TD>
+		<TD ALIGN="LEFT">Combinaison d'un cristal de terre et de nutriments. N'existe pas tel quel.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Wyvern Fang</TD>
+		<TD ALIGN="LEFT">Croc de Wyvern</TD>
+		<TD ALIGN="LEFT">Pour créer des munitions de Fusarbalète. La poudre les brise, générant des éclats.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Lifecrystals</TD>
+		<TD ALIGN="LEFT">Cristaux de vie</TD>
+		<TD ALIGN="LEFT">Cristaux mystérieux longtemps révérés comme une source de vitalité.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Wyvern Claw </TD>
+		<TD ALIGN="LEFT">Griffe de Wyvern</TD>
+		<TD ALIGN="LEFT">Pour créer des munitions de Fusarbalète. La poudre dé- clenche une large explosion.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Lifepowder</TD>
+		<TD ALIGN="LEFT">Poudre de vie</TD>
+		<TD ALIGN="LEFT">Résultat de la combinaison de Cristaux de vie. Fort pouvoir restaurateur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Hunting Horn</TD>
+		<TD ALIGN="LEFT">Corne de chasse</TD>
+		<TD ALIGN="LEFT">Un objet dangereux utilisé pour attirer certains monstres. Fragile.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Health Horn</TD>
+		<TD ALIGN="LEFT">Corne de Santé</TD>
+		<TD ALIGN="LEFT">Restaure la Santé de ceux qui l'entendent. Fragile.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="16" ALIGN="LEFT">Antidote Horn</TD>
+		<TD ALIGN="LEFT">Corne antidote</TD>
+		<TD ALIGN="LEFT">Élimine le poison dans le sang de ceux qui l'entendent. Fragile.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Demon Horn</TD>
+		<TD ALIGN="LEFT">Corne du démon</TD>
+		<TD ALIGN="LEFT">Augmente la force de ceux qui l'entendent. Fragile.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="16" ALIGN="LEFT">Armor Horn</TD>
+		<TD ALIGN="LEFT">Corne armure</TD>
+		<TD ALIGN="LEFT">Améliore la résistance de ceux qui l'entendent. Fragile.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Farcaster</TD>
+		<TD ALIGN="LEFT">Transporteur</TD>
+		<TD ALIGN="LEFT">Vous ramène instantanément au camp de base.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Tranquilizer</TD>
+		<TD ALIGN="LEFT">Tranquillisant</TD>
+		<TD ALIGN="LEFT">Médicament utilisé comme anesthésiant lorsqu'il est combiné.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Dragonfell Berry</TD>
+		<TD ALIGN="LEFT">Baie dragon</TD>
+		<TD ALIGN="LEFT">Guérit le Fléaudragon et augmente temporairement la Résistance au Dragon.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Energy Drink</TD>
+		<TD ALIGN="LEFT">Breuvage énergie</TD>
+		<TD ALIGN="LEFT">Parfait pour vous réveil- ler ! Guérit la fatigue et régénère la Stamina.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Cleanser</TD>
+		<TD ALIGN="LEFT">Nettoyant</TD>
+		<TD ALIGN="LEFT">Enlève instantanément glace ou boue sur votre corps. Propre comme un sou neuf !</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Garbage</TD>
+		<TD ALIGN="LEFT">Déchet</TD>
+		<TD ALIGN="LEFT">Déchet produit lorsqu'une tentative de combinaison a échoué.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Ancient Potion</TD>
+		<TD ALIGN="LEFT">Potion antique</TD>
+		<TD ALIGN="LEFT">Restaure la Santé et la Stamina à leur niveau maximum.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Psychoserum</TD>
+		<TD ALIGN="LEFT">Sérum psy</TD>
+		<TD ALIGN="LEFT">Active temporairement un 6ème sens pour sentir la présence des monstres.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Agnaktor Coin</TD>
+		<TD ALIGN="LEFT">Pièce Agnaktor</TD>
+		<TD ALIGN="LEFT">Cadeau pour avoir vaincu un Agnaktor dans l'Arène.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Ballista Ammo</TD>
+		<TD ALIGN="LEFT">Mn Baliste</TD>
+		<TD ALIGN="LEFT">Munition pour installation de Fusarbalète géant. ~C05(Fourniture)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Cannon Ammo</TD>
+		<TD ALIGN="LEFT">Mn Canon</TD>
+		<TD ALIGN="LEFT">Munition utilisée contre les grands dragons. Très lourde. ~C05(Fourniture)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Powderstone</TD>
+		<TD ALIGN="LEFT">Pierre-poudre</TD>
+		<TD ALIGN="LEFT">Explose au moindre impact. Attention ! ~C05(Objet compté)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Anti-dragon Bomb</TD>
+		<TD ALIGN="LEFT">Bombe antidragon</TD>
+		<TD ALIGN="LEFT">Petite bombe à retar- dement qui se fixe à l'ennemi. ~C05(Fourniture)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Ballista Binder</TD>
+		<TD ALIGN="LEFT">Baliste agglom.</TD>
+		<TD ALIGN="LEFT">Munition immobilisante pour installation de Fusarbalète géant. ~C05(Fourniture)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rath Talon</TD>
+		<TD ALIGN="LEFT">Griffe Rath</TD>
+		<TD ALIGN="LEFT">Peut être coupée en combat dans de très rares cas.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Twisted Horn</TD>
+		<TD ALIGN="LEFT">Corne tordue</TD>
+		<TD ALIGN="LEFT">Corne tordue d'un Diablos. A de nombreux usages (moins tordus) par ici.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Majestic Horn</TD>
+		<TD ALIGN="LEFT">Corne grandiose</TD>
+		<TD ALIGN="LEFT">Corne tordue d'un Diablos de grande taille. Pour créer des armes plus puissantes.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Mega Harpoon</TD>
+		<TD ALIGN="LEFT">Méga harpon</TD>
+		<TD ALIGN="LEFT">Un must en matière de pêche. Affaiblissez le poisson, puis harponnez-le.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Whetfish Bait</TD>
+		<TD ALIGN="LEFT">App. Poissaiguis</TD>
+		<TD ALIGN="LEFT">L'appât préféré des Makros couteaux. &quot;Miam&quot;.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sushifish Bait</TD>
+		<TD ALIGN="LEFT">App. Sushipoiss.</TD>
+		<TD ALIGN="LEFT">L'appât préféré des Sushipoissons. &quot;Miam&quot;</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Firedouse Berry</TD>
+		<TD ALIGN="LEFT">Baie-extincteur</TD>
+		<TD ALIGN="LEFT">Guérit le Fléaufeu et augmente temporairement la Résistance au Feu.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Waterblock Seed</TD>
+		<TD ALIGN="LEFT">Baie-barrage</TD>
+		<TD ALIGN="LEFT">Guérit le Fléau-eau et augmente temporairement la Résistance à l'Eau.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Icethaw Pellet</TD>
+		<TD ALIGN="LEFT">Plomb-dégel</TD>
+		<TD ALIGN="LEFT">Guérit le Fléauglace et augmente temporairement la Résistance à la Glace.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Stormsender Seed</TD>
+		<TD ALIGN="LEFT">Graine-orage</TD>
+		<TD ALIGN="LEFT">Guérit le Fléaufoudre et augmente temporairement la Résistance à la Foudre.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Herbivore Egg</TD>
+		<TD ALIGN="LEFT">Œuf d'herbivore</TD>
+		<TD ALIGN="LEFT">Un œuf volé dans un nid d'herbivore. A l'air vraiment savoureux.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Crystal Bone</TD>
+		<TD ALIGN="LEFT">Os cristal</TD>
+		<TD ALIGN="LEFT">Un os prisé dans le village pour des raisons inconnues. ~C05(Objet compté)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Golden Bone</TD>
+		<TD ALIGN="LEFT">Os en or</TD>
+		<TD ALIGN="LEFT">Un os en or brillant. Prisé des collectionneurs. ~C05(Objet compté)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Air Philter</TD>
+		<TD ALIGN="LEFT">Filtre à air</TD>
+		<TD ALIGN="LEFT">Restaure l'oxygène perdu et vous permet de rester plus longtemps sous l'eau.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Mega Air Philter</TD>
+		<TD ALIGN="LEFT">Méga filtre air</TD>
+		<TD ALIGN="LEFT">Restaure l'oxygène perdu et vous permet de rester plus longtemps sous l'eau.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Altaroth Stomach</TD>
+		<TD ALIGN="LEFT">Estomac Altaroth</TD>
+		<TD ALIGN="LEFT">Sac transparent d'Altaroth au contenu inconnu.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Altaroth Jaw</TD>
+		<TD ALIGN="LEFT">Mâch. Altaroth</TD>
+		<TD ALIGN="LEFT">Ces mâchoires solides sont incroyablement dures à découper.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Ripened Mushroom</TD>
+		<TD ALIGN="LEFT">Champi mature</TD>
+		<TD ALIGN="LEFT">Champignon unique de par son odeur et son goût matures. ~C05(Objet compté)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">R.Ludroth Crest</TD>
+		<TD ALIGN="LEFT">Crête Ludroth R.</TD>
+		<TD ALIGN="LEFT">Devient rigide quand la bête est en colère ; la quantité indique le statut.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Barioth Shell</TD>
+		<TD ALIGN="LEFT">Carapace Barioth</TD>
+		<TD ALIGN="LEFT">Carapace blanche unique. Solide, résistante, et très légère.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Barioth Pelt</TD>
+		<TD ALIGN="LEFT">Peau Barioth</TD>
+		<TD ALIGN="LEFT">Peau blanche soyeuse aux excellentes propriétés d'absorption des chocs.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Amber Tusks</TD>
+		<TD ALIGN="LEFT">Défenses ambre</TD>
+		<TD ALIGN="LEFT">Deux défenses aiguisées de Barioth servant pour les armes et les meubles.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Barioth Claw</TD>
+		<TD ALIGN="LEFT">Griffe Barioth</TD>
+		<TD ALIGN="LEFT">Griffe aiguisée mortelle qui servait à escalader les murs de glace solide.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Barioth Spike</TD>
+		<TD ALIGN="LEFT">Pointe Barioth</TD>
+		<TD ALIGN="LEFT">De plusieurs tailles. Aide le Barioth à s'agripper aux murs de glace.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Frost Sac</TD>
+		<TD ALIGN="LEFT">Poche de givre</TD>
+		<TD ALIGN="LEFT">Organe contenant un liquide en-dessous de zéro. Mani- puler très soigneusement.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Uragaan Shell</TD>
+		<TD ALIGN="LEFT">Carapace Uragaan</TD>
+		<TD ALIGN="LEFT">Cet exosquelette fait une armure semblant émoussée mais qui marche bien.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Uragaan Scute</TD>
+		<TD ALIGN="LEFT">Scutum Uragaan</TD>
+		<TD ALIGN="LEFT">Résiste plus à la chaleur que la carapace. Censé pro- téger les organes sensibles.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Uragaan Marrow</TD>
+		<TD ALIGN="LEFT">Moelle Uragaan</TD>
+		<TD ALIGN="LEFT">Dure à obtenir. Sert à créer des choses particulières et a des fins médicales.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Uragaan Jaw</TD>
+		<TD ALIGN="LEFT">Mâchoire Uragaan</TD>
+		<TD ALIGN="LEFT">A une forme surprenante ; on trouve du minerai fusionné à l'os.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Agnaktor Shell</TD>
+		<TD ALIGN="LEFT">Carapa. Agnaktor</TD>
+		<TD ALIGN="LEFT">Devient rouge vif à la forge. Légère et très résistante à la chaleur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Agnaktor Hide</TD>
+		<TD ALIGN="LEFT">Cuir Agnaktor</TD>
+		<TD ALIGN="LEFT">Cuir curieux souple et résistant à la chaleur, mais pas forcément solide.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Agnaktor Fin</TD>
+		<TD ALIGN="LEFT">Nageoi. Agnaktor</TD>
+		<TD ALIGN="LEFT">Une des nombreuses pinnae d'Agnaktor. Sert de composant de bateau.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Agnaktor Claw</TD>
+		<TD ALIGN="LEFT">Griffe Agnaktor</TD>
+		<TD ALIGN="LEFT">Griffe puissante ET qui sort juste du magma bouillant. Attention !</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Agnaktor Scale</TD>
+		<TD ALIGN="LEFT">Écaille Agnaktor</TD>
+		<TD ALIGN="LEFT">A une teinte éclatante, mais n'a pas tant de valeur que ça.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Agnaktor Beak</TD>
+		<TD ALIGN="LEFT">Bec Agnaktor</TD>
+		<TD ALIGN="LEFT">Bec d'Agnaktor distinctif lui permettant de creuser des tunnels sous terre.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">King's Frill</TD>
+		<TD ALIGN="LEFT">Collerette roi</TD>
+		<TD ALIGN="LEFT">Montre qui est le chef des Jaggis -- et montre que vous devenez un chasseur aguerri.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Fertile Mud</TD>
+		<TD ALIGN="LEFT">Boue fertile</TD>
+		<TD ALIGN="LEFT">Les Barroth se roulent dedans. Riche en nutriments et top pour l'agriculture.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Gobul Whisker</TD>
+		<TD ALIGN="LEFT">Moustache Gobul</TD>
+		<TD ALIGN="LEFT">Un des poils poussant sur le museau d'un Gobul, peut servir à creuser un terrier.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Shell Shocker</TD>
+		<TD ALIGN="LEFT">Électricarapace</TD>
+		<TD ALIGN="LEFT">Libère de l'électricité, n'en génère pas. Manipulable sans danger.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Lagiacrus Horn</TD>
+		<TD ALIGN="LEFT">Corne Lagiacrus</TD>
+		<TD ALIGN="LEFT">On chante sa puissance depuis des siècles. Est très demandée.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Flintstone</TD>
+		<TD ALIGN="LEFT">Silex</TD>
+		<TD ALIGN="LEFT">Le Qurupeco démarre des feux avec. Il y a une astuce pour le faire marcher.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Barioth Tail</TD>
+		<TD ALIGN="LEFT">Queue Barioth</TD>
+		<TD ALIGN="LEFT">Recouverte de plaque dure et difficile à couper.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bloodstone</TD>
+		<TD ALIGN="LEFT">Pierre-sang</TD>
+		<TD ALIGN="LEFT">Cette pierre pourpre est- elle une relique d'une bête antique ? ~C05(Objet compté)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Paw Pass Ticket</TD>
+		<TD ALIGN="LEFT">Ticket Passechat</TD>
+		<TD ALIGN="LEFT">Donner pour finir une quête. Vous pourrez peut-être re- partir... ~C05(Objet compté)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Monster Guts</TD>
+		<TD ALIGN="LEFT">Boyaux monstre</TD>
+		<TD ALIGN="LEFT">Entrailles de monstre. Un mets raffiné recherché. ~C05(Objet compté)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Red Coral Stone</TD>
+		<TD ALIGN="LEFT">Corail rouge</TD>
+		<TD ALIGN="LEFT">Trouvée sous l'eau dans le coin. De l'argent facile ! ~C05(Objet compté)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Voucher</TD>
+		<TD ALIGN="LEFT">Coupon</TD>
+		<TD ALIGN="LEFT">À échanger contre un repas spécial aux effets plus forts que d'habitude.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Gourmet Voucher</TD>
+		<TD ALIGN="LEFT">Coupon gourmet</TD>
+		<TD ALIGN="LEFT">À échanger contre un repas de roi. Aux goût et effets de qualité supérieure.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Alatreon Scute</TD>
+		<TD ALIGN="LEFT">Scutum Alatreon</TD>
+		<TD ALIGN="LEFT">Plaque unique repoussant toutes les attaques et en renvoyant certaines.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Alatreon Plate</TD>
+		<TD ALIGN="LEFT">Plaque Alatreon</TD>
+		<TD ALIGN="LEFT">Cette écaille spéciale pousse à l'envers. Aussi aiguisée qu'une épée.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Alatreon Talon</TD>
+		<TD ALIGN="LEFT">Griffe Alatreon</TD>
+		<TD ALIGN="LEFT">Si aiguisée qu'on ne peut prédire la force des armes faites avec.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Azure Dragongem</TD>
+		<TD ALIGN="LEFT">Gem.dragon azur</TD>
+		<TD ALIGN="LEFT">Le fait de tenir ce joyau légendaire signifie votre FIN.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Skypiercer</TD>
+		<TD ALIGN="LEFT">Perce-ciel</TD>
+		<TD ALIGN="LEFT">Partie des cornes tortueuses d'un Alatreon.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">BBQ with Mask</TD>
+		<TD ALIGN="LEFT">BBQ avec masque</TD>
+		<TD ALIGN="LEFT">(Objet masque.)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">No Mask</TD>
+		<TD ALIGN="LEFT">Pas de masque</TD>
+		<TD ALIGN="LEFT">(Objet masque.)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Mystery Charm</TD>
+		<TD ALIGN="LEFT">Charme mystère</TD>
+		<TD ALIGN="LEFT">Gri-gri modeste. Finissez la quête pour découvrir ses effets.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Shining Charm</TD>
+		<TD ALIGN="LEFT">Charme brillant</TD>
+		<TD ALIGN="LEFT">Gri-gri curieux. Finissez la quête pour découvrir ses effets.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Timeworn Charm</TD>
+		<TD ALIGN="LEFT">Charme vétuste</TD>
+		<TD ALIGN="LEFT">Gri-gri puissant. Finissez la quête pour découvrir ses effets.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Armor Stone</TD>
+		<TD ALIGN="LEFT">Pierre d'armure</TD>
+		<TD ALIGN="LEFT">Réagit uniquement à la chaleur. Forme une couche d'armure si combinée.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Adv Armor Sphere</TD>
+		<TD ALIGN="LEFT">Sph. armure avc</TD>
+		<TD ALIGN="LEFT">Sphère d'armure avancée. Rare au village Moga. Pour améliorations spéciales.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Hrd Armor Sphere</TD>
+		<TD ALIGN="LEFT">Sph. armure dure</TD>
+		<TD ALIGN="LEFT">Sphère d'armure dure et dense. Rare, pour amélio- rations plus avancées.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Hvy Armor Sphere</TD>
+		<TD ALIGN="LEFT">Sph. armure lrde</TD>
+		<TD ALIGN="LEFT">Sphère d'armure dense et épaisse. Très rare, crée des armures étonnantes.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Aquaglow Jewel</TD>
+		<TD ALIGN="LEFT">J. reflet aqua</TD>
+		<TD ALIGN="LEFT">Composant indispensable pour la Décoration.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sunspire Jewel</TD>
+		<TD ALIGN="LEFT">J.flèche solaire</TD>
+		<TD ALIGN="LEFT">Composant indispensable pour la Décoration.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bloodrun Jewel</TD>
+		<TD ALIGN="LEFT">Joyau de sang</TD>
+		<TD ALIGN="LEFT">Composant indispensable pour la Décoration. Honteux qu'il soit si hors de prix.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Lazurite Jewel</TD>
+		<TD ALIGN="LEFT">Joyau Lazurite</TD>
+		<TD ALIGN="LEFT">Composant indispensable pour la Décoration. Celui- là est rare.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Barioth Carapace</TD>
+		<TD ALIGN="LEFT">Cuirasse Barioth</TD>
+		<TD ALIGN="LEFT">Carapace blanche unique. Solide, résistante, et très légère.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Barioth Pelt+</TD>
+		<TD ALIGN="LEFT">Peau Barioth+</TD>
+		<TD ALIGN="LEFT">Peau blanche soyeuse aux excellentes propriétés d'absorption des chocs.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Amber Tusks+</TD>
+		<TD ALIGN="LEFT">Défenses ambre+</TD>
+		<TD ALIGN="LEFT">Deux défenses aiguisées de Barioth servant pour les armes et les meubles.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Barioth Claw+</TD>
+		<TD ALIGN="LEFT">Griffe Barioth+</TD>
+		<TD ALIGN="LEFT">Griffe aiguisée mortelle qui servait à escalader les murs de glace solide.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Diablos Marrow</TD>
+		<TD ALIGN="LEFT">Moelle Diablos</TD>
+		<TD ALIGN="LEFT">Des découvertes récentes ont révélé qu'on pouvait l'utiliser comme adhésif.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Diablos Carapace</TD>
+		<TD ALIGN="LEFT">Cuirasse Diablos</TD>
+		<TD ALIGN="LEFT">Plus dure qu'une carapace Diablos normale.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Diablos Ridge</TD>
+		<TD ALIGN="LEFT">Vertèbre Diablos</TD>
+		<TD ALIGN="LEFT">Partie la plus dure d'une pique Diablos. Incroyable- ment difficile à tailler.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Stout Horn</TD>
+		<TD ALIGN="LEFT">Corne épaisse</TD>
+		<TD ALIGN="LEFT">Corne torsadée et dure de Diablos. Difficile à préserver, donc précieuse.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Ceadeus Hide</TD>
+		<TD ALIGN="LEFT">Cuir Ceadeus</TD>
+		<TD ALIGN="LEFT">Incroyablement solide pour une peau de monstre. Fastidieuse à travailler.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Ceadeus Scale</TD>
+		<TD ALIGN="LEFT">Écaille Ceadeus</TD>
+		<TD ALIGN="LEFT">Presque trop grande pour son appellation. Est moins dure qu'il n'y paraît.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Ceadeus Fur</TD>
+		<TD ALIGN="LEFT">Fourrure Ceadeus</TD>
+		<TD ALIGN="LEFT">Difficile à croire que de la &quot;fourrure&quot; servirait à forger des armes.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Ceadeus Tail</TD>
+		<TD ALIGN="LEFT">Queue Ceadeus</TD>
+		<TD ALIGN="LEFT">Immense queue de Ceadeus, ex-ennemi du village. Symbole de paix.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Luminous Organ</TD>
+		<TD ALIGN="LEFT">Organe lumineux</TD>
+		<TD ALIGN="LEFT">On ignore pourquoi il brille mais il semble renfermer une puissance incroyable.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Deep Dragongem</TD>
+		<TD ALIGN="LEFT">Gem.dragon prof.</TD>
+		<TD ALIGN="LEFT">Un composant très dur à extraire d'un Ceadeus. Doté d'un vide sans fond.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Crooked Horn</TD>
+		<TD ALIGN="LEFT">Corne courbée</TD>
+		<TD ALIGN="LEFT">Corne géante formée durant les siècles. Manifeste tout le poids de l'histoire.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">ElderDragonBlood</TD>
+		<TD ALIGN="LEFT">Sang Anc. dragon</TD>
+		<TD ALIGN="LEFT">Contient un ingrédient inconnu, objet de nombreuses études.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Mohran Shell</TD>
+		<TD ALIGN="LEFT">Carapace Mohran</TD>
+		<TD ALIGN="LEFT">Carapace dure comme la pierre prélevée sur le Jhen Mohran durant la chasse.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Mohran Brace</TD>
+		<TD ALIGN="LEFT">Attelle Mohran</TD>
+		<TD ALIGN="LEFT">Armure couvrant la patte avant du Jhen Mohran, prélevée durant la chasse.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Mohran Scale</TD>
+		<TD ALIGN="LEFT">Écaille Mohran</TD>
+		<TD ALIGN="LEFT">Écaille bleu vif prélevée sur le Jhen Mohran durant la chasse.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sturdy Fang</TD>
+		<TD ALIGN="LEFT">Croc solide</TD>
+		<TD ALIGN="LEFT">Ces crocs de dragon ont pris de la valeur, entraînant une &quot;ruée vers le croc&quot;.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Earth Dragongem</TD>
+		<TD ALIGN="LEFT">Gem.dragon terre</TD>
+		<TD ALIGN="LEFT">Un composant très dur, à prélever sur un Jhen Mohran, et c'est peu de le dire.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Mohran Carapace</TD>
+		<TD ALIGN="LEFT">Cuirasse Mohran</TD>
+		<TD ALIGN="LEFT">Carapace dure comme la pierre prélevée sur le Jhen Mohran durant la chasse.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Mohran Scale+</TD>
+		<TD ALIGN="LEFT">Écaille Mohran+</TD>
+		<TD ALIGN="LEFT">Écaille bleu vif prélevée sur le Jhen Mohran durant la chasse.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sturdy Fang+</TD>
+		<TD ALIGN="LEFT">Croc solide+</TD>
+		<TD ALIGN="LEFT">Ces crocs de dragon ont pris de la valeur, entraînant une &quot;ruée vers le croc&quot;.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Mohran Brace+</TD>
+		<TD ALIGN="LEFT">Attelle Mohran+</TD>
+		<TD ALIGN="LEFT">Armure couvrant la patte avant du Jhen Mohran, prélevée durant la chasse.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Barroth Carapace</TD>
+		<TD ALIGN="LEFT">Carapace Barroth</TD>
+		<TD ALIGN="LEFT">Cuirasse Barroth. Souvent recouverte de boue, mais solide malgré tout.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Barroth Ridge+</TD>
+		<TD ALIGN="LEFT">Vert. Barroth+</TD>
+		<TD ALIGN="LEFT">Vient de la plaque arrière. Plus rare que la carapace, a donc plus de valeur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Barroth Claw+</TD>
+		<TD ALIGN="LEFT">Griffe Barroth+</TD>
+		<TD ALIGN="LEFT">Peu aiguisée, mais assez solide pour être polyvalente en forgeage.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Uragaan Scale</TD>
+		<TD ALIGN="LEFT">Écaille Uragaan</TD>
+		<TD ALIGN="LEFT">Son contenu unique en minéraux lui donne un faible éclat à la lumière.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Uragaan Scale+</TD>
+		<TD ALIGN="LEFT">Écaille Uragaan+</TD>
+		<TD ALIGN="LEFT">Son contenu unique en minéraux lui donne un faible éclat à la lumière.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Uragaan Ruby</TD>
+		<TD ALIGN="LEFT">Rubis Uragaan</TD>
+		<TD ALIGN="LEFT">Gemme de valeur prélevée rarement sur un Uragaan. Ajoute force quand forgée.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Uragaan Carapace</TD>
+		<TD ALIGN="LEFT">Cuirasse Uragaan</TD>
+		<TD ALIGN="LEFT">Cet exosquelette fait une armure semblant émoussée mais qui marche bien.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Deviljho Hide</TD>
+		<TD ALIGN="LEFT">Cuir Deviljho</TD>
+		<TD ALIGN="LEFT">Cuir noir bizarrement gluant et difficile à forger.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Deviljho Scale</TD>
+		<TD ALIGN="LEFT">Écaille Deviljho</TD>
+		<TD ALIGN="LEFT">A moins de valeur -- assez rare, mais peu de magasins en veulent.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Deviljho Talon</TD>
+		<TD ALIGN="LEFT">Griffe Deviljho</TD>
+		<TD ALIGN="LEFT">Une griffe crochue dangereusement aiguisée. Risque de blessure.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Deviljho Fang</TD>
+		<TD ALIGN="LEFT">Croc Deviljho</TD>
+		<TD ALIGN="LEFT">Croc de taille convenable d'une gueule de taille terrifiante.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Deviljho Gem</TD>
+		<TD ALIGN="LEFT">Gemme Deviljho</TD>
+		<TD ALIGN="LEFT">Renfermerait un pouvoir Deviljho. Utilisée dans les rituels occultes.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Deviljho Scalp</TD>
+		<TD ALIGN="LEFT">Scalp Deviljho</TD>
+		<TD ALIGN="LEFT">Son extraction libère une odeur monstrueusement putride.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Deviljho Tail</TD>
+		<TD ALIGN="LEFT">Queue Deviljho</TD>
+		<TD ALIGN="LEFT">Queue énorme semblable à une nageoire. Certains en font collection.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Quality Sponge</TD>
+		<TD ALIGN="LEFT">Éponge qualité</TD>
+		<TD ALIGN="LEFT">Composant spongieux mature. Recherché pour le quotidien plus que pour l'équipement.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Spongy Hide+</TD>
+		<TD ALIGN="LEFT">Cuir spongieux+</TD>
+		<TD ALIGN="LEFT">Cuir étonnamment élastique. Idéal pour isoler du froid.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">R.Ludroth Scale+</TD>
+		<TD ALIGN="LEFT">Écai.Ludroth R.+</TD>
+		<TD ALIGN="LEFT">Plus petite que l'écaille de Wyvern volante. Il vous en faudra beaucoup pour forger.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">R.Ludroth Claw+</TD>
+		<TD ALIGN="LEFT">Grif.Ludroth R.+</TD>
+		<TD ALIGN="LEFT">Ces griffes sont plus adaptées au déplacement qu'à l'attaque.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">R.Ludroth Crest+</TD>
+		<TD ALIGN="LEFT">Crt Ludroth R.+</TD>
+		<TD ALIGN="LEFT">Devient rigide quand la bête est en colère ; la quantité indique le statut.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Gobul Spike+</TD>
+		<TD ALIGN="LEFT">Pointe Gobul+</TD>
+		<TD ALIGN="LEFT">Une des nombreuses pointes de Gobul, et l'une des quel- ques parties immangeables.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Gobul Hide+</TD>
+		<TD ALIGN="LEFT">Cuir Gobul+</TD>
+		<TD ALIGN="LEFT">Peau gluante -- un goût ac- quis, mais les connaisseurs ne peuvent s'en passer.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Gobul Lantern+</TD>
+		<TD ALIGN="LEFT">Lanterne Gobul+</TD>
+		<TD ALIGN="LEFT">Composant le plus connu, utilisé comme leurre. C'est aussi un conservateur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Gobul Fin+</TD>
+		<TD ALIGN="LEFT">Nageoire Gobul+</TD>
+		<TD ALIGN="LEFT">Moins belle que d'autres composants aquatiques, mais a quand même ses adeptes.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Lagiacrus Hide+</TD>
+		<TD ALIGN="LEFT">Cuir Lagiacrus+</TD>
+		<TD ALIGN="LEFT">Pas très solide, mais souple et malléable. Pour forger de l'équipement de valeur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Lagiacrus Scale+</TD>
+		<TD ALIGN="LEFT">Écail.Lagiacrus+</TD>
+		<TD ALIGN="LEFT">Écaille souple aux éclats bleus à la lumière. Très demandée.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Lagiacrus Claw+</TD>
+		<TD ALIGN="LEFT">Grif. Lagiacrus+</TD>
+		<TD ALIGN="LEFT">Griffe aiguisée poussant sur la nageoire. Ne rapportera pas beaucoup d'argent.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Lagiacrus Horn+</TD>
+		<TD ALIGN="LEFT">Corne Lagiacrus+</TD>
+		<TD ALIGN="LEFT">On chante sa puissance depuis des siècles. Est très demandée.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Lagia Sapphire</TD>
+		<TD ALIGN="LEFT">Saphir Lagia</TD>
+		<TD ALIGN="LEFT">Gemme de valeur prélevée rarement sur un Lagiacrus. Améliore les résistances.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Agnaktor Tail</TD>
+		<TD ALIGN="LEFT">Queue Agnaktor</TD>
+		<TD ALIGN="LEFT">Queue coupée sur un Agnaktor. Rapporte peu par manque de demande.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">AgnaktorCarapace</TD>
+		<TD ALIGN="LEFT">Cuiras. Agnaktor</TD>
+		<TD ALIGN="LEFT">Devient rouge vif à la forge. Légère et très résistante à la chaleur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Agnaktor Hide+</TD>
+		<TD ALIGN="LEFT">Cuir Agnaktor+</TD>
+		<TD ALIGN="LEFT">Cuir curieux souple et résistant à la chaleur, mais pas forcément solide.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Agnaktor Fin+</TD>
+		<TD ALIGN="LEFT">Nageo. Agnaktor+</TD>
+		<TD ALIGN="LEFT">Une des nombreuses pinnae d'Agnaktor. Sert de composant de bateau.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Agnaktor Claw+</TD>
+		<TD ALIGN="LEFT">Griffe Agnaktor+</TD>
+		<TD ALIGN="LEFT">Griffe puissante ET qui sort juste du magma bouillant. Attention !</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Firecell Stone</TD>
+		<TD ALIGN="LEFT">Pierre-lave</TD>
+		<TD ALIGN="LEFT">Dépôt semblable à du magma. Seuls les experts savent le manier.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Brkn Skypiercer</TD>
+		<TD ALIGN="LEFT">Perce-ciel brisé</TD>
+		<TD ALIGN="LEFT">Partie des cornes tortueuses d'un Alatreon. Casse facile- ment quand découpé.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Alatreon Tail</TD>
+		<TD ALIGN="LEFT">Queue Alatreon</TD>
+		<TD ALIGN="LEFT">On croyait les Alatreons légendaires, mais cette queue prouve le contraire.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Alatreon Webbing</TD>
+		<TD ALIGN="LEFT">Palmure Alatreon</TD>
+		<TD ALIGN="LEFT">Semblable aux abysses sombres ou aux premières lueurs du jour.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Kelbi Horn Objet</TD>
+		<TD ALIGN="LEFT">Obj. corne Kelbi</TD>
+		<TD ALIGN="LEFT">Meuble fait à partir de corne de Kelbi. Charmant ! Mais n'en restez pas baba.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Twstd Horn Objet</TD>
+		<TD ALIGN="LEFT">Obj. corn.tordue</TD>
+		<TD ALIGN="LEFT">Meuble chic fait à partir de corne de Diablos. De grande valeur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">MohranFang Objet</TD>
+		<TD ALIGN="LEFT">Obj. croc Mohran</TD>
+		<TD ALIGN="LEFT">Meuble ultra-chic, symbole d'urbanisme et de votre dur labeur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Piggie</TD>
+		<TD ALIGN="LEFT">Cochonnet</TD>
+		<TD ALIGN="LEFT">Meuble sur le thème des cochonnets. Aimé par tout le monde.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Eggie Piggie</TD>
+		<TD ALIGN="LEFT">Cochonnet-œuf</TD>
+		<TD ALIGN="LEFT">Meuble chic sur le thème des cochonnets. Fait s'envoler tous vos soucis.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rath Piggie</TD>
+		<TD ALIGN="LEFT">Cochonnet-rath</TD>
+		<TD ALIGN="LEFT">Meuble chic sur le thème des cochonnets. Charmant ET intimidant !</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sandstone Plant</TD>
+		<TD ALIGN="LEFT">Plante en grès</TD>
+		<TD ALIGN="LEFT">Meuble. Cette plante en pot relaxante et colorée vient des Plaines de sable.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Marshland Plant</TD>
+		<TD ALIGN="LEFT">Plante marais</TD>
+		<TD ALIGN="LEFT">Meuble chic. Cette plante en pot est une souche qui ne fleurit pas d'habitude.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Snowflake Plant</TD>
+		<TD ALIGN="LEFT">Plante flocon</TD>
+		<TD ALIGN="LEFT">Meuble très chic. Cette plante de la Toundra pousse dans les neiges éternelles.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Prismshroom Lamp</TD>
+		<TD ALIGN="LEFT">Lampe champrisme</TD>
+		<TD ALIGN="LEFT">Meuble en forme de champignon. Les filles en sont dingues.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Qurupeco Lamp</TD>
+		<TD ALIGN="LEFT">Lampe Qurupeco</TD>
+		<TD ALIGN="LEFT">Meuble ultra-chic en forme de Qurupeco. Imite une lampe !</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sirensea Lamp</TD>
+		<TD ALIGN="LEFT">Lampe sirène</TD>
+		<TD ALIGN="LEFT">Meuble super-chic en forme de Gobul qui bouge ! Incroyable.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Oceanic Fountain</TD>
+		<TD ALIGN="LEFT">Fontaine océan.</TD>
+		<TD ALIGN="LEFT">Meuble en forme de Lagiacrus. Son eau qui coule apaise l'esprit.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bubbly Fountain</TD>
+		<TD ALIGN="LEFT">Fontaine pétill.</TD>
+		<TD ALIGN="LEFT">Meuble chic en forme de Giggi. Quelqu'un s'est amusé en le créant.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Magma Fountain</TD>
+		<TD ALIGN="LEFT">Fontaine magma</TD>
+		<TD ALIGN="LEFT">Meuble ultra-chic en forme d'Agnakator. Tout simplement inestimable.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Iron Figure</TD>
+		<TD ALIGN="LEFT">Sculpture en fer</TD>
+		<TD ALIGN="LEFT">Meuble découpé dans du minerai de fer. Sa création est fastidieuse.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Machalite Figure</TD>
+		<TD ALIGN="LEFT">Sculp. Machalite</TD>
+		<TD ALIGN="LEFT">Meuble chic découpé dans du minerai précieux. Ne perd jamais son éclat.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Dragonite Figure</TD>
+		<TD ALIGN="LEFT">Sculp. Dragonite</TD>
+		<TD ALIGN="LEFT">Meuble ultra-chic découpé dans du minerai rare. On fe- rait tout pour en avoir un.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Model Sandskiff</TD>
+		<TD ALIGN="LEFT">Maq. bat. sable</TD>
+		<TD ALIGN="LEFT">Meuble. Cette maquette à l'échelle réveille l'enfant en chacun de nous.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Model Airship</TD>
+		<TD ALIGN="LEFT">Maq. dirigeable</TD>
+		<TD ALIGN="LEFT">Meuble chic semblable à un vrai dirigeable ! Pour tous âges.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Model Piggieship</TD>
+		<TD ALIGN="LEFT">Maq. bat. coch.</TD>
+		<TD ALIGN="LEFT">Meuble très chic avec un co- chonnet sur la voile. Un enfant tuerait pour ça.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Guildie (Red)</TD>
+		<TD ALIGN="LEFT">Mb guilde (Rg)</TD>
+		<TD ALIGN="LEFT">Meuble -- plutôt une poupée. La réceptionniste de quête de la taverne !</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Guildie (Green)</TD>
+		<TD ALIGN="LEFT">Mb guilde (Vt)</TD>
+		<TD ALIGN="LEFT">Meuble chic -- plutôt une poupée. L'employée de la guilde !</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Guildie (Blue)</TD>
+		<TD ALIGN="LEFT">Mb guilde (Bl)</TD>
+		<TD ALIGN="LEFT">Meuble ultra-chic -- plutôt une poupée. L'employée de l'arène !</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Great Piggie</TD>
+		<TD ALIGN="LEFT">Grand cochonnet</TD>
+		<TD ALIGN="LEFT">Meuble en forme de... cochonnet ? Très curieux en fait.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Qurupeco Wing</TD>
+		<TD ALIGN="LEFT">Aile Qurupeco</TD>
+		<TD ALIGN="LEFT">Plume au panache tropical. Sert souvent à créer des souvenirs du village Moga.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Jaggi Hide+</TD>
+		<TD ALIGN="LEFT">Cuir Jaggi+</TD>
+		<TD ALIGN="LEFT">Souvent utilisé par ici. Peut être transformé en beaucoup de choses.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Lightning Ticket</TD>
+		<TD ALIGN="LEFT">Ticket éclair</TD>
+		<TD ALIGN="LEFT">Appliquer de l'électricité à ce papier unique révèle une recette d'arme spéciale.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Great Baggi Claw</TD>
+		<TD ALIGN="LEFT">Griffe gd.Baggi</TD>
+		<TD ALIGN="LEFT">Provient d'un de ces grands chefs de meute. Sert à fabriquer des armes.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">High-qualty Pelt</TD>
+		<TD ALIGN="LEFT">Peau gd qualité</TD>
+		<TD ALIGN="LEFT">La peau d'un petit animal. A de multiples usages, prin- cipalement les vêtements.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Popo Tongue</TD>
+		<TD ALIGN="LEFT">Langue de Popo</TD>
+		<TD ALIGN="LEFT">La langue de Popo est saine, appréciée, et amusante à manger. ~C05(Objet compté)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rhenoplos Shell</TD>
+		<TD ALIGN="LEFT">Carap. Rhenoplos</TD>
+		<TD ALIGN="LEFT">Carapace très forte si on considère le petit monstre dont elle provient.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rhenoplos Scalp</TD>
+		<TD ALIGN="LEFT">Scalp Rhenoplos</TD>
+		<TD ALIGN="LEFT">Partie solide du crâne qui produit, disons, de superbes résultats.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rheno Carapace</TD>
+		<TD ALIGN="LEFT">Cuira. Rhenoplos</TD>
+		<TD ALIGN="LEFT">Cuirasse très forte si on considère le petit monstre dont elle provient.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">BnahabraCarapace</TD>
+		<TD ALIGN="LEFT">Cuira. Bnahabra</TD>
+		<TD ALIGN="LEFT">Partie la plus dure de la carapace. Révèle d'étranges propriétés une fois forgée.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Monster Broth</TD>
+		<TD ALIGN="LEFT">Brouet monstre</TD>
+		<TD ALIGN="LEFT">Riche brouet à base d'épais fluides extraits sur des monstres.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Quality Sac</TD>
+		<TD ALIGN="LEFT">Poche qualité</TD>
+		<TD ALIGN="LEFT">Poche transparente découpée dans l'abdomen d'un Altaroth.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sleep Sac</TD>
+		<TD ALIGN="LEFT">Poche somnifère</TD>
+		<TD ALIGN="LEFT">Organe de monstre. Contient une poudre qui endort.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="16" ALIGN="LEFT">Coma Sac</TD>
+		<TD ALIGN="LEFT">Poche de coma</TD>
+		<TD ALIGN="LEFT">Organe de monstre. Contient une poudre dangereuse qui met dans le coma.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Baggi Hide</TD>
+		<TD ALIGN="LEFT">Cuir Baggi</TD>
+		<TD ALIGN="LEFT">Son habitat reculé donne plus de valeur à son cuir qu'à celui du Jaggi.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Baggi Scale</TD>
+		<TD ALIGN="LEFT">Écaille Baggi</TD>
+		<TD ALIGN="LEFT">Son habitat reculé donne plus de valeur à ses écail- les qu'à celles du Jaggi.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Great Baggi Hide</TD>
+		<TD ALIGN="LEFT">Cuir gd.Baggi</TD>
+		<TD ALIGN="LEFT">Son habitat reculé donne plus de valeur à son cuir qu'à celui du grand Jaggi.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Leader's Crest</TD>
+		<TD ALIGN="LEFT">Crête de chef</TD>
+		<TD ALIGN="LEFT">Montre qui est le chef des Baggis -- et montre que vous êtes un chasseur aguerri.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bird Wyvern Gem</TD>
+		<TD ALIGN="LEFT">Gem. Wyv.aviaire</TD>
+		<TD ALIGN="LEFT">Gemme de valeur de Jaggi et d'autres Wyverns aviaires.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Uroktor Scale</TD>
+		<TD ALIGN="LEFT">Écaille Uroktor</TD>
+		<TD ALIGN="LEFT">Écaille de monstre volca- nique. Très résistante au feu, mais de peu de valeur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Smith's Notebook</TD>
+		<TD ALIGN="LEFT">Carnet forgeron</TD>
+		<TD ALIGN="LEFT">Contient des recettes d'arme et des notes glanées du la- beur d'un forgeron zélé.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bird Wyvern Bone</TD>
+		<TD ALIGN="LEFT">Os Wyv.aviaire</TD>
+		<TD ALIGN="LEFT">Os de valeur de Jaggi et d'autres Wyverns aviaires. Petit mais de haute qualité.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Big Fin</TD>
+		<TD ALIGN="LEFT">Grande nageoire</TD>
+		<TD ALIGN="LEFT">De formes et tailles variées -- à chaque nageoire son usage.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Quality Fin</TD>
+		<TD ALIGN="LEFT">Nageoire qualité</TD>
+		<TD ALIGN="LEFT">De formes et tailles variées -- à chaque nageoire son usage.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sharpened Fang</TD>
+		<TD ALIGN="LEFT">Croc aiguisé</TD>
+		<TD ALIGN="LEFT">De formes et tailles variées -- à chaque croc son usage.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Velvety Hide</TD>
+		<TD ALIGN="LEFT">Cuir feutré</TD>
+		<TD ALIGN="LEFT">Le cuir de cette créature au poil doux est peu demandé, donc le prix sera bas.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Giggi Stinger</TD>
+		<TD ALIGN="LEFT">Dard Giggi</TD>
+		<TD ALIGN="LEFT">Petit dard qui libère un léger poison quand le Giggi suce le sang.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Commendation</TD>
+		<TD ALIGN="LEFT">Récompense</TD>
+		<TD ALIGN="LEFT">Ticket obtenu en faisant preuve de bravoure. Collectionnez-les. Ça paie.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bird Wyvern Claw</TD>
+		<TD ALIGN="LEFT">Grif.Wyv.aviaire</TD>
+		<TD ALIGN="LEFT">Griffe de Jaggi et d'autres Wyverns aviaires. Petite mais de haute qualité.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Barrel Bomb S+</TD>
+		<TD ALIGN="LEFT">Pt bombe baril+</TD>
+		<TD ALIGN="LEFT">Petite bombe baril améliorée puissante. Utilisable sous l'eau.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Felvine</TD>
+		<TD ALIGN="LEFT">Felvine</TD>
+		<TD ALIGN="LEFT">Les Melynx en raffolent. Ils ne peuvent s'empêcher d'en voler.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Steel Egg</TD>
+		<TD ALIGN="LEFT">Œuf d'acier</TD>
+		<TD ALIGN="LEFT">Œuf d'acier brillant. Très cher et très rare. Inutile pour un chasseur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Silver Egg</TD>
+		<TD ALIGN="LEFT">Œuf d'argent</TD>
+		<TD ALIGN="LEFT">Œuf d'argent brillant. Très cher et très rare. Inutile pour un chasseur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Golden Egg</TD>
+		<TD ALIGN="LEFT">Œuf d'or</TD>
+		<TD ALIGN="LEFT">Œuf d'or brillant. Extrêmement cher et rare. Inutile pour un chasseur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Incomplete Crown</TD>
+		<TD ALIGN="LEFT">Couronne incomp.</TD>
+		<TD ALIGN="LEFT">Couronne en or. Un trou suggère qu'il manque une gemme.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Crown's Gemstone</TD>
+		<TD ALIGN="LEFT">Gemme couronne</TD>
+		<TD ALIGN="LEFT">Pierre précieuse pure autrefois sur une couronne. A de la valeur seule.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Dazzling Crown</TD>
+		<TD ALIGN="LEFT">Couronne éclat.</TD>
+		<TD ALIGN="LEFT">Symbole sophistiqué de richesse brillant comme le soleil. Très prisé !</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Book of Combos 1</TD>
+		<TD ALIGN="LEFT">Tome de Combos 1</TD>
+		<TD ALIGN="LEFT">Texte d'introduction pour les combineurs novices. Augmente vos chances.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Book of Combos 2</TD>
+		<TD ALIGN="LEFT">Tome de Combos 2</TD>
+		<TD ALIGN="LEFT">Texte de base. Comme le 1, augmente vos chances de succès en combinaison.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Book of Combos 3</TD>
+		<TD ALIGN="LEFT">Tome de Combos 3</TD>
+		<TD ALIGN="LEFT">Texte de niveau moyen. Comme 1 et 2, augmente vos chances de succès en combinaison.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Book of Combos 4</TD>
+		<TD ALIGN="LEFT">Tome de Combos 4</TD>
+		<TD ALIGN="LEFT">Texte de niveau avancé. Com- me 1, 2 et 3, augmente vos chances de succès en combi.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Book of Combos 5</TD>
+		<TD ALIGN="LEFT">Tome de Combos 5</TD>
+		<TD ALIGN="LEFT">Texte de niveau pro. Comme 1, 2, 3 et 4, augmente vos chances de succès en combi.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Organizer Guide</TD>
+		<TD ALIGN="LEFT">Mag.organisateur</TD>
+		<TD ALIGN="LEFT">Numéro du célèbre magazine &quot;Vie de chasse&quot; parlant de la Boîte à objets.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Pack Rat Guide</TD>
+		<TD ALIGN="LEFT">Mag. paperassier</TD>
+		<TD ALIGN="LEFT">Numéro du célèbre magazine &quot;Vie de chasse&quot; parlant de l'entassement d'objets.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">EZ Barrel Bomb L</TD>
+		<TD ALIGN="LEFT">Gd bmb brl four.</TD>
+		<TD ALIGN="LEFT">Version améliorée de la Gd bmb baril. Très puissante. Subaqua. ~C05(Fourniture)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">UW Ballista Ammo</TD>
+		<TD ALIGN="LEFT">Mn baliste SM</TD>
+		<TD ALIGN="LEFT">Munition pour installation de Fusarbalète sous-marin.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rathalos Coin</TD>
+		<TD ALIGN="LEFT">Pièce Rathalos</TD>
+		<TD ALIGN="LEFT">Cadeau pour avoir vaincu un Rathalos dans l'Arène.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Gobul Coin</TD>
+		<TD ALIGN="LEFT">Pièce Gobul</TD>
+		<TD ALIGN="LEFT">Cadeau pour avoir vaincu un Gobul dans l'Arène.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Barioth Coin</TD>
+		<TD ALIGN="LEFT">Pièce Barioth</TD>
+		<TD ALIGN="LEFT">Cadeau pour avoir vaincu un Barioth dans l'Arène.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Hunter King Coin</TD>
+		<TD ALIGN="LEFT">Pièce roi chass.</TD>
+		<TD ALIGN="LEFT">Pièce d'argent donnée aux vrais chasseurs. Symbole de votre gloire.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Diablos Coin</TD>
+		<TD ALIGN="LEFT">Pièce Diablos</TD>
+		<TD ALIGN="LEFT">Cadeau pour avoir vaincu un Diablos dans l'Arène.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Deviljho Coin</TD>
+		<TD ALIGN="LEFT">Pièce Deviljho</TD>
+		<TD ALIGN="LEFT">Cadeau pour avoir vaincu un Deviljho dans l'Arène.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">HellHunter Tag</TD>
+		<TD ALIGN="LEFT">Plaque d'enfer</TD>
+		<TD ALIGN="LEFT">Preuve de votre survie à de nombreuses épreuves ; sert à créer des armures spéciales.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Dark Metal</TD>
+		<TD ALIGN="LEFT">Métal sombre</TD>
+		<TD ALIGN="LEFT">Métal inconnu de la toundra profonde qui aspire la vie de celui qui le touche.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Incomplete Plans</TD>
+		<TD ALIGN="LEFT">Plans incomplets</TD>
+		<TD ALIGN="LEFT">Recette d'une arme qui se- rait révolutionnaire...si elle était complète.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Lion King's Seal</TD>
+		<TD ALIGN="LEFT">Sceau roi lion</TD>
+		<TD ALIGN="LEFT">Sert à forger une arme uti- lisable juste par ceux qui achèvent une quête spéciale.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">SoulHunter Tag</TD>
+		<TD ALIGN="LEFT">Plaque d'âme</TD>
+		<TD ALIGN="LEFT">Badge d'honneur accordé aux vrais chasseurs ; sert à créer des armures spéciales.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Monster Bone+</TD>
+		<TD ALIGN="LEFT">Os de monstre+</TD>
+		<TD ALIGN="LEFT">Os de grande qualité. Dur à trouver, mais vital pour un équipement puissant.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Powercharm</TD>
+		<TD ALIGN="LEFT">Charme pouvoir</TD>
+		<TD ALIGN="LEFT">Amulette qui augmente l'Attaque. La porter confère la force d'un démon.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Powertalon</TD>
+		<TD ALIGN="LEFT">Griffe pouvoir</TD>
+		<TD ALIGN="LEFT">Amulette puissante qui augmente l'Attaque. Faite en griffe de Deviljho.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Armorcharm</TD>
+		<TD ALIGN="LEFT">Charme armure</TD>
+		<TD ALIGN="LEFT">Amulette qui augmente la Défense. La peau devient dure comme la pierre.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Armortalon</TD>
+		<TD ALIGN="LEFT">Griffe armure</TD>
+		<TD ALIGN="LEFT">Amulette puissante qui augmente l'Attaque. Faite en griffe de Deviljho.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bounce Bomb</TD>
+		<TD ALIGN="LEFT">Bombe rebond</TD>
+		<TD ALIGN="LEFT">Bombe modifiée qui rebondit en l'air quand on la lance. Habileté requise.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bounce Bomb+</TD>
+		<TD ALIGN="LEFT">Bombe rebond+</TD>
+		<TD ALIGN="LEFT">Bombe rebond améliorée. Habileté requise.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sharqskin</TD>
+		<TD ALIGN="LEFT">Peau requin</TD>
+		<TD ALIGN="LEFT">Peau d'un poisson carnivore de la côte Moga. Voulu pour son contact unique.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Conqueror's Seal</TD>
+		<TD ALIGN="LEFT">Sceau conquérant</TD>
+		<TD ALIGN="LEFT">Vrai badge d'honneur, preuve que vous avez passé bien des épreuves.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Golden Medallion</TD>
+		<TD ALIGN="LEFT">Médaillon or</TD>
+		<TD ALIGN="LEFT">Meuble offert par les dieux bienveillants aux guerriers aguerris.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Prize Gold Sword</TD>
+		<TD ALIGN="LEFT">Épée or récomp.</TD>
+		<TD ALIGN="LEFT">Meuble offert par les dieux de la guerre aux dirigeants mortels.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Great Jaggi Coin</TD>
+		<TD ALIGN="LEFT">Pièce gd Jaggi</TD>
+		<TD ALIGN="LEFT">Cadeau pour avoir vaincu un grand Jaggi dans l'Arène.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Qurupeco Coin</TD>
+		<TD ALIGN="LEFT">Pièce Qurupeco</TD>
+		<TD ALIGN="LEFT">Cadeau pour avoir vaincu un Qurupeco dans l'Arène.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Barroth Coin</TD>
+		<TD ALIGN="LEFT">Pièce Barroth</TD>
+		<TD ALIGN="LEFT">Cadeau pour avoir vaincu un Barroth dans l'Arène.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">R.Ludroth Coin</TD>
+		<TD ALIGN="LEFT">Pièce Ludroth R.</TD>
+		<TD ALIGN="LEFT">Cadeau pour avoir vaincu un Ludroth royal dans l'Arène.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Rathian Coin</TD>
+		<TD ALIGN="LEFT">Pièce Rathian</TD>
+		<TD ALIGN="LEFT">Cadeau pour avoir vaincu une Rathian dans l'Arène.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Lagiacrus Coin</TD>
+		<TD ALIGN="LEFT">Pièce Lagiacrus</TD>
+		<TD ALIGN="LEFT">Cadeau pour avoir vaincu un Lagiacrus dans l'Arène.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Uragaan Coin</TD>
+		<TD ALIGN="LEFT">Pièce Uragaan</TD>
+		<TD ALIGN="LEFT">Cadeau pour avoir vaincu un Uragaan dans l'Arène.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Wyvern Lord Coin</TD>
+		<TD ALIGN="LEFT">Pièce Seign.Wyv.</TD>
+		<TD ALIGN="LEFT"><BR></TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sea Lord Coin</TD>
+		<TD ALIGN="LEFT">Pièce Seign. mer</TD>
+		<TD ALIGN="LEFT"><BR></TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Pinnacle Coin</TD>
+		<TD ALIGN="LEFT">Pièce apogée</TD>
+		<TD ALIGN="LEFT">Pièce glorieuse donnée aux maîtres chasseurs. N'a pas de prix.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Antidote Jewel</TD>
+		<TD ALIGN="LEFT">Joyau antidote</TD>
+		<TD ALIGN="LEFT">Augmente le talent Poison.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Antidote Jewel+</TD>
+		<TD ALIGN="LEFT">Joyau antidote+</TD>
+		<TD ALIGN="LEFT">Augmente le talent Poison.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Paralysis Jewel</TD>
+		<TD ALIGN="LEFT">Joyau paralysie</TD>
+		<TD ALIGN="LEFT">Augmente le talent Paralysie.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Paralysis Jewel+</TD>
+		<TD ALIGN="LEFT">Joyau paralysie+</TD>
+		<TD ALIGN="LEFT">Augmente le talent Paralysie.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Pep Jewel</TD>
+		<TD ALIGN="LEFT">Joyau vitalité</TD>
+		<TD ALIGN="LEFT">Augmente le talent Sommeil.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Pep Jewel+</TD>
+		<TD ALIGN="LEFT">Joyau vitalité+</TD>
+		<TD ALIGN="LEFT">Augmente le talent Sommeil.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Steadfast Jewel</TD>
+		<TD ALIGN="LEFT">Joyau ténacité</TD>
+		<TD ALIGN="LEFT">Augmente le talent Étourdir.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Steadfast Jewel+</TD>
+		<TD ALIGN="LEFT">Joyau ténacité+</TD>
+		<TD ALIGN="LEFT">Augmente le talent Étourdir.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Weather Jewel</TD>
+		<TD ALIGN="LEFT">Joyau météo</TD>
+		<TD ALIGN="LEFT">Augmente le talent Boue/Neige.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Weather Jewel+</TD>
+		<TD ALIGN="LEFT">Joyau météo+</TD>
+		<TD ALIGN="LEFT">Augmente le talent Boue/Neige.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Ninja Jewel</TD>
+		<TD ALIGN="LEFT">Joyau ninja</TD>
+		<TD ALIGN="LEFT">Augmente le talent Discrétion.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Vitality Jewel</TD>
+		<TD ALIGN="LEFT">Joyau vitalité</TD>
+		<TD ALIGN="LEFT">Augmente le talent Santé.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Recovery Jewel</TD>
+		<TD ALIGN="LEFT">Joyau récup.</TD>
+		<TD ALIGN="LEFT">Augmente le talent Récupération.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Resurgence Jewel</TD>
+		<TD ALIGN="LEFT">Joyau résurgence</TD>
+		<TD ALIGN="LEFT">Augmente le talent Récupération.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Razor Jewel</TD>
+		<TD ALIGN="LEFT">Joyau rasoir</TD>
+		<TD ALIGN="LEFT">Augmente le talent Tranchant. ~C05(Épéiste)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Cutter Jewel</TD>
+		<TD ALIGN="LEFT">Joyau coupeur</TD>
+		<TD ALIGN="LEFT">Augmente le talent Tranchant. ~C05(Épéiste)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Handicraft Jewel</TD>
+		<TD ALIGN="LEFT">Joyau artisan</TD>
+		<TD ALIGN="LEFT">Augmente le talent Artisan. ~C05(Épéiste)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Architect Jewel</TD>
+		<TD ALIGN="LEFT">Joyau architecte</TD>
+		<TD ALIGN="LEFT">Augmente le talent Artisan. ~C05(Épéiste)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Fencer Jewel</TD>
+		<TD ALIGN="LEFT">Joyau escrimeur</TD>
+		<TD ALIGN="LEFT">Augmente le talent Escrime. ~C05(Épéiste)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Swordsman Jewel</TD>
+		<TD ALIGN="LEFT">Joyau bretteur</TD>
+		<TD ALIGN="LEFT">Augmente le talent Escrime. ~C05(Épéiste)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Expert Jewel</TD>
+		<TD ALIGN="LEFT">Joyau expert</TD>
+		<TD ALIGN="LEFT">Augmente le talent Expert.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Master Jewel</TD>
+		<TD ALIGN="LEFT">Joyau maître</TD>
+		<TD ALIGN="LEFT">Augmente le talent Expert.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Hermit Jewel</TD>
+		<TD ALIGN="LEFT">Joyau ermite</TD>
+		<TD ALIGN="LEFT">Augmente le talent Expert.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Grinder Jewel</TD>
+		<TD ALIGN="LEFT">Joyau pileur</TD>
+		<TD ALIGN="LEFT">Augmente le talent Aiguiseur. ~C05(Épéiste)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Stone Wall Jewel</TD>
+		<TD ALIGN="LEFT">Joyau muraille</TD>
+		<TD ALIGN="LEFT">Augmente le talent Garde.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Iron Wall Jewel</TD>
+		<TD ALIGN="LEFT">Joyau mur de fer</TD>
+		<TD ALIGN="LEFT">Augmente le talent Garde.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Shield Jewel</TD>
+		<TD ALIGN="LEFT">Joyau bouclier</TD>
+		<TD ALIGN="LEFT">Augmente le talent Paladin.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Aegis Jewel</TD>
+		<TD ALIGN="LEFT">Joyau égide</TD>
+		<TD ALIGN="LEFT">Augmente le talent Paladin.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Quickload Jewel</TD>
+		<TD ALIGN="LEFT">Joyau charg.rap.</TD>
+		<TD ALIGN="LEFT">Augmente le talent Recharger ~C05(Artilleur)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Flashload Jewel</TD>
+		<TD ALIGN="LEFT">Joyau charg.éclr</TD>
+		<TD ALIGN="LEFT">Augmente le talent Recharger ~C05(Artilleur)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Absorber Jewel</TD>
+		<TD ALIGN="LEFT">Joyau absorbeur</TD>
+		<TD ALIGN="LEFT">Augmente le talent Recul. ~C05(Artilleur)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">FlinchFree Jewel</TD>
+		<TD ALIGN="LEFT">Joyau immobile</TD>
+		<TD ALIGN="LEFT">Augmente le talent Recul. ~C05(Artilleur)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Forceshot Jewel</TD>
+		<TD ALIGN="LEFT">Joyau tir puiss.</TD>
+		<TD ALIGN="LEFT">Augmente le talent Normale G ~C05(Artilleur)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Forceshot Jewel+</TD>
+		<TD ALIGN="LEFT">Joyau tir puiss+</TD>
+		<TD ALIGN="LEFT">Augmente le talent Normale G ~C05(Artilleur)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Pierce Jewel</TD>
+		<TD ALIGN="LEFT">Joyau perçant</TD>
+		<TD ALIGN="LEFT">Augmente le talent Perçante G ~C05(Artilleur)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Pierce Jewel+</TD>
+		<TD ALIGN="LEFT">Joyau perçant +</TD>
+		<TD ALIGN="LEFT">Augmente le talent Perçante G ~C05(Artilleur)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Pellet Jewel</TD>
+		<TD ALIGN="LEFT">Joyau plomb</TD>
+		<TD ALIGN="LEFT">Augmente le talent Plomb G ~C05(Artilleur)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Pellet Jewel+</TD>
+		<TD ALIGN="LEFT">Joyau plomb +</TD>
+		<TD ALIGN="LEFT">Augmente le talent Plomb G ~C05(Artilleur)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">ShotPlus Jewel</TD>
+		<TD ALIGN="LEFT">Joyau bonus tir</TD>
+		<TD ALIGN="LEFT">Augmente le talent Normale + ~C05(Artilleur)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">ShotPlus Jewel+</TD>
+		<TD ALIGN="LEFT">Joyau bonus tir+</TD>
+		<TD ALIGN="LEFT">Augmente le talent Normale + ~C05(Artilleur)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">PiercPlus Jewel</TD>
+		<TD ALIGN="LEFT">Joyau bon. prc.</TD>
+		<TD ALIGN="LEFT">Augmente le talent Perçante + ~C05(Artilleur)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">PiercPlus Jewel+</TD>
+		<TD ALIGN="LEFT">Joyau bon. prc.+</TD>
+		<TD ALIGN="LEFT">Augmente le talent Perçante + ~C05(Artilleur)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">PelletPlus Jewel</TD>
+		<TD ALIGN="LEFT">Joyau bonus Plb</TD>
+		<TD ALIGN="LEFT">Augmente le talent Plomb + ~C05(Artilleur)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">CragPlus Jewel</TD>
+		<TD ALIGN="LEFT">Joyau bonusExpl.</TD>
+		<TD ALIGN="LEFT">Augmente le talent Explosive + ~C05(Artilleur)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">ClustPlus Jewel</TD>
+		<TD ALIGN="LEFT">Joyau bonus frag</TD>
+		<TD ALIGN="LEFT">Augmente le talent Frag. + ~C05(Artilleur)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Disabler Jewel</TD>
+		<TD ALIGN="LEFT">Joyau infirmant</TD>
+		<TD ALIGN="LEFT">Augmente le talent Statut.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Disabler Jewel+</TD>
+		<TD ALIGN="LEFT">Joyau infirmant+</TD>
+		<TD ALIGN="LEFT">Augmente le talent Statut.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Element Jewel</TD>
+		<TD ALIGN="LEFT">Joyau élément</TD>
+		<TD ALIGN="LEFT">Augmente le talent Élémental.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Element Jewel+</TD>
+		<TD ALIGN="LEFT">Joyau élément +</TD>
+		<TD ALIGN="LEFT">Augmente le talent Élémental.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Bombardier Jewel</TD>
+		<TD ALIGN="LEFT">Joyau bombardier</TD>
+		<TD ALIGN="LEFT">Augmente le talent Bombardier.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Lite Eater Jewel</TD>
+		<TD ALIGN="LEFT">Joyau allégé</TD>
+		<TD ALIGN="LEFT">Augmente le talent Appétit.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Hungerless Jewel</TD>
+		<TD ALIGN="LEFT">Joyau repu</TD>
+		<TD ALIGN="LEFT">Augmente le talent Appétit.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Metabolism Jewel</TD>
+		<TD ALIGN="LEFT">Joyau métabo.</TD>
+		<TD ALIGN="LEFT">Augmente le talent Gastronome.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Attack Jewel</TD>
+		<TD ALIGN="LEFT">Joyau attaque</TD>
+		<TD ALIGN="LEFT">Augmente le talent Attaque.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Assault Jewel</TD>
+		<TD ALIGN="LEFT">Joyau agression</TD>
+		<TD ALIGN="LEFT">Augmente le talent Attaque.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Onslaught Jewel</TD>
+		<TD ALIGN="LEFT">Joyau assaut</TD>
+		<TD ALIGN="LEFT">Augmente le talent Attaque.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Defense Jewel</TD>
+		<TD ALIGN="LEFT">Joyau défense</TD>
+		<TD ALIGN="LEFT">Augmente le talent Défense.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Turtle Jewel</TD>
+		<TD ALIGN="LEFT">Joyau tortue</TD>
+		<TD ALIGN="LEFT">Augmente le talent Défense.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Protection Jewel</TD>
+		<TD ALIGN="LEFT">Joyau protection</TD>
+		<TD ALIGN="LEFT">Augmente le talent Protection.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Asylum Jewel</TD>
+		<TD ALIGN="LEFT">Joyau asile</TD>
+		<TD ALIGN="LEFT">Augmente le talent Protection.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Earplug Jewel</TD>
+		<TD ALIGN="LEFT">Joyau bouchon</TD>
+		<TD ALIGN="LEFT">Augmente le talent Ouïe.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Silencer Jewel</TD>
+		<TD ALIGN="LEFT">Joyau silencieux</TD>
+		<TD ALIGN="LEFT">Augmente le talent Ouïe.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Alarm Jewel</TD>
+		<TD ALIGN="LEFT">Joyau alarme</TD>
+		<TD ALIGN="LEFT">Augmente le talent Antivol.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Friendship Jewel</TD>
+		<TD ALIGN="LEFT">Joyau amitié</TD>
+		<TD ALIGN="LEFT">Augmente le talent Soutien.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Alliance Jewel</TD>
+		<TD ALIGN="LEFT">Joyau alliance</TD>
+		<TD ALIGN="LEFT">Augmente le talent Soutien.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Transportr Jewel</TD>
+		<TD ALIGN="LEFT">Joyau transport</TD>
+		<TD ALIGN="LEFT">Augmente le talent Transporteur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Crimson Jewel</TD>
+		<TD ALIGN="LEFT">Joyau pourpre</TD>
+		<TD ALIGN="LEFT">Augmente le talent Feu.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Torrent Jewel</TD>
+		<TD ALIGN="LEFT">Joyau torrent</TD>
+		<TD ALIGN="LEFT">Augmente le talent Eau.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Storm Jewel</TD>
+		<TD ALIGN="LEFT">Joyau orage</TD>
+		<TD ALIGN="LEFT">Augmente le talent Foudre.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Glacier Jewel</TD>
+		<TD ALIGN="LEFT">Joyau glacier</TD>
+		<TD ALIGN="LEFT">Augmente le talent Glace.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Dragonbane Jewel</TD>
+		<TD ALIGN="LEFT">Joyau fléau drag</TD>
+		<TD ALIGN="LEFT">Augmente le talent Dragon.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Breeze Jewel</TD>
+		<TD ALIGN="LEFT">Joyau brise</TD>
+		<TD ALIGN="LEFT">Augmente le talent Chaleur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Warmth Jewel</TD>
+		<TD ALIGN="LEFT">Joyau chaleur</TD>
+		<TD ALIGN="LEFT">Augmente le talent Froid.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sandbag Jewel</TD>
+		<TD ALIGN="LEFT">Joyau sac sable</TD>
+		<TD ALIGN="LEFT">Augmente le talent Vent.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Anchor Jewel</TD>
+		<TD ALIGN="LEFT">Joyau ancre</TD>
+		<TD ALIGN="LEFT">Augmente le talent Vent.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Map Jewel</TD>
+		<TD ALIGN="LEFT">Joyau plan</TD>
+		<TD ALIGN="LEFT">Augmente le talent Carte.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Gathering Jewel</TD>
+		<TD ALIGN="LEFT">Joyau collecte</TD>
+		<TD ALIGN="LEFT">Augmente le talent Collecte.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Spree Jewel</TD>
+		<TD ALIGN="LEFT">Joyau Enchaîn.</TD>
+		<TD ALIGN="LEFT">Augmente le talent Chapardeur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Blessing Jewel</TD>
+		<TD ALIGN="LEFT">Joyau béni</TD>
+		<TD ALIGN="LEFT">Augmente le talent Lubie.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Fate Jewel</TD>
+		<TD ALIGN="LEFT">Joyau destin</TD>
+		<TD ALIGN="LEFT">Augmente le talent Destin.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Destiny Jewel</TD>
+		<TD ALIGN="LEFT">Joyau destinée</TD>
+		<TD ALIGN="LEFT">Augmente le talent Destin.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Fisher Jewel</TD>
+		<TD ALIGN="LEFT">Joyau pêcheur</TD>
+		<TD ALIGN="LEFT">Augmente le talent Pêche.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Psychic Jewel</TD>
+		<TD ALIGN="LEFT">Joyau psychique</TD>
+		<TD ALIGN="LEFT">Augmente le talent Clareté.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Medicine Jewel</TD>
+		<TD ALIGN="LEFT">Joyau remède</TD>
+		<TD ALIGN="LEFT">Augmente le talent Restauration.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Panacea Jewel</TD>
+		<TD ALIGN="LEFT">Joyau panacée</TD>
+		<TD ALIGN="LEFT">Augmente le talent Restauration.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Professor Jewel</TD>
+		<TD ALIGN="LEFT">Joyau professeur</TD>
+		<TD ALIGN="LEFT">Augmente le talent Inventeur.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Factory Jewel</TD>
+		<TD ALIGN="LEFT">Joyau usine</TD>
+		<TD ALIGN="LEFT">Augmente le talent Alchimiste.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Evade Jewel</TD>
+		<TD ALIGN="LEFT">Joyau évasion</TD>
+		<TD ALIGN="LEFT">Augmente le talent Évasion.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Lightfoot Jewel</TD>
+		<TD ALIGN="LEFT">Joyau pied léger</TD>
+		<TD ALIGN="LEFT">Augmente le talent Évasion.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Crisis Jewel</TD>
+		<TD ALIGN="LEFT">Joyau crise</TD>
+		<TD ALIGN="LEFT">Augmente le talent Potentiel.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Peril Jewel</TD>
+		<TD ALIGN="LEFT">Joyau danger</TD>
+		<TD ALIGN="LEFT">Augmente le talent Potentiel.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Enduring Jewel</TD>
+		<TD ALIGN="LEFT">Joyau durable</TD>
+		<TD ALIGN="LEFT">Augmente le talent Objets.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sprinter Jewel</TD>
+		<TD ALIGN="LEFT">Joyau sprinter</TD>
+		<TD ALIGN="LEFT">Augmente le talent Stamina.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Marathon Jewel</TD>
+		<TD ALIGN="LEFT">Joyau marathon</TD>
+		<TD ALIGN="LEFT">Augmente le talent Stamina.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Chamber Jewel</TD>
+		<TD ALIGN="LEFT">Joyau chambre</TD>
+		<TD ALIGN="LEFT">Augmente le talent Munitions. ~C05(Artilleur)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Magazine Jewel</TD>
+		<TD ALIGN="LEFT">Joyau magasin</TD>
+		<TD ALIGN="LEFT">Augmente le talent Munitions. ~C05(Artilleur)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Sniper Jewel</TD>
+		<TD ALIGN="LEFT">Joyau sniper</TD>
+		<TD ALIGN="LEFT">Augmente le talent  Précision. ~C05(Artilleur)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Gobbler Jewel</TD>
+		<TD ALIGN="LEFT">Joyau glouton</TD>
+		<TD ALIGN="LEFT">Augmente le talent Repas.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Voracious Jewel</TD>
+		<TD ALIGN="LEFT">Joyau vorace</TD>
+		<TD ALIGN="LEFT">Augmente le talent Repas.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Carver Jewel</TD>
+		<TD ALIGN="LEFT">Joyau découpeur</TD>
+		<TD ALIGN="LEFT">Augmente le talent Dépeçage.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Looter Jewel</TD>
+		<TD ALIGN="LEFT">Joyau pillard</TD>
+		<TD ALIGN="LEFT">Augmente le talent Dépeçage.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Footing Jewel</TD>
+		<TD ALIGN="LEFT">Joyau appui</TD>
+		<TD ALIGN="LEFT">Augmente le talent Séisme.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Tectonic Jewel</TD>
+		<TD ALIGN="LEFT">Joyau tectonique</TD>
+		<TD ALIGN="LEFT">Augmente le talent Séisme.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">BBQ Jewel</TD>
+		<TD ALIGN="LEFT">Joyau BBQ</TD>
+		<TD ALIGN="LEFT">Augmente le talent BBQ.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Jumping Jewel</TD>
+		<TD ALIGN="LEFT">Joyau de saut</TD>
+		<TD ALIGN="LEFT">Augmente le talent Esquive.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Leaping Jewel</TD>
+		<TD ALIGN="LEFT">Joyau de bond</TD>
+		<TD ALIGN="LEFT">Augmente le talent Esquive.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Draw Jewel</TD>
+		<TD ALIGN="LEFT">Joyau dégaine</TD>
+		<TD ALIGN="LEFT">Augmente le talent Critique ~C05(Épéiste)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Critical Jewel</TD>
+		<TD ALIGN="LEFT">Joyau critique</TD>
+		<TD ALIGN="LEFT">Augmente le talent Critique ~C05(Épéiste)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">TrapMaster Jewel</TD>
+		<TD ALIGN="LEFT">Joyau m. pièges</TD>
+		<TD ALIGN="LEFT">Augmente le talent Piége.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Workout Jewel</TD>
+		<TD ALIGN="LEFT">Joyau formation</TD>
+		<TD ALIGN="LEFT">Augmente le talent Constitution.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Physique Jewel</TD>
+		<TD ALIGN="LEFT">Joyau physique</TD>
+		<TD ALIGN="LEFT">Augmente le talent Constitution.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Tranq Jewel</TD>
+		<TD ALIGN="LEFT">Joyau tranq.</TD>
+		<TD ALIGN="LEFT">Augmente le talent Capture.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Capture Jewel</TD>
+		<TD ALIGN="LEFT">Joyau capture</TD>
+		<TD ALIGN="LEFT">Augmente le talent Capture.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Perception Jewel</TD>
+		<TD ALIGN="LEFT">Joyau perception</TD>
+		<TD ALIGN="LEFT">Augmente le talent Perception.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Charger Jewel</TD>
+		<TD ALIGN="LEFT">Joyau chargeur</TD>
+		<TD ALIGN="LEFT">Augmente le talent Charger. ~C05(Épéiste)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Dynamo Jewel</TD>
+		<TD ALIGN="LEFT">Joyau dynamo</TD>
+		<TD ALIGN="LEFT">Augmente le talent Charger. ~C05(Épéiste)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Fresh Air Jewel</TD>
+		<TD ALIGN="LEFT">Joyau air frais</TD>
+		<TD ALIGN="LEFT">Augmente le talent Oxygène.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Upstream Jewel</TD>
+		<TD ALIGN="LEFT">Joyau amont</TD>
+		<TD ALIGN="LEFT">Augmente le talent Courant.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Swimmer Jewel</TD>
+		<TD ALIGN="LEFT">Joyau nageur</TD>
+		<TD ALIGN="LEFT">Augmente le talent Natation.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Diver Jewel</TD>
+		<TD ALIGN="LEFT">Joyau plongeur</TD>
+		<TD ALIGN="LEFT">Augmente le talent Natation.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Gambit Jewel</TD>
+		<TD ALIGN="LEFT">Joyau tactique</TD>
+		<TD ALIGN="LEFT">Augmente le talent Punition. ~C05(Épéiste)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Checkmate Jewel</TD>
+		<TD ALIGN="LEFT">J. échec et mat</TD>
+		<TD ALIGN="LEFT">Augmente le talent Punition. ~C05(Épéiste)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Resistor Jewel</TD>
+		<TD ALIGN="LEFT">Joyau résistance</TD>
+		<TD ALIGN="LEFT">Augmente le talent Fléau.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Release Jewel</TD>
+		<TD ALIGN="LEFT">Joyau libération</TD>
+		<TD ALIGN="LEFT">Augmente le talent Réveil. ~C05(Épéiste)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Catalyst Jewel</TD>
+		<TD ALIGN="LEFT">Joyau catalyste</TD>
+		<TD ALIGN="LEFT">Augmente le talent Réveil. ~C05(Épéiste)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Guts Jewel</TD>
+		<TD ALIGN="LEFT">Joyau boyaux</TD>
+		<TD ALIGN="LEFT">Augmente le talent Survivant.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Fortitude Jewel</TD>
+		<TD ALIGN="LEFT">Joyau courage</TD>
+		<TD ALIGN="LEFT">Augmente le talent Survivant.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Salvo Jewel</TD>
+		<TD ALIGN="LEFT">Joyau salve</TD>
+		<TD ALIGN="LEFT">Augmente le talent Sniper. ~C05(Artilleur)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Fusillade Jewel</TD>
+		<TD ALIGN="LEFT">Joyau fusillade</TD>
+		<TD ALIGN="LEFT">Augmente le talent Sniper. ~C05(Artilleur)</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Dung Jewel</TD>
+		<TD ALIGN="LEFT">Joyau bouse</TD>
+		<TD ALIGN="LEFT">Augmente le talent Bousier.</TD>
+	</TR>
+	<TR>
+		<TD HEIGHT="17" ALIGN="LEFT">Torchlight Jewel</TD>
+		<TD ALIGN="LEFT">Joyau torche</TD>
+		<TD ALIGN="LEFT">Augmente le talent Aura de feu.</TD>
+	</TR>
+</TABLE>
+<!-- ************************************************************************** -->
+</BODY>
+
+</HTML>

@@ -1,0 +1,746 @@
+Barrel Bomb S	Pt bombe baril
+Barrel Bomb L	Gd bombe baril
+Pitfall Trap	Fosse piégée
+Shock Trap	Piège à choc
+Flash Bomb	Bombe flash
+Oxygen Supply	Bonbonne oxygène
+Sonic Bomb	Bombe sonique
+Throwing Knife	Cout. de lancer
+Poison Knife	Couteau poison
+Sleep Knife	Cout. somnifère
+Paralysis Knife	Cout. paralysant
+Tranq Knife	Cout. tranq.
+Potion	Potion
+Mega Potion	Méga potion
+Dash Juice	Jus d'énergie
+Mega Dash Juice	Méga jus énergie
+Antidote	Antidote
+Demondrug	Drogue du démon
+Mega Demondrug	Méga drogue dém.
+Might Pill	Pilule pouvoir
+Armorskin	Peau armure
+Mega Armorskin	Méga peau armure
+Adamant Pill	Pilule armure
+Cool Drink	Breuvage frais
+Hot Drink	Breuvage chaud
+Well-done Steak	Steak à point
+Rare Steak	Steak saignant
+Burnt Meat	Viande brûlée
+Raw Meat	Viande crue
+Poisoned Meat	Viande poison
+Tinged Meat	Viande teintée
+Drugged Meat	Viande droguée
+Paintball	Marqueur
+Old Pickaxe	Vieille pioche
+Iron Pickaxe	Pioche de fer
+Mega Pickaxe	Méga pioche
+Old Bug Net	Vieux Filinsecte
+Bug Net	Filinsecte
+Mega Bug Net	Méga Filinsecte
+BBQ Spit	Broche BBQ
+Great Jaggi Head	Tête de gd Jaggi
+Map	Carte
+Torch	Torche
+First-aid Med	Premiers soins
+Ration	Ration
+Mini Oxy Supply	Mini bonb. oxy.
+Portable Spit	Broche portable
+Mini Whetstone	Mini aiguisoir
+EZ Shock Trap	Piège choc port.
+EZ Flash Bomb	Flash bmb four.
+Max Potion	Potion max
+Barrel Bomb L+	Gd bombe baril+
+Normal S Lv1	Mn Normale Nv1
+Normal S Lv2	Mn Normale Nv2
+Normal S Lv3	Mn Normale Nv3
+Pierce S Lv1	Mn Perç. Nv1
+Pierce S Lv2	Mn Perç. Nv2
+Pierce S Lv3	Mn Perç. Nv3
+Pellet S Lv1	Mn Plomb Nv1
+Pellet S Lv2	Mn Plomb Nv2
+Pellet S Lv3	Mn Plomb Nv3
+Crag S Lv1	Mn Explos. Nv1
+Crag S Lv2	Mn Explos. Nv2
+Crag S Lv3	Mn Explos. Nv3
+Clust S Lv1	Mn Frag. Nv1
+Clust S Lv2	Mn Frag. Nv2
+Clust S Lv3	Mn Frag. Nv3
+Flaming S	Mn Enflammée
+Water S	Mn Aquatique
+Thunder S	Mn Foudre
+Freeze S	Mn Gel
+Dragon S	Mn Dragon
+Recov S Lv1	Mn Guér. Nv1
+Recov S Lv2	Mn Guér. Nv2
+Poison S Lv1	Mn Poison Nv1
+Poison S Lv2	Mn Poison Nv2
+Para S Lv1	Mn Para Nv1
+Para S Lv2	Mn Para Nv2
+Sleep S Lv1	Mn Sommeil Nv1
+Sleep S Lv2	Mn Sommeil Nv2
+Tranq S	Mn Tranq.
+Paint S	Mn Marqueur
+Demon S I	Mn Démon I
+Demon S II	Mn Démon II
+Armor S I	Mn Armure I
+Armor S II	Mn Armure II
+Sub S Lv1	Mn SM Nv1
+Sub S Lv2	Mn SM Nv2
+Exhaust S	Mn Épuis.
+ERR89	ERR89
+Slicing S	Mn Tranchante
+WyvernFire Lv1	Feu Wyv. Nv1
+WyvernFire Lv2	Feu Wyv. Nv2
+WyvernFire Lv3	Feu Wyv. Nv3
+Binoculars	Jumelles
+Tranq Bomb	Bombe tranq
+Stone	Pierre
+Whetstone	Aiguisoir
+Iron Ore	Minerai de fer
+Earth Crystal	Cristal de terre
+Machalite Ore	Miner. Machalite
+Dragonite Ore	Miner. Dragonite
+Carbalite Ore	Miner. Carbalite
+Pelagicite Ore	Mine. Pelagicite
+Bathycite Ore	Miner. Bathycite
+Firestone	Pierre-feu
+Ice Crystal	Cristal glacé
+Lightcrystal	Cristal lumière
+Sharq Ticket	Ticket Requin
+Rustshard	Rouille-éclat
+Ancient Shard	Ancien éclat
+Isisium	Isisium
+Gracium	Gracium
+ERR113	ERR113
+Godbug	Insecte-dieu
+Bitterbug	Amerinsecte
+Flashbug	Flashinsecte
+Thunderbug	Foudrinsecte
+Gluehopper	Saute-colle
+Killer Beetle	Scarabée tueur
+Rare Scarab	Scarabée rare
+Royal Rhino	Rhino royal
+Herb	Herbe
+Antidote Herb	Herbe antidote
+Sleep Herb	Herbe sommeil
+Fire Herb	Herbe de feu
+Sap Plant	Plante à sève
+Paintberry	Baie-peinture
+Needleberry	Baiguille
+Huskberry	Baie-coque
+Scatternut	Frag-noix
+Bomberry	Bombaie
+Ivy	Lierre
+Might Seed	Graine pouvoir
+Adamant Seed	Graine armure
+Hot Pepper	Piment fort
+Cactus Flower	Fleur de cactus
+Airweed	Herbe d'air
+Wyvern Egg	Œuf de Wyvern
+Unknown Skull	Crâne inconnu
+Honey	Miel
+Blue Mushroom	Champi bleu
+Choice Mushroom	Champi sélection
+Unique Mushroom	Champi unique
+Exciteshroom	Champexciteur
+Parashroom	Champaralysie
+Nitroshroom	Champinitro
+ERR147	ERR147
+Black Pearl	Perle noire
+Jumbo Pearl	Perle Jumbo
+Broken Shell	Carapace cassée
+Dragonbone Relic	Relique os drag.
+Monster Bone S	Os monstre petit
+Monster Bone M	Os monstre moyen
+Monster Bone L	Os monstre grand
+ERR155	ERR155
+Eldest Saturnian	Ancien Saturnien
+ERR157	ERR157
+ERR158	ERR158
+ERR159	ERR159
+ERR160	ERR160
+ERR161	ERR161
+ERR162	ERR162
+Hercudrome	Hercudrome
+ERR164	ERR164
+Chilled Meat	Viande fraîche
+Hot Meat	Viande chaude
+ERR167	ERR167
+Rathian Scale+	Écaille Rathian+
+Rathian Carapace	Cuirasse Rathian
+Rath Medulla	Medulla Rath
+Rathian Spike+	Pointe Rathian+
+Rathian Ruby	Rubis Rathian
+Rathalos Ruby	Rubis Rathalos
+Inferno Sac	Poche infernale
+Rathalos Scale+	Écail. Rathalos+
+RathalosCarapace	Cuiras. Rathalos
+Qurupeco Scale+	Écail. Qurupeco+
+ERR178	ERR178
+Wonderful Beak	Bec merveilleux
+Unnerving Talon	Serre redoutable
+Fearsome Maw	Gueule terrif.
+Wyvern Stone	Pierre de Wyvern
+Freezer Sac	Poche de gel
+Wyvrnhide Ticket	Ticket cuir wyv.
+Black Gem Ticket	Tckt gemme noire
+Flabby Hide+	Cuir flasque+
+Uncanny Hide+	Cuir étrange+
+Toxin Sac	Poche de toxine
+Unnerving Talon+	Serre redout.+
+Stunning Quill	Plume étourdi.
+Pittance Fang	Croc de pitance
+Vermilion Scale	Écail. vermillon
+Fishing Harpoon	Harpon de pêche
+Insect Husk	Coque d'insecte
+Bone	Os
+Dung	Bouse
+Spider Web	Toile d'araignée
+Bomb Casing	Gaine bombe
+Small Barrel	Petit baril
+Large Barrel	Grand baril
+Cricket	Grillon
+Worm	Ver
+Firefly	Luciole
+Mega Fishing Fly	Méga mouche
+Frog	Grenouille
+Whetfish	Poissaiguiseur
+Sushifish	Sushipoisson
+Pin Tuna	Pointhon
+Popfish	Poisséclate
+Sleepyfish	Somnipoisson
+Burst Arowana	Arowana éclat
+Bomb Arowana	Arowana bombe
+Glutton Tuna	Thon glouton
+Scatterfish	Frag-poisson
+Small Goldenfish	Pt Poissondor
+Goldenfish	Poissondor
+ERR217	ERR217
+Beautiful Scale	Jolie écaille
+Giant Skull	Crâne géant
+Pirate Booty	Butin de pirate
+Net	Filet
+No Item	Pas d'objet
+Shroom Germ	Champigerme
+BugMaker! Pro	Pro des insectes
+Bizzy Bees	Abeilles actives
+Saturnian	Saturnien
+Fortune Fang	Croc de fortune
+Shining Starfish	Étoile brillante
+Mystic Narwhal	Narval mystique
+Atlantis Crab	Crabe d'Atlantis
+Gold Needle	Aiguille en or
+Armorfish Morsel	Mrc. Poissarmure
+Fish Finder	Trouve-poisson
+Treasure Tracker	Marqueur trésor
+Spare Spear	Lance de secours
+Perfect Paddle	Rame parfaite
+Shroom Germ+	Champigerme +
+Pink Liver	Foie rose
+Ethnic Wyvrnmeat	Viand.wyv. ethnq
+Ancient Skin Oil	Huil.peau ancie.
+Queen's Spirit	Esprit reine
+ERR242	ERR242
+Funky Pheromones	Super phéromones
+Saturnian Trap	Piège Saturnien
+ERR245	ERR245
+Super-sized Dung	Bouse démesurée
+Fine Pelt	Belle peau
+Moonlight Fang	Croc clair lune
+Queen Needle	Aiguille reine
+Power Paddle	Rame puissante
+Curved Fang	Croc courbé
+Flamboyant Quill	Plume flamboy.
+Glittering Scale	Écail. éclatante
+Sea-King's Scale	Écaille roi mer
+Wyverngold	Or Wyvern
+ERR256	ERR256
+ERR257	ERR257
+ERR258	ERR258
+ERR259	ERR259
+ERR260	ERR260
+ERR261	ERR261
+ERR262	ERR262
+Felvine Bomb	Bombe Felvine
+Double BBQ Spit	Db. broche BBQ
+Dragonbone Piece	Morc. os dragon
+Abalone Piece	Morc. d'Abalone
+Fossil Piece	Morc. de fossile
+Odd Egg	Œuf bizarre
+Mystery Bone	Os mystère
+ERR270	ERR270
+ERR271	ERR271
+Herbal Medicine	Phyto médicament
+Rathian Scale	Écaille Rathian
+Rathian Shell	Carapace Rathian
+Rathian Webbing	Palmure Rathian
+Rathian Spike	Pointe Rathian
+Rathian Plate	Plaque Rathian
+Flame Sac	Poche de flamme
+Wyvern Tear	Larmes de Wyvern
+Rathalos Scale	Écaille Rathalos
+Rathalos Shell	Carapa. Rathalos
+Rathalos Webbing	Palmure Rathalos
+Rath Marrow	Moelle Rath
+Rathalos Plate	Plaque Rathalos
+Rathalos Tail	Queue Rathalos
+Qurupeco Scale	Écail. Qurupeco
+Qurupeco Feather	Plume Qurupeco
+Vivid Feather	Plume vive
+Strange Beak	Bec étrange
+Flabby Hide	Cuir flasque
+Uncanny Hide	Cuir étrange
+Poison Sac	Poche de poison
+Pale Extract	Extrait pâle
+Diablos Fang	Croc Diablos
+Diablos Shell	Carapace Diablos
+Diablos Ridge	Vertèbre Diablos
+Diablos Tailcase	Étui queue Diab.
+Barroth Shell	Carapace Barroth
+Barroth Ridge	Vertèbre Barroth
+Barroth Claw	Griffe Barroth
+Barroth Tail	Queue Barroth
+Barroth Scalp	Scalp Barroth
+Bird Wyvern Fang	Croc wyv.aviaire
+Jaggi Hide	Cuir Jaggi
+Jaggi Scale	Écaille Jaggi
+Great Jaggi Claw	Griffe gd.Jaggi
+Great Jaggi Hide	Cuir gd.Jaggi
+Screamer	Hurleur
+Lagiacrus Hide	Cuir Lagiacrus
+Lagiacrus Scale	Écail. Lagiacrus
+Lagiacrus Claw	Griffe Lagiacrus
+Shell Shocker+	Électricarapace+
+Lagiacrus Tail	Queue Lagiacrus
+Lagiacrus Plate	Plaque Lagiacrus
+Spongy Hide	Cuir spongieux
+R.Ludroth Scale	Écail.Ludroth R.
+R.Ludroth Claw	Grif.Ludroth R.
+R.Ludroth Tail	Queue Ludroth R.
+Dash Extract	Extrait sprint
+Hydro Hide	Cuir aquatique
+Immature Sponge	Éponge immature
+Gobul Spike	Pointe Gobul
+Gobul Hide	Cuir Gobul
+Paralysis Sac	Poche paralysie
+Gobul Fin	Nageoire Gobul
+Armor Sphere	Sphère d'armure
+Armor Sphere+	Sphère d'armure+
+Gobul Lantern	Lanterne Gobul
+Warm Pelt	Peau chaude
+Nutrients	Nutriments
+Mega Nutrients	Méga nutriments
+Dragon Toadstool	Champi dragon
+Immunizer	Immunisateur
+Catalyst	Catalyseur
+Bomb Sac	Poche bombe
+Kelbi Horn	Corne de Kelbi
+Blue Kelbi Horn	Corn.Kelbi bleue
+Bnahabra Shell	Carapa. Bnahabra
+Bnahabra Wing	Aile Bnahabra
+Monster Fluid	Fluide monstre
+Bone Husk S	Pt coque d'os
+Bone Husk L	Gd coque d'os
+Toadstool	Champi vénéneux
+Smoke Bomb	Bombe de fumée
+Poison Smoke Bmb	Bombe de poison
+Dung Bomb	Bombe de bouse
+Gunpowder	Poudre
+Trap Tool	Pose-piège
+Yambug	Patatinsecte
+Tuna Bait	Appât pour thon
+Bughopper	Insecte sauteur
+Arowana Bait	Appât Arowana
+Snakebee Larva	Larve-serpent
+Goldenfish Bait	Appât Poissondor
+Antiseptic Stone	Pierre antisept.
+Wyvern Fang	Croc de Wyvern
+Lifecrystals	Cristaux de vie
+Wyvern Claw 	Griffe de Wyvern
+Lifepowder	Poudre de vie
+Hunting Horn	Corne de chasse
+Health Horn	Corne de Santé
+Antidote Horn	Corne antidote
+Demon Horn	Corne du démon
+Armor Horn	Corne armure
+Farcaster	Transporteur
+Tranquilizer	Tranquillisant
+Dragonfell Berry	Baie dragon
+ERR368	ERR368
+ERR369	ERR369
+ERR370	ERR370
+ERR371	ERR371
+ERR372	ERR372
+Energy Drink	Breuvage énergie
+Cleanser	Nettoyant
+Garbage	Déchet
+Ancient Potion	Potion antique
+Psychoserum	Sérum psy
+Agnaktor Coin	Pièce Agnaktor
+Ballista Ammo	Mn Baliste
+Cannon Ammo	Mn Canon
+Powderstone	Pierre-poudre
+Anti-dragon Bomb	Bombe antidragon
+Ballista Binder	Baliste agglom.
+Rath Talon	Griffe Rath
+Twisted Horn	Corne tordue
+Majestic Horn	Corne grandiose
+Mega Harpoon	Méga harpon
+Whetfish Bait	App. Poissaiguis
+Sushifish Bait	App. Sushipoiss.
+Firedouse Berry	Baie-extincteur
+Waterblock Seed	Baie-barrage
+Icethaw Pellet	Plomb-dégel
+Stormsender Seed	Graine-orage
+Herbivore Egg	Œuf d'herbivore
+Crystal Bone	Os cristal
+Golden Bone	Os en or
+Air Philter	Filtre à air
+Mega Air Philter	Méga filtre air
+Altaroth Stomach	Estomac Altaroth
+Altaroth Jaw	Mâch. Altaroth
+Ripened Mushroom	Champi mature
+R.Ludroth Crest	Crête Ludroth R.
+Barioth Shell	Carapace Barioth
+Barioth Pelt	Peau Barioth
+Amber Tusks	Défenses ambre
+Barioth Claw	Griffe Barioth
+Barioth Spike	Pointe Barioth
+Frost Sac	Poche de givre
+Uragaan Shell	Carapace Uragaan
+Uragaan Scute	Scutum Uragaan
+Uragaan Marrow	Moelle Uragaan
+Uragaan Jaw	Mâchoire Uragaan
+Agnaktor Shell	Carapa. Agnaktor
+Agnaktor Hide	Cuir Agnaktor
+Agnaktor Fin	Nageoi. Agnaktor
+Agnaktor Claw	Griffe Agnaktor
+Agnaktor Scale	Écaille Agnaktor
+Agnaktor Beak	Bec Agnaktor
+King's Frill	Collerette roi
+Fertile Mud	Boue fertile
+Gobul Whisker	Moustache Gobul
+Shell Shocker	Électricarapace
+Lagiacrus Horn	Corne Lagiacrus
+Flintstone	Silex
+Barioth Tail	Queue Barioth
+Bloodstone	Pierre-sang
+Paw Pass Ticket	Ticket Passechat
+Monster Guts	Boyaux monstre
+Red Coral Stone	Corail rouge
+Voucher	Coupon
+Gourmet Voucher	Coupon gourmet
+Alatreon Scute	Scutum Alatreon
+Alatreon Plate	Plaque Alatreon
+Alatreon Talon	Griffe Alatreon
+Azure Dragongem	Gem.dragon azur
+Skypiercer	Perce-ciel
+BBQ with Mask	BBQ avec masque
+No Mask	Pas de masque
+Mystery Charm	Charme mystère
+Shining Charm	Charme brillant
+Timeworn Charm	Charme vétuste
+Armor Stone	Pierre d'armure
+Adv Armor Sphere	Sph. armure avc
+Hrd Armor Sphere	Sph. armure dure
+Hvy Armor Sphere	Sph. armure lrde
+Aquaglow Jewel	J. reflet aqua
+Sunspire Jewel	J.flèche solaire
+Bloodrun Jewel	Joyau de sang
+Lazurite Jewel	Joyau Lazurite
+Barioth Carapace	Cuirasse Barioth
+Barioth Pelt+	Peau Barioth+
+Amber Tusks+	Défenses ambre+
+Barioth Claw+	Griffe Barioth+
+Diablos Marrow	Moelle Diablos
+Diablos Carapace	Cuirasse Diablos
+Diablos Ridge	Vertèbre Diablos
+Stout Horn	Corne épaisse
+Ceadeus Hide	Cuir Ceadeus
+Ceadeus Scale	Écaille Ceadeus
+Ceadeus Fur	Fourrure Ceadeus
+Ceadeus Tail	Queue Ceadeus
+Luminous Organ	Organe lumineux
+Deep Dragongem	Gem.dragon prof.
+Crooked Horn	Corne courbée
+ElderDragonBlood	Sang Anc. dragon
+Mohran Shell	Carapace Mohran
+Mohran Brace	Attelle Mohran
+Mohran Scale	Écaille Mohran
+Sturdy Fang	Croc solide
+Earth Dragongem	Gem.dragon terre
+Mohran Carapace	Cuirasse Mohran
+Mohran Scale+	Écaille Mohran+
+Sturdy Fang+	Croc solide+
+Mohran Brace+	Attelle Mohran+
+Barroth Carapace	Carapace Barroth
+Barroth Ridge+	Vert. Barroth+
+Barroth Claw+	Griffe Barroth+
+Uragaan Scale	Écaille Uragaan
+Uragaan Scale+	Écaille Uragaan+
+Uragaan Ruby	Rubis Uragaan
+Uragaan Carapace	Cuirasse Uragaan
+Deviljho Hide	Cuir Deviljho
+Deviljho Scale	Écaille Deviljho
+Deviljho Talon	Griffe Deviljho
+Deviljho Fang	Croc Deviljho
+Deviljho Gem	Gemme Deviljho
+Deviljho Scalp	Scalp Deviljho
+Deviljho Tail	Queue Deviljho
+Quality Sponge	Éponge qualité
+Spongy Hide+	Cuir spongieux+
+R.Ludroth Scale+	Écai.Ludroth R.+
+R.Ludroth Claw+	Grif.Ludroth R.+
+R.Ludroth Crest+	Crt Ludroth R.+
+Gobul Spike+	Pointe Gobul+
+Gobul Hide+	Cuir Gobul+
+Gobul Lantern+	Lanterne Gobul+
+Gobul Fin+	Nageoire Gobul+
+Lagiacrus Hide+	Cuir Lagiacrus+
+Lagiacrus Scale+	Écail.Lagiacrus+
+Lagiacrus Claw+	Grif. Lagiacrus+
+Lagiacrus Horn+	Corne Lagiacrus+
+Lagia Sapphire	Saphir Lagia
+Agnaktor Tail	Queue Agnaktor
+AgnaktorCarapace	Cuiras. Agnaktor
+Agnaktor Hide+	Cuir Agnaktor+
+Agnaktor Fin+	Nageo. Agnaktor+
+Agnaktor Claw+	Griffe Agnaktor+
+Firecell Stone	Pierre-lave
+Brkn Skypiercer	Perce-ciel brisé
+Alatreon Tail	Queue Alatreon
+Alatreon Webbing	Palmure Alatreon
+Kelbi Horn Objet	Obj. corne Kelbi
+Twstd Horn Objet	Obj. corn.tordue
+MohranFang Objet	Obj. croc Mohran
+Piggie	Cochonnet
+Eggie Piggie	Cochonnet-œuf
+Rath Piggie	Cochonnet-rath
+Sandstone Plant	Plante en grès
+Marshland Plant	Plante marais
+Snowflake Plant	Plante flocon
+Prismshroom Lamp	Lampe champrisme
+Qurupeco Lamp	Lampe Qurupeco
+Sirensea Lamp	Lampe sirène
+Oceanic Fountain	Fontaine océan.
+Bubbly Fountain	Fontaine pétill.
+Magma Fountain	Fontaine magma
+Iron Figure	Sculpture en fer
+Machalite Figure	Sculp. Machalite
+Dragonite Figure	Sculp. Dragonite
+Model Sandskiff	Maq. bat. sable
+Model Airship	Maq. dirigeable
+Model Piggieship	Maq. bat. coch.
+Guildie (Red)	Mb guilde (Rg)
+Guildie (Green)	Mb guilde (Vt)
+Guildie (Blue)	Mb guilde (Bl)
+Great Piggie	Grand cochonnet
+Qurupeco Wing	Aile Qurupeco
+Jaggi Hide+	Cuir Jaggi+
+Lightning Ticket	Ticket éclair
+Great Baggi Claw	Griffe gd.Baggi
+High-qualty Pelt	Peau gd qualité
+Popo Tongue	Langue de Popo
+Rhenoplos Shell	Carap. Rhenoplos
+Rhenoplos Scalp	Scalp Rhenoplos
+Rheno Carapace	Cuira. Rhenoplos
+BnahabraCarapace	Cuira. Bnahabra
+Monster Broth	Brouet monstre
+Quality Sac	Poche qualité
+Sleep Sac	Poche somnifère
+Coma Sac	Poche de coma
+Baggi Hide	Cuir Baggi
+Baggi Scale	Écaille Baggi
+Great Baggi Hide	Cuir gd.Baggi
+Leader's Crest	Crête de chef
+Bird Wyvern Gem	Gem. Wyv.aviaire
+Uroktor Scale	Écaille Uroktor
+Smith's Notebook	Carnet forgeron
+Bird Wyvern Bone	Os Wyv.aviaire
+Big Fin	Grande nageoire
+Quality Fin	Nageoire qualité
+Sharpened Fang	Croc aiguisé
+Velvety Hide	Cuir feutré
+Giggi Stinger	Dard Giggi
+Commendation	Récompense
+Bird Wyvern Claw	Grif.Wyv.aviaire
+Barrel Bomb S+	Pt bombe baril+
+Felvine	Felvine
+Steel Egg	Œuf d'acier
+Silver Egg	Œuf d'argent
+Golden Egg	Œuf d'or
+Incomplete Crown	Couronne incomp.
+Crown's Gemstone	Gemme couronne
+Dazzling Crown	Couronne éclat.
+Book of Combos 1	Tome de Combos 1
+Book of Combos 2	Tome de Combos 2
+Book of Combos 3	Tome de Combos 3
+Book of Combos 4	Tome de Combos 4
+Book of Combos 5	Tome de Combos 5
+Organizer Guide	Mag.organisateur
+Pack Rat Guide	Mag. paperassier
+EZ Barrel Bomb L	Gd bmb brl four.
+UW Ballista Ammo	Mn baliste SM
+Rathalos Coin	Pièce Rathalos
+Gobul Coin	Pièce Gobul
+Barioth Coin	Pièce Barioth
+Hunter King Coin	Pièce roi chass.
+Diablos Coin	Pièce Diablos
+Deviljho Coin	Pièce Deviljho
+HellHunter Tag	Plaque d'enfer
+Dark Metal	Métal sombre
+Incomplete Plans	Plans incomplets
+Lion King's Seal	Sceau roi lion
+SoulHunter Tag	Plaque d'âme
+Monster Bone+	Os de monstre+
+Powercharm	Charme pouvoir
+Powertalon	Griffe pouvoir
+Armorcharm	Charme armure
+Armortalon	Griffe armure
+Bounce Bomb	Bombe rebond
+Bounce Bomb+	Bombe rebond+
+Sharqskin	Peau requin
+Conqueror's Seal	Sceau conquérant
+Golden Medallion	Médaillon or
+Prize Gold Sword	Épée or récomp.
+Great Jaggi Coin	Pièce gd Jaggi
+Qurupeco Coin	Pièce Qurupeco
+Barroth Coin	Pièce Barroth
+R.Ludroth Coin	Pièce Ludroth R.
+Rathian Coin	Pièce Rathian
+Lagiacrus Coin	Pièce Lagiacrus
+Uragaan Coin	Pièce Uragaan
+Wyvern Lord Coin	Pièce Seign.Wyv.
+Sea Lord Coin	Pièce Seign. mer
+Pinnacle Coin	Pièce apogée
+Antidote Jewel	Joyau antidote
+Antidote Jewel+	Joyau antidote+
+Paralysis Jewel	Joyau paralysie
+Paralysis Jewel+	Joyau paralysie+
+Pep Jewel	Joyau vitalité
+Pep Jewel+	Joyau vitalité+
+Steadfast Jewel	Joyau ténacité
+Steadfast Jewel+	Joyau ténacité+
+Weather Jewel	Joyau météo
+Weather Jewel+	Joyau météo+
+Ninja Jewel	Joyau ninja
+Vitality Jewel	Joyau vitalité
+Recovery Jewel	Joyau récup.
+Resurgence Jewel	Joyau résurgence
+Razor Jewel	Joyau rasoir
+Cutter Jewel	Joyau coupeur
+Handicraft Jewel	Joyau artisan
+Architect Jewel	Joyau architecte
+Fencer Jewel	Joyau escrimeur
+Swordsman Jewel	Joyau bretteur
+Expert Jewel	Joyau expert
+Master Jewel	Joyau maître
+Hermit Jewel	Joyau ermite
+Grinder Jewel	Joyau pileur
+Stone Wall Jewel	Joyau muraille
+Iron Wall Jewel	Joyau mur de fer
+Shield Jewel	Joyau bouclier
+Aegis Jewel	Joyau égide
+Quickload Jewel	Joyau charg.rap.
+Flashload Jewel	Joyau charg.éclr
+Absorber Jewel	Joyau absorbeur
+FlinchFree Jewel	Joyau immobile
+Forceshot Jewel	Joyau tir puiss.
+Forceshot Jewel+	Joyau tir puiss+
+Pierce Jewel	Joyau perçant
+Pierce Jewel+	Joyau perçant +
+Pellet Jewel	Joyau plomb
+Pellet Jewel+	Joyau plomb +
+ShotPlus Jewel	Joyau bonus tir
+ShotPlus Jewel+	Joyau bonus tir+
+PiercPlus Jewel	Joyau bon. prc.
+PiercPlus Jewel+	Joyau bon. prc.+
+PelletPlus Jewel	Joyau bonus Plb
+CragPlus Jewel	Joyau bonusExpl.
+ClustPlus Jewel	Joyau bonus frag
+Disabler Jewel	Joyau infirmant
+Disabler Jewel+	Joyau infirmant+
+Element Jewel	Joyau élément
+Element Jewel+	Joyau élément +
+Bombardier Jewel	Joyau bombardier
+Lite Eater Jewel	Joyau allégé
+Hungerless Jewel	Joyau repu
+Metabolism Jewel	Joyau métabo.
+Attack Jewel	Joyau attaque
+Assault Jewel	Joyau agression
+Onslaught Jewel	Joyau assaut
+Defense Jewel	Joyau défense
+Turtle Jewel	Joyau tortue
+Protection Jewel	Joyau protection
+Asylum Jewel	Joyau asile
+Earplug Jewel	Joyau bouchon
+Silencer Jewel	Joyau silencieux
+Alarm Jewel	Joyau alarme
+Friendship Jewel	Joyau amitié
+Alliance Jewel	Joyau alliance
+Transportr Jewel	Joyau transport
+Crimson Jewel	Joyau pourpre
+Torrent Jewel	Joyau torrent
+Storm Jewel	Joyau orage
+Glacier Jewel	Joyau glacier
+Dragonbane Jewel	Joyau fléau drag
+Breeze Jewel	Joyau brise
+Warmth Jewel	Joyau chaleur
+Sandbag Jewel	Joyau sac sable
+Anchor Jewel	Joyau ancre
+Map Jewel	Joyau plan
+Gathering Jewel	Joyau collecte
+Spree Jewel	Joyau Enchaîn.
+Blessing Jewel	Joyau béni
+Fate Jewel	Joyau destin
+Destiny Jewel	Joyau destinée
+Fisher Jewel	Joyau pêcheur
+Psychic Jewel	Joyau psychique
+Medicine Jewel	Joyau remède
+Panacea Jewel	Joyau panacée
+Professor Jewel	Joyau professeur
+Factory Jewel	Joyau usine
+Evade Jewel	Joyau évasion
+Lightfoot Jewel	Joyau pied léger
+Crisis Jewel	Joyau crise
+Peril Jewel	Joyau danger
+Enduring Jewel	Joyau durable
+Sprinter Jewel	Joyau sprinter
+Marathon Jewel	Joyau marathon
+Chamber Jewel	Joyau chambre
+Magazine Jewel	Joyau magasin
+Sniper Jewel	Joyau sniper
+Gobbler Jewel	Joyau glouton
+Voracious Jewel	Joyau vorace
+Carver Jewel	Joyau découpeur
+Looter Jewel	Joyau pillard
+Footing Jewel	Joyau appui
+Tectonic Jewel	Joyau tectonique
+BBQ Jewel	Joyau BBQ
+Jumping Jewel	Joyau de saut
+Leaping Jewel	Joyau de bond
+Draw Jewel	Joyau dégaine
+Critical Jewel	Joyau critique
+TrapMaster Jewel	Joyau m. pièges
+Workout Jewel	Joyau formation
+Physique Jewel	Joyau physique
+Tranq Jewel	Joyau tranq.
+Capture Jewel	Joyau capture
+Perception Jewel	Joyau perception
+Charger Jewel	Joyau chargeur
+Dynamo Jewel	Joyau dynamo
+Fresh Air Jewel	Joyau air frais
+Upstream Jewel	Joyau amont
+Swimmer Jewel	Joyau nageur
+Diver Jewel	Joyau plongeur
+Gambit Jewel	Joyau tactique
+Checkmate Jewel	J. échec et mat
+Resistor Jewel	Joyau résistance
+Release Jewel	Joyau libération
+Catalyst Jewel	Joyau catalyste
+Guts Jewel	Joyau boyaux
+Fortitude Jewel	Joyau courage
+Salvo Jewel	Joyau salve
+Fusillade Jewel	Joyau fusillade
+Dung Jewel	Joyau bouse
+Torchlight Jewel	Joyau torche
