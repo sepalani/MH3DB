@@ -1,0 +1,714 @@
+A small time bomb. You can use it underwater.
+A potent bomb that detonates on impact. Waterproofed, so it still works underwater.
+Activates when something heavy walks across. Use this to capture monsters.
+Immobilizes a target. You can use this to capture monsters.
+Flashes brightly on impact. Toss this right under a monster's nose to blind it.
+A bulb filled with Oxygen. Nice to have when you're underwater and out of air.
+A grenade-like item that emits a high-frequency blast of sound on detonation.
+A standard throwing knife. Flies straight and true.                ~C05(Supply Item)
+A throwing knife with a venom-coated blade. Poisons targets.       ~C05(Supply Item)
+A throwing knife whose blade has been dusted with sleep- ing agents.    ~C05(Supply Item)
+A throwing knife coated with toxins that paralyze a target.        ~C05(Supply Item)
+A throwing knife used for capturing monsters ensnared in traps.      ~C05(Supply Item)
+Restores a small amount of Health. Try to combine these into something Mega-better!
+Restores a moderate amount of Health. This potion is a hunter's best friend.
+Lets you run without tiring for a short period of time.
+Lets you run without tiring for longer than with regular Dash Juice.
+Removes all traces of poison from your system.
+Boosts your Attack by filling you with -- guess what? -- demonic strength.
+Boosts your Attack even more than a regular Demondrug.
+Temporarily endows you with the strength of a mighty god. Potent!
+Boosts your Defense by turning your skin as hard as rock.
+Boosts your Defense even more than a regular Armorskin.
+Temporarily makes your skin as hard as adamant. Potent!
+Provides temporary relief from extreme heat.
+Provides temporary relief from extreme cold.
+Provides a medium boost to your Stamina. Meat done right!
+Provides a small boost to your Stamina. This one's still red in the middle.
+This is burnt to a crisp. It might boost your Stamina, or it might drain it...
+Meat carved from a monster. Can be cooked, combined, or used to set a trap.
+Raw Meat that poisons whatever eats it. Makes a great trap.
+Raw Meat that paralyzes whatever eats it. Makes a great trap.
+Raw Meat that puts whatever eats it to sleep. Makes a great trap.
+Toss this scented paint at a monster to mark it, allowing you to track its position.
+A cheap pickaxe with an easily nicked blade.
+A pickaxe with a reasonably strong blade.
+A pickaxe tempered with steel. This one won't nick easily.
+A cheap net for catching bugs. It tears easily.
+A durable net for catching bugs.
+An extremely durable net for catching bugs. This one is made to last.
+Just what you need to cook meat. A must-have item for any hungry hunter.
+The frills would be truly stunning... if they weren't attached to a severed head.
+A map of the hunting ground.                ~C05(Supply Item)
+Use this to light up dark places and stave off certain monsters.      ~C05(Supply Item)
+Restores a tiny bit of Health. It does a body... sort of good!  ~C05(Supply Item)
+Slightly boosts current/max Stamina. Most hunters agree: it's gross.    ~C05(Supply Item)
+An Oxygen Supply provided by the Guild. Truly a breath of fresh air!  ~C05(Supply Item)
+A Guild-provided BBQ Spit useful for novice hunters.                ~C05(Supply Item)
+A portable Whetstone you can use to restore Sharpness to weapons.    ~C05(Supply Item)
+Immobilizes a target for easy capture.                ~C05(Supply Item)
+A grenade-like bomb that flashes brightly on impact.                ~C05(Supply Item)
+Fully restores Health and increases your maximum Health level all the way.
+A powered-up Barrel Bomb L. Deadly. Waterproofed, so it still works underwater.
+Inexpensive ammo, so don't expect much. Fire at will! Unlimited shots.
+Non-specialized ammo. More powerful than Lv1.                 Capacity: 99
+Non-specialized ammo that ricochets, resulting in high damage.         Capacity: 99
+Armor-piercing ammo that deals multiple hits to some monsters.       Capacity: 60
+Armor-piercing ammo. Higher- level ammo deals additional hits.           Capacity: 50
+Armor-piercing ammo. This highest level deals the most hits.           Capacity: 40
+Ammo that hits a wide area. Deals multiple hits at close range.          Capacity: 60
+Ammo that hits a wide area. Higher-level ammo deals ad- ditional hits.  Capacity: 60
+Ammo that hits a wide area. This highest level deals the most hits.      Capacity: 60
+Powerful ammo that lodges in a target, then explodes.                 Capacity:  9
+Very powerful ammo that lodges in a target, then explodes.       Capacity:  9
+Extremely powerful ammo that lodges in a target, then explodes.       Capacity:  9
+Fragments into three shells upon impact. Beware of friendly fire!  Capacity:  5
+Fragments into four shells upon impact. Beware of friendly fire!  Capacity:  5
+Fragments into five shells upon impact. Beware of friendly fire!  Capacity:  5
+Ammo that packs extra punch against monsters susceptible to Fire.        Capacity: 60
+Ammo that packs extra punch against monsters susceptible to Water.       Capacity: 60
+Ammo that packs extra punch against monsters susceptible to Thunder.     Capacity: 60
+Ammo that packs extra punch against monsters susceptible to Ice.         Capacity: 60
+Mysterious ammo that won't work in regular Bowguns.                 Capacity: 20
+Ammo that restores a small amount of Health to the target.         Capacity: 12
+Ammo that restores a moderate amount of Health to the target.     Capacity: 12
+Ammo dipped in poison. Some targets require multiple shots.          Capacity: 12
+Ammo dipped in deadly poison. Some targets require multiple shots. Capacity:  8
+Ammo that causes paralysis. Some targets require multiple shots. Capacity: 12
+Ammo that paralyzes quickly. Some targets require multiple shots. Capacity:  8
+Ammo containing a sleeping agent. Some targets require multiple shots. Capacity: 12
+Ammo packed with sleeping agents. Some targets require multiple shots. Capacity:  8
+Bowgun ammo used to capture monsters ensnared in traps.                 Capacity:  8
+Ammo that marks a monster's position on your Map for a limited time.   Capacity: 99
+Ammo that fills the target with savage amounts of strength.       Capacity:  5
+Ammo that fills the target with savage amounts of strength.       Capacity:  5
+Ammo that hardens the skin, guarding against attacks and Wind Pressure.  Capacity:  5
+Ammo that hardens the skin, guarding against attacks and Wind Pressure.  Capacity:  5
+Ammo that gains power when used underwater.                 Capacity: 60
+Ammo that gains power when used underwater. Deals more hits than Lv1.  Capacity: 60
+Special ammo that drains monsters' stamina.                 Capacity: 20
+Special ammo that ejects sharp blades on impact. Can it sever tails? Capacity: 30
+Ammo based on research into a wyvern's fiery breath. Can be rapid-fired. Capacity: 10
+Ammo based on research into a wyvern's fiery breath. Can be rapid-fired. Capacity: 10
+Ammo based on research into a wyvern's fiery breath. Can be rapid-fired. Capacity: 10
+Allow you to see farther and observe from a distance.
+A hand grenade used to capture monsters ensnared in traps.
+A rock with just the right heft for throwing. Tried and tested!
+A standard-sized Whetstone. Use it to restore a weapon's Sharpness.
+Ore with high iron content. Can be smelted and forged into various equipment.
+Crystallized microbes which are prized as an abrasive when forging weapons.
+An ore harder than iron, but also several times more difficult to forge with.
+An ore that yields metal superior to that of Macha- lite. Rare and valuable.
+An ore still being researched. It yields even better metal than Dragonite.
+Technically not ore at all, but rather prehistoric bone. Found underwater.
+Formed from prehistoric bones under high pressure. Never seen on land. 
+Combusts even at room tem- perature. Its high heat can be used to fuse materials.
+Ice that will not melt at room temperature. Can be used to create denser ore.
+An extremely hard substance with a faint glow. Sometimes used for crafting tools.
+Trade this in for a rare stuffed Sharq -- normal Quests won't get you one.
+A hunk of rock? No, it seems to be metal... With a little polish, it could be more.
+A fossil? No, it appears to be metal... With a little polish, it could be more.
+A precious metal with count- less uses. Gleams pure white in the light.
+A precious metal with count- less uses. Gleams pale blue in the light. Valuable.
+An insect said to live 1000 years -- but no one's lived long enough to prove it.
+Eating it boosts your innate ability to heal. It also cures poison... sometimes.
+A nocturnal insect sometimes found in daylight. They emit a bright flash upon death.
+Releases an electric shock when struck. Used to light rooms and start fires.
+This bug's expectorations make for a strong adhesive that can bond any materials.
+This insect's hard shell is often used as an abrasive.
+A rare and valuable insect that greatly assists in the bonding of metals.
+A beetle with a jewel-like gleam. Prized by bug fans of all ages.     ~C05(Account Item)
+Restores a very small amount of Health, but the flavor's not too hot.
+A plant used in antidotes. It sometimes cures poison when eaten by itself.
+A plant containing sleeping agents.
+A wondrous, flammable plant.
+The sap it secretes is a strong adhesive. Careful you don't glue your Pouch shut!
+A berry with a shocking hue and an overwhelming scent. Look out: It WILL stain!
+A berry covered with needle- like thorns.
+A berry that is hollow on the inside.
+A nut that violently ejects its contents when struck.
+A berry that explodes when struck.
+A vine of tough fibers. Woven, it is sturdy enough to hold a person's weight.
+Temporarily raises your Attack when ingested by improving energy flow.
+Temporarily raises your Defense when ingested by hardening tissue.
+Blazingly spicy. Sure, it'll warm you up, but it's too hot to handle on its own.
+Possesses antidotal agents, but it will not work by itself.
+Chewing it releases Oxygen, but that's easier said than done -- it's really sticky.
+An egg taken from a flying wyvern's nest. Very fragile, so handle with care.
+An animal skull worn and weathered beyond identifi- cation.
+Full of nutrients, but indigestible in this form.
+A well-known Combo material used to augment power. The deeper the blue, the better.
+The perfect shape and aroma. Even better than a Unique Mushroom.     ~C05(Account Item)
+A pinky-sized mushroom valued for its unusual aroma.        ~C05(Account Item)
+This one has a very strange aroma... Edible? Only one way to find out.
+A mushroom that induces paralysis.
+A hard-to-find mushroom with the power to generate blazing heat.
+The Hunting Fleet sometimes brings these back. The black glow fetches a high price.
+A huge pearl -- so huge, unfortunately, that it may be dismissed as a fake.
+A beautiful fragment -- but, seeing as it's broken, it won't fetch much.
+A curiously unfossilized bone from a dragon that once roamed these lands.
+A handy material used to make everything from equipment to sundries.
+A nicely-sized bone. Strong yet flexible, it's as reliable as steel and wood.
+Wyvern bone needed to craft larger items. The right item will fuse this to a shell.
+A rare Commodity ★. Use this oldest of soil- dwellers for a Rare Trade.
+Said to be the world's strongest bug. Used in forging, cooking, and more.
+Cools the body, wards off heat, and restores a moderate amount of Stamina.
+Warms the body, wards off the cold, and restores a moderate amount of Stamina.
+This may not look special, but its hardness puts other scales to shame.
+Even harder than a normal Rathian Shell.
+Recent advances allow this red hot organ to be removed, but it's hard to forge with.
+As sharp as the keenest blade. It is longer and sturdier than other spikes.
+A rare gem formed inside a Rathian. It seems almost too nice to forge with.
+A rare gem formed inside a Rathalos. It seems almost too nice to forge with.
+A monster organ filled with powder that ignites if it so much as touches air. Danger!
+An extraordinarily durable scale carved from a Rathalos.
+Even harder than a normal Rathalos Shell.
+A sober scale concealed by vivid plumage. Village kids trade them for pocket money.
+An oddly-shaped, yet unmistakably lovely beak.
+A difficult item to obtain; carving one of these off a Gigginox is no easy task.
+A Gigginox's distinctive yapper. Some say it resem- bles that of the Khezu.
+Throughout a wyvern's life, impurities gather and form this peculiar stone.
+A monster organ with tremendous freezing power.
+Trade this in for a thick piece of wyvern leather -- the only way to get one.
+Trade this in for a crystal that swirls with darkness -- the only way to get one.
+Difficult to craft with, but still highly sought after. Has mysterious properties.
+Hide that changed color when its owner was still alive. Collectors value it.
+A monster organ that contains a lethal toxin. Handle with extreme care.
+A difficult item to obtain; carving one of these off a Gigginox is no easy task.
+A quality Commodity. Even one of these rainbow quills makes a good trade.
+A wyvern fang from Moga Woods with little value. Sell it for pocket change.
+A rare Commodity ★★★★. Use this blisteringly hot scale for a Rare Trade.
+A must if you want to gather materials from fish. Weaken the fish, then harpoon away.
+The remains of an insect. You must be one hardcore collector to hang onto this!
+A long, thin bone. Junk, no matter how you slice it, but not completely worthless.
+That's right: monster poop. The odor reveals (too) much about the monster's diet.
+A very sticky web.
+A base material for making hand-thrown bombs.
+How many whiffs does it take to find out what was in this empty barrel? Just one!
+How many licks does it take to find out what was in this empty barrel? Just one!
+A fishing lure. Jumps amazingly far -- sometimes right into a fish's mouth!
+A fishing lure. Wriggles underwater, enticing those fishies to bite.
+A fishing lure. Its ever- lasting glow is a challenge to fish that says "bite me."
+A fishing lure. Causes a feeding frenzy. No fish can resist this one!
+A fishing lure. Know any monsters good at fishing? Try fighting fire with fire.
+A fish with a dorsal fin hard enough to sharpen weapons with.
+A fatty, delicious fish that restores a small amount of Health when consumed.
+A fish with jaws covered in tiny, needle-like spikes.
+A fish that literally pops when it dies.
+A fish that contains sleeping agents.
+A fish that bursts open when it dies.
+A fish that explodes when it dies.
+A fish that eats anything -- allowing you to sometimes get items from its stomach.
+A fish that dashes itself to pieces when it dies.
+A rare fish that commands a high price, but beware its ferocity, rookies!
+A rare fish made of solid gold. Sell it for a tidy sum.          ~C05(Account Item)
+An everyday Commodity. These amber fish scales must be traded in bulk.
+A rare Commodity ★. Use this massive monster skull for a Rare Trade.
+The treasure of the Pirate King, arr! Who knows what riches it be sellin' for?
+A sturdy net able to support a certain amount of weight without breaking.
+--
+Fertilizer for the Shroom Box. This bacteria is found within certain monsters.
+Fertilizer for the Insect Box. Slogan: "10 bugs per drop, or we'll EAT a bug!"
+Fertilizer for the Honey Box. Bred abroad, these busy bees never, ever rest.
+A quality Commodity. Even one of these soil- dwellers makes a good trade.
+A monster fang from Moga Woods. Worth a great deal, sell it for a tidy sum.
+An everyday Commodity. Part of the Hunting Fleet's catch. Must trade in bulk.
+A quality Commodity. Even one of these revered fish makes a good trade.
+A rare Commodity ★. It houses a precious gem. Use it for a Rare Trade.
+A needle obtained from certain monsters. Sell it for pocket change.
+An everyday Commodity. These fish breed near Moga's shores. Must trade in bulk.
+Improves the Hunting Fleet's catch when Fishing; less effective otherwise.
+Improves the Hunting Fleet's catch when seeking Treasure; less effective otherwise.
+Improves the Hunting Fleet's catch when Hunting; less effective otherwise.
+A quality Commodity. This Tackle shortens voyages by 1 day. Also a good trade.
+Fertilizer for the Shroom Box. This bacteria can't be beat. It's the Germinator!
+Pungent liver obtained from certain large monsters. Not popular with humans.
+Rare, stringy meat from a horned wyvern found abroad. Not popular with humans.
+A rare Commodity ★★. The R. Ludroth and Lagiacrus produce it. For Rare Trades.
+A rare Commodity ★★★. Use this Rathian bone serum for a Rare Trade.
+Fertilizer for the Insect Box. Some monsters emit this scent, and bugs love it.
+Fertilizer for the Farm. Use this to hunt for strange soil-dwelling creatures.
+Fertilizer for the fields. Aptonoth grow big... and so did this! Outperforms Dung.
+An everyday Commodity. These durable Kelbi pelts must be traded in bulk.
+A quality Commodity. Even one of these uncommon fangs makes a good trade.
+A rare Commodity ★. Use this Bnahabra queen's needle for a Rare Trade.
+An everyday Commodity. This Tackle shortens voyages by 1/2 day. Must trade in bulk.
+An everyday Commodity. These bird wyvern fangs must be traded in bulk.
+A rare Commodity ★★. Use this shockingly-colored quill for a Rare Trade.
+A quality Commodity. This weathered fang glows white. Makes a good trade.
+A rare Commodity ★★★★. Strangely, this scale never dries. For Rare Trades.
+A gold rock crystallized in a wyvern's belly over dozens of years. Worth a fortune.
+Emits a scent Felynes love. Try hitting monsters with it.
+Cutting edge BBQ technology! Hold the dash button while BBQing to keep on cooking!
+An everyday Commodity. These can be converted to Resources or traded in bulk.
+An everyday Commodity. These can be converted to Resources or traded in bulk.
+An everyday Commodity. These can be converted to Resources or traded in bulk.
+A mysterious egg found only rarely in Moga Woods. Can be converted to Resources.
+A weathered bone. Not sturdy enough to use in forging.
+Removes all traces of poison and restores a slight amount of Health.
+A scale from a flying wyvern native to this area. Rathian mate with male Rathalos.
+A shell piece comprised of layered scales, making it much harder than just one.
+Hard to forge with, but its thermal properties make it ideal for armor lining.
+Needle-like hair found on the Rathian's back and wings. They contain poison.
+A searing tail scale. Hard to come by and as fiery as the wyvern it came from.
+A monster organ filled with flammable powder. Handle with caution.
+Mysterious tears wept only on special occasions.               ~C05(Account Item)
+Wyvern scales like this one and the harder shells are basic forging items.
+A shell piece comprised of layered scales, making it much harder than just one.
+Hard to forge with, but its thermal properties make it ideal for armor lining.
+Recent advances allow this marrow to be extracted. It ignites on air contact.
+A searing tail scale. Hard to come by and as fiery as the wyvern it came from.
+The severed tail of a Rathalos. It has any number of uses.
+A sober scale concealed by vivid plumage. Village kids trade them for pocket money.
+A feather with a tropical flair. Often used to craft Moga Village souvenirs.
+A brightly colored feather. Flimsy, but great for those who like a bit of flash.
+This beak's odd shape makes it quite the conversation piece.
+Difficult to forge with, but still highly sought after. Has mysterious properties.
+Hide that changed color when its owner was still alive. Collectors value it.
+A monster organ that contains a lethal toxin. Handle with extreme care.
+Has the ability to amplify the effects of certain medicines.
+A large, sturdy fang used in everything from weapons to ornaments.
+This shell piece is dense, as one knock will tell you, and heavier than it looks.
+A rock-hard backplate piece that can be used to make equipment if cut properly.
+An armored tailcase that puts iron hammers to shame. This material is a keeper.
+A Barroth's shell -- more often than not covered in mud, but strong either way.
+Part of the backplate. Less common than Barroth Shells, and therefore more valuable.
+Not very sharp, but strong enough to prove quite versatile when forging.
+These tails aren't very valuable, but the meat is hailed as a delicacy.
+This durable part of the skull is also the hardest to remove.
+Fangs similar in value to the foreign Velociprey's. Used to make Bowgun ammo.
+Commonly used in this region. It can be made into any number of things.
+A scale carved from a Jaggi. Not very valuable, but be- ginners can't be choosers.
+A claw cut from one of these large pack leaders. Mainly used in crafting weapons.
+Worth more than a regular Jaggi Hide. It can be made into any number of things.
+A monster organ that emits an earsplitting sonic blast when ruptured.
+Not especially durable, but soft and workable. Use it to forge valuable leatherware.
+A supple scale that turns myriad shades of blue in the light. In high demand.
+A sharp claw that grows on the fin. Not pretty enough to command good money.
+This shell is actually used to release electricity, not generate it. Safe to handle.
+Not only do these serve for weaponcraft, they also wind up on Moga dinner plates.
+The largest and most prized of Lagiacrus scales. Boosts the efficacy of equipment.
+Uncannily elastic hide. Great for staving off cold.
+Smaller than a flying wyvern scale. You'll need a number of these to forge with them.
+These claws are adapted better to movement than to attacking.
+The whole Royal Ludroth tail, fin and all. Locals use them for shipbuilding.
+A mysterious substance that can be culled from certain monsters.
+Highly resistant to Water, but don't expect it to sell for much.
+Young spongy material. Sought after for daily use more than for equipment.
+One of the many barbs found on a Gobul, and one of the few parts nobody eats.
+Slimy Gobul skin -- an acquired taste, but those in the know can't get enough.
+A monster organ that contains paralyzing neurotoxins.
+This fin isn't as pretty as other water-ready materials, but many still swear by it.
+Reacts uniquely to heat. Fuse this to armor to increase its strength.
+Fuse this high-quality Armor Sphere to existing armor to increase its strength.
+The Gobul's most famous feature, used to lure prey. This material is a keeper.
+A pelt from a small animal. Used for many things, but mostly just regular clothes.
+Very slightly increase your maximum Health level.
+Slightly increase your maximum Health level.
+A dangerous fungus said to suck the life out of the one who plucks it. Beware.
+Boosts your natural ability to heal.
+Works with other materials to enhance their effects. Cannot be used by itself.
+A base material for making hand-thrown bombs.
+Infusions of powdered Kelbi Horn work wonders on tummy- aches. It's a local secret!
+An especially rare Kelbi Horn. Popular among traders.
+Every bit as sturdy as wyvern armor in the hands of a clever craftsman.
+Difficult to forge with -- the results vary depending on which surface you use.
+Sticky fluid that is often found in insects after they feast.
+Used as a bone ammo casing. Produces sturdier results than a Huskberry.
+A large flying wyvern's ver- tebra. As ammo casing, it can withstand heavy blasts.
+Logic says not to eat this poisonous fungus, but don't write it off completely.
+Creates a large cloud of smoke wherever it lands.
+Contains a toxic chemical. Also popular as a household bug bomb.
+Releases an odor monsters find repulsive. It may even drive them away... or not.
+A dangerous substance that explodes when struck or heated.
+A tool you'll need to put a Pitfall Trap or other traps together with.
+Named for its shape. Make fishing lures with it; its scent drives Tunas wild.
+A fishing lure with chum that makes Tunas go, "mmm."
+A roundish insect. Make fishing lures with it; its scent drives Arowanas wild.
+A fishing lure with chum that makes Arowanas go, "mmm."
+An unusual larva. Make fish- ing lures with it; its scent drives Goldenfish wild.
+A fishing lure with chum that makes Goldenfish go, "mmm."
+Not found in nature; created by combining an Earth Crys- tal with insect nutrients.
+Used in Bowgun bullet points. Gunpowder shatters  them, generating shrapnel.
+Mysterious crystals long worshipped as a source of life.
+Used in Bowgun bullet points. Gunpowder triggers a blast with a wide radius.
+A Lifecrystal combination used as medicine. Heals with a single touch.
+Used to attract certain monsters -- blow at your own risk. May break when used.
+Restores Health to those who hear it. May break when used.
+Eliminates poison in the blood of those who hear it. May break when used.
+Increases the strength of those who hear it. May break when used.
+Bolsters the defenses of those who hear it. May break when used.
+Instantly transports you back to base camp.
+Medicine that works as an anesthetic when Combined.
+Eat this to cure Dragon- blight and temporarily increase Dragon Resistance.
+This bottle is all you'll need to wake up! Shakes off sleep and restores Stamina.
+Immediately removes any ice or mud on your body. Clean as a whistle!
+Junk created when a Combination attempt fails.
+Fully restores Health and Stamina, and raises the max levels of both all the way.
+Temporarily sharpens your sixth sense and attunes you to the ways of monsters.
+A gift for defeating an Agnaktor in the Arena.
+A small time bomb that sticks to targets.                ~C05(Supply Item)
+Special ammunition for an anti-dragon cannon. Not fun to lug around. ~C05(Supply Item)
+A rock that explodes with even the slightest jolt. Careful!      ~C05(Account Item)
+A small time bomb that sticks to targets.                ~C05(Supply Item)
+Ammunition for a large mounted Bowgun. Keep giants from moving!   ~C05(Supply Item)
+Only rarely can these talons be carved off in the heat of battle.
+A twisted Diablos horn. Used in this region for many (less twisted) purposes.
+A twisted Diablos horn in great shape. Use it to make more powerful weapons.
+A must if you want to gather materials from fish. Weaken the fish, then harpoon away.
+A fishing lure with chum that makes Whetfish go, "mmm."
+A fishing lure with chum that makes Sushifish go, "mmm."
+Eat this to cure Fireblight and temporarily increase Fire Resistance.
+Eat this to cure Waterblight and temporarily increase Water Resistance.
+Eat this to cure Iceblight and temporarily increase Ice Resistance.
+Eat this to cure Thunder- blight and temporarily increase Thunder Resistance.
+An egg stolen from an herbivore's nest. It looks pretty tasty.
+A unique bone prized in the village for reasons unknown.               ~C05(Account Item)
+A glittering, golden bone. Popular with collectors.               ~C05(Account Item)
+A potion that restores lost Oxygen and allows you to stay underwater longer.
+A potion that restores lost Oxygen and allows you to stay underwater much longer.
+A transparent sac cut from an Altaroth's abdomen, used to store who knows what.
+These durable mouthparts are surprisingly difficult to carve loose.
+A Unique Mushroom made more unique by maturing its aroma and flavor.   ~C05(Account Item)
+These crests become rigid when the beast is angry; quantity indicates status.
+A unique white shell. Strong and durable, yet very light.
+A silky-smooth white pelt with excellent shock absorption properties.
+Two sharp tusks from a Barioth, used in weapons as well as Furnishings.
+A sharp, death-dealing claw used by its former owner to scale walls of solid ice.
+These come in many sizes and assist the Barioth in clinging to walls of ice.
+A monster organ that contains a sub-zero liquid. Handle with extreme care.
+This strong, sturdy piece of exoskeleton makes armor that looks dull but works great.
+Even more heat resistant than the Shell, this is said to protect sensitive organs.
+Hard-to-obtain bone marrow used for special crafts as well as medicinal purposes.
+A jaw of striking shape; the lumps are ore the Uragaan melted right onto the bone.
+Turns a vivid red during forging. Lightweight and incredibly heat resistant.
+Curious hide that's both supple and heat-resistant, but not necessarily strong.
+One of many fin-like pinnae found on Agnaktor. It works as a ship part.
+This claw is powerful, AND it just came out of scalding hot magma. Careful!
+This scale is a blazing hue, but don't get too fired up; it's not worth that much.
+An Agnaktor's distinguishing beak, which enables it to tunnel beneath the earth.
+Proof of who's boss among Jaggi -- and now proof you are on your way as a hunter.
+Mud that Barroth roll around in. Nutrient-rich and great for farming.
+One of many whiskers growing on a Gobul's chinny-chin- chin, used for burrowing.
+This shell is actually used to release electricity, not generate it. Safe to handle.
+The power of Lagiacrus horns has been sung of for ages. In high demand.
+The body part a Qurupeco uses to start fires. There is a trick to working it.
+These tails are covered in hard plate and tough to sever.
+Is this crimson stone the relic of some ancient beast?               ~C05(Account Item)
+Deliver to end the Quest. Maybe the Felynes will take you home...   ~C05(Account Item)
+Monster innards galore. A prized delicacy.               ~C05(Account Item)
+An item found underwater in these parts. Easy money!               ~C05(Account Item)
+Redeem this for a special meal with stronger effects than usual.
+Exchange this for a kingly meal. Both its flavor and effects are top notch.
+A unique plate that repels all attacks, turning some back upon the assailant.
+This particular Alatreon scale grows in backwards. It is as sharp as a blade.
+A talon so sharp one cannot even predict the strength of weapons made from it.
+The fact that you are even holding this legendary jewel means you are FINISHED.
+Part of an Alatreon's convoluted horns.
+(Mask item.)
+(Mask item.)
+A modest good-luck charm. What does it do? Finish the Quest and you'll find out.
+A curious good-luck charm. What does it do? Finish the Quest and you'll find out.
+A powerful good-luck charm. What does it do? Finish the Quest and you'll find out.
+Reacts uniquely to heat. Combine with other materials to create coating for armor.
+An advanced Armor Sphere. Rare in Moga Village. Save it for that special upgrade.
+A hard, dense Armor Sphere. Use this rare item for more advanced armor upgrades.
+A thick, dense Armor Sphere. Use this precious rarity to push armor to the limit.
+An indispensible item used in Decorations.
+An indispensible item used in Decorations.
+An indispensible item used in Decorations. A shame that these are so high-end.
+An indispensible item used in Decorations. This one doesn't come along often.
+A unique white carapace. Strong and durable, yet very light.
+A silky-smooth white pelt with excellent shock absorption properties.
+Two sharp tusks from a Barioth, used in weapons as well as Furnishings.
+A sharp, death-dealing claw used by its former owner to scale walls of solid ice.
+It has recently been dis- covered that monster bone marrow works as an adhesive.
+Even harder than a normal Diablos Shell.
+The hardest part of a Diablos's backplate. Very difficult to carve off.
+A long, curled Diablos horn. Preserving them this well is not easy. Quite the find!
+Even for monster skin, this is remarkably solid. Takes time and effort to craft.
+Almost too large to be called a scale. Not as hard as you might think.
+Strange to think something hard enough to forge weapons with could be called "fur."
+A massive tail from the Ceadeus, ex-village nemesis. It symbolizes peace.
+Who knows why this organ glows, but it seems to hold incredible power.
+One of the hardest materials to reap from a Ceadeus. Its center is a bottomless void.
+A giant horn that was formed over ages. It evinces all the weight of history.
+Contains an unknown ingredient, the object of much scholarly research.
+A rock-hard shell collected from the Jhen Mohran during the customary hunt.
+Armor covering the Jhen Mohran's foreleg, removed during the customary hunt.
+A bright blue scale removed from the Jhen Mohran during the customary hunt.
+Once, these dragon fangs shot up in value, inciting a "Fang Rush" among hunters.
+One of the tougher materials to get from a Jhen Mohran, and that's saying something.
+A rock-hard shell collected from the Jhen Mohran during the customary hunt.
+A bright blue scale removed from the Jhen Mohran during the customary hunt.
+Once, these dragon fangs shot up in value, inciting a "Fang Rush" among hunters.
+Armor covering the Jhen Mohran's foreleg, removed during the customary hunt.
+A Barroth's carapace -- more often than not covered in mud, but strong either way.
+Part of the backplate. Less common than Barroth Shells, and therefore more valuable.
+Not very sharp, but strong enough to prove quite versatile when forging.
+A hard scale that glows faintly in the light due to its unique mineral content.
+A hard scale that glows faintly in the light due to its unique mineral content.
+A valuable gem only rarely plucked from an Uragaan. Adds strength when forging.
+This strong, sturdy piece of exoskeleton makes armor that looks dull but works great.
+Black hide that is oddly slimy and difficult to forge with.
+A less valuable Deviljho material -- rare enough, but few stores want to carry it.
+A dangerously sharp, hooked talon. Inexperienced craf- ters risk serious injury.
+A fang of convenient size from a maw of alarming size.
+A precious gem said to contain a Deviljho's might. Used in shady rituals.
+Removing this part of a Deviljho's skull releases an unimaginably putrid odor.
+A massive tail resembling a fin. Some folks are out to collect these exclusively.
+Mature spongy material. Sought after for daily use more than for equipment.
+Uncannily elastic hide. Great for staving off cold.
+Smaller than a flying wyvern scale. You'll need a number of these to forge with them.
+These claws are adapted better to movement than to attacking.
+These crests become rigid when the beast is angry; quantity indicates status.
+One of the many spikes found on a Gobul, and one of the few parts nobody eats.
+Slimy Gobul skin -- an acquired taste, but those in the know can't get enough.
+The Gobul's most famous feature, used to lure prey. This material is a keeper.
+This fin isn't as pretty as other water-ready materials, but many still swear by it.
+Not especially durable, but soft and workable. Use it to craft valuable leatherware.
+A durable scale that turns myriad shades of blue in the light. In high demand.
+A sharp claw that grows on the fin. Not pretty enough to command good money.
+The power of Lagiacrus horns has been sung of for ages. In high demand.
+A gem only rarely plucked from a Lagiacrus. Craft with it to boost Resistances.
+A tail carved from an Agnaktor. The going price is low due to lack of demand.
+Turns a vivid red during crafting. Lightweight and incredibly heat resistant.
+Curious hide that's both supple and highly resistant, but not necessarily strong.
+One of many fin-like pinnae found on Agnaktor. It works as a ship part.
+This claw is powerful, AND it just came out of scalding hot magma. Careful!
+A magma-like deposit that only trained hands can properly work with.
+Part of an Alatreon's convo- luted horns. The pieces break easily when carved.
+Most thought Alatreon only existed in legend, but you have another tail to tell.
+At times this looks like a dark abyss; at others, like the coming of first light.
+A Furnishing made from a Kelbi Horn. Charming! Just don't poke your eye out.
+A classy Furnishing made from a Diablos Horn. A striking, valuable piece.
+A top-class Furnishing, and a symbol of the city as well as your hard work.
+A Furnishing fashioned after Piggies. Loved by folks of all ages, far and wide.
+A classy Furnishing fashioned after Piggies. Takes all your cares away.
+A top-class Furnishing fashioned after Piggies. Charming AND intimidating!
+A Furnishing. This relaxing, colorful potted plant is from the Sandy Plains.
+A classy Furnishing. This potted plant is a strain that doesn't usually flower.
+A top-class Furnishing. This Tundra plant normally grows only in eternal cold.
+A Furnishing shaped like a mushroom. The ladies go gaga for the adorable design.
+A top-class Furnishing fashioned after a Qurupeco. It's impersonating a lamp!
+A super-classy Furnishing fashioned after a Gobul. It even moves! Incredible.
+A Furnishing fashioned after a Lagiacrus. Its trickling water calms the soul.
+A classy Furnishing fash- ioned after a Giggi. Some- body had fun thinking it up.
+A top-class Furnishing fashioned after an Agnaktor. Simply priceless.
+A Furnishing carved from plain iron ore. Crafting it takes time and effort.
+A classy Furnishing carved from precious ore. It never loses its sparkle.
+A top-class Furnishing carved from rare ore. Anyone would kill to own one.
+A Furnishing. This to-scale model tickles the childlike heart in everyone.
+A classy Furnishing that looks just like a real air- ship! Great for all ages.
+A super-classy Furnishing with a Piggie on the sail. Any kid would die for this.
+A Furnishing -- well, more like a doll. It's the Tavern Quest Receptionist!
+A classy Furnishing -- well, more like a doll. It's the Guild Store Clerk!
+A top-class Furnishing -- well, more like a doll. It's the Arena Clerk!
+A Furnishing fashioned after... a Piggie? Very curious indeed.
+Feathers with tropical flair. Often used to craft Moga Village souvenirs.
+Commonly used in this region. It can be made into any number of things.
+Applying electricity to this unique paper reveals a special weapon recipe.
+A claw cut from one of these large pack leaders. Mainly used in weapon crafting.
+A pelt from a small animal. Used for many things, but mostly just regular clothes.
+Popo tongues are popular, healthy, and fun to eat.               ~C05(Account Item)
+A very strong shell, considering it comes from such a small monster.
+A sturdy part of the skull that yields, shall we say, dashing results?
+A very strong carapace, considering it comes from such a small monster.
+The hardest part of the shell. Reveals curious properties when forged.
+A broth made from only the thickest of a monster's juices. Quite rich.
+A transparent sac cut from an Altaroth's abdomen.
+A monster organ that contains a knockout powder capable of inducing sleep.
+A monster organ that contains dangerous powder. One whiff can induce a coma.
+The Baggi's remote habitat means these are worth a bit more than Jaggi Hides.
+The Baggi's remote habitat means these are worth a bit more than Jaggi Scales.
+The Baggi's remote habitat means these are worth a bit more than Great Jaggi Hides.
+Proof of who's boss among Baggi -- and now proof you are a seasoned hunter.
+A valuable gem that can be harvested from Jaggi and other bird wyverns.
+A volcanic monster's scale. Highly resistant to Fire, but doesn't sell for much.
+Contains weapon recipes and notes gleaned from the toils of a hard-working smith.
+A bone from a Jaggi or other bird wyvern. Small in size, but high in quality.
+Fins come in many shapes and sizes -- the right fin for the right job.
+Fins come in many shapes and sizes -- the right fin for the right job.
+Fangs come in many shapes and sizes -- the right fang for the right job.
+Demand for this soft-bodied creature's hide is limited, so the going price is low.
+A small, poisonous stinger that delivers a mild poison as the Giggi sucks blood.
+A ticket awarded for a display of bravery. Collect enough and it might pay off.
+A claw from a Jaggi or other bird wyvern. Small in size, but high in quality.
+A powered-up Barrel Bomb S. Small, but it packs a punch. You can use it underwater.
+Melynxes' favorite food -- they just have to steal it.
+An egg of glittering steel. Very valuable and rare, but of no use to a hunter.
+An egg of glittering silver. Very valuable and rare, but of no use to a hunter.
+An egg of glittering gold. Insanely valuable and rare, but of no use to a hunter.
+A crown of gold. On the brow is a hole for some sort of missing gemstone.
+A pure, precious stone that was once set into a crown. Valuable even on its own.
+A sophisticated symbol of wealth that shines like the sun. Everybody wants one!
+An introductory text for first-time combiners. Improves your success rate.
+A basic text. Owning Book 1 and this improves your combining success rate.
+An intermediate text. Owning Books 1, 2 and this improves your combining success rate.
+An advanced text. Owning Books 1-3 and this improves your combining success rate.
+A pro-level text. Owning Books 1-4 and this improves your combining success rate.
+An issue of "Hunting Life" magazine which explains how to maximize Item Box space.
+An issue of "Hunting Life" magazine containing advanced item-cramming techniques.
+A powered-up Barrel Bomb L (as potent as a B. Bomb L+). OK underwater. ~C05(Supply Item)
+Ammunition for a mounted underwater Bowgun.
+A gift for defeating a Rathalos in the Arena.
+A gift for defeating a Gobul in the Arena.
+A gift for defeating a Barioth in the Arena.
+A silver coin given only to True Hunters. Its gleam is a symbol of your glory.
+A gift for defeating a Diablos in the Arena.
+A gift for defeating a Deviljho in the Arena.
+Proof you have survived many onerous trials; used in the creation of special armor.
+An unknown metal from deep in the Tundra, it sucks the life from any who touch it.
+Recipe for a revolutionary  weapon... or would be, if it had been completed.
+Used to forge a weapon that only those who finish a  special Quest may wield.
+Badge of honor granted only to true hunters; used in the creation of special armor.
+A top-quality monster bone. Hard to find, but vital for crafting powerful equipment.
+An amulet that raises Attack. Just carrying this gives you demonic strength.
+A powerful amulet that raises Attack. Made with a Deviljho Talon.
+An amulet that raises Defense. Just carrying this hardens your skin like rock.
+A powerful amulet that raises Defense. Made with a Deviljho Talon.
+Bounces into the air when set. This modified bomb requires skill to use.
+An improved version of the Bounce Bomb. Requires some skill to use.
+Skin from a carnivorous fish living along the Moga shore. Desired for its unique feel.
+Proof you have overcome countless trials, and a true badge of honor.
+A Furnishing said to be a gift from the benign gods to seasoned combatants.
+A Furnishing said to be a gift from the gods of war to whoever rules among mortals.
+A gift for defeating a Great Jaggi in the Arena.
+A gift for defeating a Qurupeco in the Arena.
+A gift for defeating a Barroth in the Arena.
+A gift for defeating a Royal Ludroth in the Arena.
+A gift for defeating a Rathian in the Arena.
+A gift for defeating a Lagiacrus in the Arena.
+A gift for defeating an Uragaan in the Arena.
+A glorious coin given only to unquestioned Masters of Hunting. Beyond priceless.
+Decoration that raises the Poison skill.
+Decoration that raises the Poison skill.
+Decoration that raises the Paralysis skill.
+Decoration that raises the Paralysis skill.
+Decoration that raises the Sleep skill.
+Decoration that raises the Sleep skill.
+Decoration that raises the Stun skill.
+Decoration that raises the Stun skill.
+Decoration that raises the Mud/Snow skill.
+Decoration that raises the Mud/Snow skill.
+Decoration that raises the Sense skill.
+Decoration that raises the Health skill.
+Decoration that raises the Rec Speed skill.
+Decoration that raises the Rec Speed skill.
+Raises the Sharpness skill. ~C05(Blademasters)
+Raises the Sharpness skill. ~C05(Blademasters)
+Raises the Handicraft  skill. ~C05(Blademasters)
+Raises the Handicraft  skill. ~C05(Blademasters)
+Raises the Fencing skill.        ~C05(Blademasters)
+Raises the Fencing skill.        ~C05(Blademasters)
+Decoration that raises the Expert skill.
+Decoration that raises the Expert skill.
+Decoration that raises the Expert skill.
+Raises the Sharpener skill. ~C05(Blademasters)
+Decoration that raises the Guard skill.
+Decoration that raises the Guard skill.
+Decoration that raises the Guard Up skill.
+Decoration that raises the Guard Up skill.
+Raises the Reload Spd skill. ~C05(Gunners)
+Raises the Reload Spd skill. ~C05(Gunners)
+Raises the Recoil skill.         ~C05(Gunners)
+Raises the Recoil skill.         ~C05(Gunners)
+Raises the NormalS Up skill. ~C05(Gunners)
+Raises the NormalS Up skill. ~C05(Gunners)
+Raises the PierceS Up skill. ~C05(Gunners)
+Raises the PierceS Up skill. ~C05(Gunners)
+Raises the PelletS Up skill. ~C05(Gunners)
+Raises the PelletS Up skill. ~C05(Gunners)
+Raises the Normal S+  skill. ~C05(Gunners)
+Raises the Normal S+  skill. ~C05(Gunners)
+Raises the Pierce S+ skill.        ~C05(Gunners)
+Raises the Pierce S+ skill.        ~C05(Gunners)
+Raises the Pellet S+ skill.        ~C05(Gunners)
+Raises the Crag S+ skill.        ~C05(Gunners)
+Raises the Clust S+ skill.        ~C05(Gunners)
+Decoration that raises the Status skill.
+Decoration that raises the Status skill.
+Decoration that raises the Elemental skill.
+Decoration that raises the Elemental skill.
+Decoration that raises the Bomb Boost skill.
+Decoration that raises the Hunger skill.
+Decoration that raises the Hunger skill.
+Decoration that raises the Gluttony skill.
+Decoration that raises the Attack skill.
+Decoration that raises the Attack skill.
+Decoration that raises the Attack skill.
+Decoration that raises the Defense skill.
+Decoration that raises the Defense skill.
+Decoration that raises the Protection skill.
+Decoration that raises the Protection skill.
+Decoration that raises the Hearing skill.
+Decoration that raises the Hearing skill.
+Decoration that raises the Anti-Theft skill.
+Decoration that raises the Wide-Range skill.
+Decoration that raises the Wide-Range skill.
+Decoration that raises the Transport skill.
+Decoration that raises the Fire Res skill.
+Decoration that raises the Water Res skill.
+Decoration that raises the ThunderRes skill.
+Decoration that raises the Ice Res skill.
+Decoration that raises the Dragon Res skill.
+Decoration that raises the Heat Res skill.
+Decoration that raises the Cold Res skill.
+Decoration that raises the Wind Res skill.
+Decoration that raises the Wind Res skill.
+Decoration that raises the Map skill.
+Decoration that raises the Gathering skill.
+Raises the Spd Gather skill.
+Decoration that raises the Whim skill.
+Decoration that raises the Fate skill.
+Decoration that raises the Fate skill.
+Decoration that raises the Fishing skill.
+Decoration that raises the Psychic skill.
+Decoration that raises the Rec Level skill.
+Decoration that raises the Rec Level skill.
+Decoration that raises the Combo Rate skill.
+Decoration that raises the Combo Plus skill.
+Decoration that raises the Evasion skill.
+Decoration that raises the Evasion skill.
+Decoration that raises the Potential skill.
+Decoration that raises the Potential skill.
+Decoration that raises the LastingPwr skill.
+Decoration that raises the Stamina skill.
+Decoration that raises the Stamina skill.
+Raises the Loading skill.        ~C05(Gunners)
+Raises the Loading skill.        ~C05(Gunners)
+Raises the Precision skill. ~C05(Gunners)
+Decoration that raises the Eating skill.
+Decoration that raises the Eating skill.
+Decoration that raises the Carving skill.
+Decoration that raises the Carving skill.
+Decoration that raises the Tremor Res skill.
+Decoration that raises the Tremor Res skill.
+Decoration that raises the BBQ skill.
+Decoration that raises the Evade Dist skill.
+Decoration that raises the Evade Dist skill.
+Raises the Crit Draw skill. ~C05(Blademasters)
+Raises the Crit Draw skill. ~C05(Blademasters)
+Decoration that raises the SpeedSetup skill.
+Decoration that raises the Constitutn skill.
+Decoration that raises the Constitutn skill.
+Decoration that raises the Tranquilzr skill.
+Decoration that raises the Tranquilzr skill.
+Decoration that raises the Perception skill.
+Raises the FastCharge skill. ~C05(Blademasters)
+Raises the FastCharge skill. ~C05(Blademasters)
+Decoration that raises the Oxygen skill.
+Decoration that raises the CurrentRes skill.
+Decoration that raises the Swimming skill.
+Decoration that raises the Swimming skill.
+Raises the PunishDraw skill. ~C05(Blademasters)
+Raises the PunishDraw skill. ~C05(Blademasters)
+Decoration that raises the Blight Res skill.
+Raises the FreeElemnt skill. ~C05(Blademasters)
+Raises the FreeElemnt skill. ~C05(Blademasters)
+Decoration that raises the Survivor skill.
+Decoration that raises the Survivor skill.
+Raises the Rapid Fire skill. ~C05(Gunners)
+Raises the Rapid Fire skill. ~C05(Gunners)
+Decoration that raises the Dungmaster skill.
+Decoration that raises the Flame Aura skill.

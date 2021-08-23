@@ -1,0 +1,21 @@
+No Equipment	No Equipment	No Equipment
+Light Bowgun	Light Bowgun	Light Bowgun
+Medium Bowgun	Medium Bowgun	Medium Bowgun
+Heavy Bowgun	Heavy Bowgun	Heavy Bowgun
+Royal Launcher	"Aquamatic ""Needler"""	"Aquamatic ""Needler"""
+Jaggid Fire	Royal Launcher	Royal Launcher
+Thundacrus Rex	Thundacrus	Jaggid Fire
+Rathling Gun+	Thundacrus Rex	Thundacrus
+Blizzard Cannon	Rathling Gun	Thundacrus Rex
+Poison Stinger	Rathling Gun+	Rathling Gun
+Devil's Grin	Blizzard Cannon	Rathling Gun+
+Tropeco Gun	Poison Stinger	Barrozooka
+Diablazooka	Tropeco Gun	Devil's Grin
+Agnablaster	Diablazooka	Tropeco Gun
+Chaos Wing	Agnablaster	Diablazooka
+Jhen Cannon	Chaos Wing	Chaos Wing
+Dummy	Jhen Cannon	Jhen Cannon
+"Aquamatic ""Spark"""	"Aquamatic ""Spark"""	"Aquamatic ""Spark"""
+"Aquamatic ""Longshot"""	"Aquamatic ""Longshot"""	"Aquamatic ""Longshot"""
+Vulcannon	Vulcannon	Vulcannon
+		Bloodguilty Maw
