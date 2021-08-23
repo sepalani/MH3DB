@@ -1,0 +1,714 @@
+Une petite bombe à retardement. Utilisable sous l'eau.
+Bombe puissante déclenchée par un impact. Fonctionne sous l'eau.
+Déclenché par un poids important. Piège destiné à attraper les monstres. 
+Immobilise une cible. Utilisable pour capturer des monstres.
+Bombe émettant un flash aveuglant les monstres à l'impact.
+Ballon rempli d'oxygène. Pratique en cas de panne d'air sous l'eau.
+Émet un son à haute fréquence au moment de la détonation.
+Couteau de lancer standard. File en ligne droite vers la cible. ~C05 (Fourniture)
+Couteau de lancer à lame empoisonnée. Effet toxique. ~C05 (Fourniture)
+Couteau de lancer dont la lame a été imprégnée de somnifère. ~C05 (Fourniture)
+Couteau de lancer à la lame couverte d'une toxine para- lysante. ~C05 (Fourniture)
+Couteau permettant la capture des monstres piégés. ~C05 (Fourniture)
+Restaure une petite quantité de Santé. Combinez- la pour un méga-résultat !
+Restaure une quantité modérée de Santé. C'est la meilleure amie du chasseur.
+Vous permet de courir sans ressentir de fatigue pendant un certain temps.
+Pour courir sans fatigue plus longtemps qu'avec le Jus d'énergie.
+Débarrasse votre système de toute trace de poison.
+Augmente l'Attaque en vous conférant la force... d'un démon.
+Augmente l'Attaque plus encore que la Drogue du démon.
+Pilule qui vous confère temporairement la puissance d'un dieu redoutable.
+Augmente votre Défense en rendant votre peau aussi dure que de la pierre.
+Augmente votre Défense plus encore que la Peau armure.
+Rend temporairement votre peau aussi dure que du métal. Puissante !
+Confère une résistance temporaire à la chaleur extrême.
+Confère une résistance temporaire au froid extrême.
+Donne un bonus moyen de Stamina. Viande à point !
+Donne un petit bonus de Stamina. Viande saignante.
+Viande calcinée. Peut redonner de la Stamina ou vous affaiblir...
+Viande obtenue en dépeçant un monstre. A de nombreux usages.
+Viande crue empoisonnée. Utilisée comme appât pour les pièges.
+Viande crue paralysante. Utilisée comme appât pour les pièges.
+Viande crue somnifère. Utilisée comme appât pour les pièges.
+Peut être lancé sur un monstre pour le marquer et le suivre facilement.
+Une pioche bon marché dont la lame s'ébrèche aisément.
+Une pioche en fer avec une lame plutôt résistante.
+Une pioche en acier trempé, très difficile à ébrécher.
+Filet bon marché pour attraper les insectes. Se déchire facilement.
+Filet résistant pour attraper les insectes.
+Filet extrêmement résistant pour attraper les insectes.
+Permet de cuire la viande. Un objet essentiel pour tout chasseur affamé.
+Le jabot serait vraiment sensationnel... sans cette tête tranchée.
+Une carte qui montre la zone de chasse. ~C05(Fourniture)
+Éclaire les endroits sombres et trompe certains monstres. ~C05(Fourniture)
+Restaure un peu de Santé... Fait du bien en quelque sorte ! ~C05(Fourniture)
+Restaure un peu de Stamina. Dégoûte la plupart des chasseurs. ~C05(Fourniture)
+Fournie par la guilde. Un vrai bol d'air frais ! ~C05(Fourniture)
+Une broche BBQ fournie par la guilde pour chasseurs novices. ~C05(Fourniture)
+Aiguisoir portable pour entretenir le Tranchant des armes. ~C05(Fourniture)
+Immobilise une cible pour la capturer facilement. ~C05(Fourniture)
+Une bombe à lancer qui émet un flash à l'impact. ~C05(Fourniture)
+Restaure la Santé à son niveau maximum pour un rétablissement complet.
+Grande bombe baril améliorée. Mortelle. Fonctionne sous l'eau.
+Munition bon marché. Peu puissante. Feu à volonté ! Munitions illimitées.
+Munition non spécialisée. Plus puissante que Nv1. Max 99 mun.
+Munition non spécialisée qui ricoche et cause donc plus de dégâts. Max 99 mun.
+Balle perçante causant des impacts multiples aux monstres. Max 60 mun.
+Balle perçante causant plus d'impacts que le Nv1. Max 50 mun.
+Balle perçante causant le plus d'impacts dans sa catégorie. Max 40 mun.
+Large zone d'effet. Cause des impacts multiples de près. Max 60 mun.
+Large zone d'effet. Cause plus d'impacts que Nv1. Max 60 mun.
+Large zone d'effet. Cause le plus d'impacts dans sa catégorie. Max 60 mun.
+Munition puissante qui pénètre dans une cible et explose. Max 9 mun.
+Munition très puissante qui pénètre dans une cible et explose. Max 9 mun.
+Munition extrêmement puis- sante qui pénètre dans une cible et explose. Max 9 mun.
+Se divise en trois bombes à l'impact. Attention aux tirs alliés ! Max 5 mun.
+Se divise en quatre bombes à l'impact. Attention aux tirs alliés ! Max 5 mun.
+Se divise en cinq bombes à l'impact. Attention aux tirs alliés ! Max 5 mun.
+Munition efficace contre les monstres vulnérables au Feu. Max 60 mun.
+Munition efficace contre les monstres vulnérables à l'Eau. Max 60 mun.
+Munition efficace contre les monstres vulnérables à la Foudre. Max 60 mun.
+Munition efficace contre les monstres vulnérables à la Glace. Max 60 mun.
+Mystérieuse. Inexploitable par un Fusarbalète normal. Max 20 mun.
+Restaure un petit peu de la Santé de la cible. Max 12 mun.
+Restaure une quantité modérée de la Santé de la cible. Max 12 mun.
+Empoisonne la cible mais requiert parfois plusieurs essais. Max 12 mun.
+Poison plus puissant. Peut requérir plusieurs essais. Max 8 mun.
+Paralyse la cible mais requiert parfois plusieurs essais. Max 12 mun.
+Paralyse rapidement mais peut requérir plus d'un essai. Max 8 mun.
+Endort la cible mais requiert parfois plusieurs essais. Max 12 mun.
+Somnifère plus puissant mais peut requérir plus d'un essai. Max 8 mun.
+Tranquillisant pour capturer les monstres piégés. Max 8 mun.
+Signale momentanément la position d'un monstre sur la carte. Max 99 mun.
+Dote la cible d'une force phénoménale.  Max 5 mun.
+Dote la cible d'une force phénoménale.  Max 5 mun.
+Durcit la peau, efficace contre les attaques et la pression du vent. Max 5 mun.
+Durcit la peau, efficace contre les attaques et la pression du vent. Max 5 mun.
+Puissante quand elle est utilisée sous l'eau. Max 60 mun.
+Puissante quand elle est utilisée sous l'eau. Mieux que Nv1. Max 60 mun.
+Munition spéciale qui draine la Stamina du monstre. Max 20 mun.
+Munition spéciale qui lance des lames à l'impact. Max 30 mun.
+Inspiré des études sur le souffle de feu Wyvern. Comp. Tir rapide. Max 10 mun.
+Inspiré des études sur le souffle de feu Wyvern. Comp. Tir rapide. Max 10 mun.
+Inspiré des études sur le souffle de feu Wyvern. Comp. Tir rapide. Max 10 mun.
+Vous permet de regarder au loin.
+Grenade manuelle utilisée pour capturer les monstres piégés.
+Un petit caillou au poids adéquat. Testé et approuvé !
+Une pierre à aiguiser standard. Restaure le Tranchant des armes.
+Contient du fer. Peut être fondu et forgé pour de nombreux équipements.
+Les restes cristallisés d'organismes microbio- tiques. Abrasif pour arme.
+Supérieur au minerai de fer, mais aussi bien plus difficile à forger.
+Meilleur que la Machalite. Rare et précieux.
+Minerai toujours recherché. Supérieur à la Dragonite.
+Plutôt un os préhistorique d'un point de vue technique. Trouvé sous l'eau.
+Formé sous pression à base d'os préhistoriques. Jamais vu sur terre.
+Brûle à temp. ambiante. Sa température élevée peut fusionner des composants.
+Ne dégèle pas à temp. ambiante. Peut augmenter la densité des minerais.
+Cristal très dur doté d'un léger éclat. Utilisé pour fabriquer des outils.
+Échangeable contre un requin rare empaillé -- indispo. dans les quêtes normales.
+Un caillou ? Non, on dirait du métal... Enfin, on verra mieux une fois poli.
+Un fossile ? Non, c'est du métal en fait... Poli, ça se verra encore plus
+Métal précieux aux multiples usages... D'un blanc pur éclatant à la lumière.
+Métal précieux aux multiples usages... Bleu pâle à la lumière. A de la valeur.
+Un insecte supposé vivre mille ans, mais personne ne peut le confirmer.
+Améliore votre capacité naturelle à guérir. Soigne aussi le poison... parfois.
+Un insecte nocturne visible parfois de jour. Émet un flash puissant en mourant.
+Électrocute quand on le frappe. Éclaire les pièces et démarre les feux.
+Ces expectorations d'insecte sont un fort adhésif qui peut coller tout composant.
+La carapace dure de cet insecte sert souvent d'abrasif.
+Un insecte recherché. Très utile pour coller les composants.
+Les amateurs paient très cher pour son éclat de diamant. ~C05(Objet compté)
+Restaure un peu de Santé, mais au goût assez fade.
+Une plante servant d'antidote. Soigne parfois le poison quand on la mange.
+Une plante aux qualités somnifères.
+Une plante superbe aux propriétés inflammables.
+Une plante couverte de sève gluante. Attention à ne pas coller votre bourse fermée !
+Une baie de couleur vive au parfum enivrant. Attention : ça va TACHER !
+Une baie couverte de fines épines.
+Une baie creuse.
+Une noix qui éjecte violemment son contenu quand on la frappe.
+Une baie qui explose quand on la frappe.
+Une plante très résistante. Tressée, elle peut supporter le poids d'une personne.
+Augmente temporairement l'Attaque en améliorant le flux d'énergie.
+Augmente temporairement la Défense en durcissant les tissus.
+Diablement épicé. Vous réchauffera, mais est trop fort pour être pris seul.
+Contient des substances antidotes mais n'a pas d'effet tel quel.
+La mâcher libère de l'oxygène, mais c'est dur car ça colle vraiment.
+Un œuf volé dans un nid de Wyvern. Très fragile, manipuler avec soin.
+Crâne d'animal. Usé au point d'être impossible à identifier.
+Plein de nutriments, mais indigérable sous cette forme.
+Utilisé pour augmenter la puissance. Plus il est bleu, mieux c'est.
+Forme et goût parfaits. Même mieux qu'un champignon unique. ~C05(Objet compté)
+Champignon minuscule prisé pour son goût inhabituel. ~C05(Objet compté)
+Champignon à l'odeur étrange... Que provoquerait sa consommation ?
+Champignon induisant la paralysie.
+Champignon rare ayant le pouvoir de générer de la chaleur.
+La flotte en ramène parfois. L'éclat noir rapporte un bon prix.
+Une perle énorme -- à tel point qu'on risque de la prendre pour une fausse.
+Un beau fragment -- mais comme il est cassé, il aura peu de valeur.
+Os curieusement non fossilisé d'un dragon qui vivait par ici autrefois.
+Un composant très utile pour l'équipement et les objets du quotidien.
+Un os de belle taille. À la fois fort et souple comme l'acier et le bois.
+Os nécessaire pour créer de plus gros objets. Os et carapace sont joignables.
+Un produit rare ★. Utilisez cet ancien rampant pour un échange rare.
+Censé être l'insecte le plus fort. Sert à forger, cuisiner, etc.
+Pour se rafraîchir, re- pousser la chaleur et re- prendre un peu de Stamina.
+Pour se réchauffer, re- pousser le froid et re- prendre un peu de Stamina.
+D'apparence normale, mais extrêmement rigide.
+Plus dure qu'une carapace de Rathian normale.
+Ôtable grâce à des techniques récentes, mais difficile à forger.
+Pointe hyper tranchante. Plus longue et solide que d'autres pointes.
+Gemme rare formée dans une Rathian. Presque trop belle pour être forgée.
+Gemme rare formée dans un Rathalos. Presque trop belle pour être forgée.
+Organe de monstre contenant une poudre qui s'enflamme au contact de l'air. Danger !
+Une écaille de Rathalos extraordinairement solide.
+Plus dure qu'une Carapace de Rathalos normale.
+Écaille cachée par un plumage vif. À échanger contre de l'argent de poche.
+Un bec de forme étrange, mais incontestablement beau.
+Dépecer un de ces objets sur un Gigginox n'est pas chose aisée.
+Une gueule caractéristique de Gigginox qui ressemble à celle du Khezu.
+Les impuretés forment cette pierre étrange au cours de la vie d'une Wyvern.
+Un organe de monstre doté d'un pouvoir de gel extraordinaire.
+Le seul moyen d'obtenir un morceau épais de cuir de Wyvern.
+Le seul moyen d'obtenir un cristal qui tourbillonne avec les ténèbres.
+Dur à travailler, mais très recherché quand même. Aux propriétés mystérieuses.
+Changeait de couleur quand son propriétaire vivait. Prisé des collectionneurs.
+Organe de monstre empli de toxine mortelle. Manipuler très soigneusement.
+Dépecer un de ces objets sur un Gigginox n'est pas chose aisée.
+Un produit de qualité. Même une de ces plumes arc-en- ciel fait un bon échange.
+Un croc de Wyvern de la forêt Moga à échanger contre de la petite monnaie. 
+Un produit rare ★★★★. À utiliser dans un échange rare.
+Un must en matière de pêche. Affaiblissez le poisson, puis harponnez-le.
+Les restes d'un insecte. Il faut un cœur bien accroché pour s'y intéresser
+Un os long, fin. De la camelote, mais pas totale- ment sans valeur.
+Excrément de monstre. Maximise la fertilité d'un sillon.
+Une toile d'araignée très collante.
+Ingrédient de base pour créer des bombes lancées à la main.
+Combien de bouffées faut-il pour savoir ce qu'il contient ? Une seule !
+Combien de coups de langue faut-il pour savoir ce qu'il contient ? Un seul !
+Un appât. Saute très loin -- parfois dans la gueule d'un poisson !
+Un appât. Se tortille sous l'eau, incitant les poissons à mordre.
+Un appât. Sa lueur durable dit aux poissons "mordez-moi".
+Un appât. Déclenche une fringale. Aucun poisson ne peut y résister !
+Un appât. Vous connaissez un monstre doué en pêche ? Combattez le feu par le feu.
+Un poisson doté d'une nageoire dorsale assez dure pour aiguiser les armes.
+Un poisson gras et délicieux qui restaure un peu de Santé.
+Un poisson à la mâchoire couverte de minuscules pointes acérées.
+Un poisson qui éclate littéralement en mourant.
+Un poisson aux propriétés somnifères.
+Un poisson qui s'ouvre en deux en mourant.
+Un poisson qui explose lorsqu'on le tue.
+Dévore tout, ce qui vous permet parfois de récupérer des choses à l'intérieur.
+Un poisson qui éclate en morceaux en mourant.
+Un poisson rare qui vaut très cher, mais attention à sa férocité, bleus !
+Un poisson rare en or. Vendez-le contre une belle somme. ~C05(Objet compté)
+Un produit du quotidien. Ces écailles ambrées doivent être échangées en masse.
+Un produit rare ★. Utilisez ce crâne massif dans un échange rare.
+Le trésor du roi pirate, arr ! Qui sait quelles richesses il vaudra ?
+Un filet solide capable de supporter un certain poids sans casser.
+--
+Fertilisant pour boîte à champi. Bactérie présente dans certains monstres.
+Fertilisant pour boîte à insectes. "10 insectes par goutte ou on en MANGERA un".
+Fertilisant pour boîte à miel. Ces abeilles actives ne se reposent jamais.
+Un produit de qualité. Même un de ces rampants fait un bon échange.
+Croc de monstre de la forêt Moga de grande valeur. Vaut une petite fortune.
+Un produit du quotidien pêché par les chasseurs. Échanger en masse.
+Un produit de qualité. Même un de ces poissons vénérés fait un bon échange.
+Un produit rare ★. Contient une gemme précieuse. À uti- liser dans un échange rare.
+Obtenue sur certains monstres. Échanger contre de l'argent de poche.
+Un produit du quotidien. Ces poissons vivent près des cô- tes Moga. Échanger en masse.
+Améliore la prise de la flotte à la pêche ; moins efficace sinon.
+Améliore la prise de la flotte cherchant un tré- sor ; moins efficace sinon.
+Améliore la prise de la flotte à la chasse ; moins efficace sinon.
+Un produit de qualité.  Réduit d'1 jour les voyages. Est aussi un bon échange.
+Fertilisant pour boîte à champi. Bactérie imbattable. C'est le Germinator !
+Foie âpre obtenu sur certains grands monstres. Peu apprécié des humains.
+Viande rare filandreuse d'une Wyvern à cornes. Peu appréciée des humains.
+Un produit rare ★★. Vient du Ludroth royal et du Lagiacrus. Pour éch. rare.
+Un produit rare ★★★. Faites un échange rare avec ce sérum d'os de Rathian.
+Fertil. pour boîte à insec- tes. Odeur de certains mons- tres. Les insectes adorent.
+Fertilisant pour ferme. Essayez de chasser les rampants bizarres avec.
+Fertilisant de champs. Les Aptonoth ont grandi... comme ça ! Mieux que la bouse.
+Un produit du quotidien. Échangez ces peaux de Kelbi solides en masse.
+Un produit de qualité. Même un de ces crocs étranges fait un bon échange.
+Un produit rare ★. Faites un échange rare avec cette aiguille de reine Bnahabra.
+Un produit de qualité.  Réduit d'1/2 jour les voyages. Échanger en masse.
+Un produit de qualité. Ces  crocs de wyv. aviaires doi- vent être échangés en masse.
+Un produit rare ★★. Faites un échange rare avec cette plume aux couleurs vives.
+Un produit de qualité. Ce croc usé brille en blanc. Fait un bon échange.
+Un produit rare ★★★★. Cette écaille ne se dessèche jamais. Pour échanges rares.
+Pierre en or cristallisée dans une Wyvern pendant des décennies. Vaut cher.
+Émet une odeur que les Felynes adorent. Essayez de toucher les monstres avec.
+Le must en BBQ ! Maintenez le bouton Énergie pour continuer à cuire !
+Un produit du quotidien. Convertible en ressources ou échangeable en masse.
+Un produit du quotidien. Convertible en ressources ou échangeable en masse.
+Un produit du quotidien. Convertible en ressources ou échangeable en masse.
+Œuf mystérieux très rare de la forêt Moga. Convertible en ressources.
+Un os très usé. Pas assez solide pour forger avec.
+Guérit les effets du poison et restaure un peu de Santé.
+Écaille de Wyvern volante endémique. La Rathian est la femelle du Rathalos.
+Carapace composée de couches d'écailles, la rendant plus dure qu'une seule écaille.
+Dure à forger, mais aux pro- priétés thermiques idéales pour renforcer une armure.
+Poils acérés trouvés sur le dos et les ailes d'une Rathian. Empoisonnée.
+Écaille de queue brûlante. Dure et aussi ardente que la Wyvern qui la portait.
+Organe de monstre. Contient une poudre très inflammable. Manipuler avec soin.
+Larmes mystérieuses versées pour les occasions spé- ciales. ~C05(Objet compté)
+Écailles de Wyvern et cara- paces plus dures sont des objets de forgeage de base.
+Carapace composée de couches d'écailles, la rendant plus dure qu'une seule écaille.
+Dure à forger, mais aux pro- priétés thermiques idéales pour renforcer une armure.
+Ôtable grâce à des techniques récentes, prend feu au contact de l'air.
+Écaille de queue brûlante. Dure et aussi ardente que la Wyvern qui la portait.
+La queue coupée d'un Rathalos. A de multiples usages.
+Écaille cachée par un plumage vif. À échanger contre de l'argent de poche.
+Plume au panache tropical. Sert souvent à créer des souvenirs du village Moga.
+Plume aux couleurs vives. Fragile, mais idéale pour ceux qui aiment l'éclat.
+Sa forme bizarre en fait un sujet de conversation à part entière.
+Dur à forger, mais très recherché quand même. Aux propriétés mystérieuses.
+Changeait de couleur quand son propriétaire vivait. Prisé des collectionneurs.
+Organe de monstre empli de toxine mortelle. Manipuler très soigneusement.
+Peut amplifier les effets de certains remèdes.
+Un large croc solide poly- valent, des armes aux ornements.
+Cette carapace est dense et plus lourde qu'il n'y paraît.
+Plaque arrière dure comme la pierre, utilisable pour créer des équipements.
+Étui de queue cuirassé à faire pâlir les marteaux. Une protection hors pair.
+Carapace Barroth. Souvent recouverte de boue, mais solide malgré tout.
+Vient de la plaque arrière. Plus rare que la carapace, a donc plus de valeur.
+Peu aiguisée, mais assez solide pour être polyvalente en forgeage.
+Sans grande valeur, mais dont la viande est un mets raffiné.
+Cette partie solide du crâne est aussi la plus dure à enlever.
+De valeur similaire à ceux du Velociprey. Compose les munitions de Fusarbalète.
+Souvent utilisé par ici. Peut être transformé en beaucoup de choses.
+A peu de valeur, mais les débutants ne peuvent pas décider.
+Provient d'un de ces grands chefs de meute. Sert à fabriquer des armes.
+Mieux qu'un cuir normal. Peut être transformé en beaucoup de choses.
+Organe de monstre. Émet un son aigu si on le brise.
+Pas très solide, mais souple et malléable. Pour forger de l'équipement de valeur.
+Écaille souple aux éclats bleus à la lumière. Très demandée.
+Griffe aiguisée poussant sur la nageoire. Ne rapportera pas beaucoup d'argent.
+Libère de l'électricité, n'en génère pas. Manipulable sans danger.
+Entre dans la fabrication d'armes et relève aussi les plats Moga.
+L'écaille la plus grande et prisée. Améliore l'effica- cité de l'équipement.
+Cuir étonnamment élastique. Idéal pour isoler du froid.
+Plus petite que l'écaille de Wyvern volante. Il vous en faudra beaucoup pour forger.
+Ces griffes sont plus adaptées au déplacement qu'à l'attaque.
+Toute la queue du Ludroth royal. Utilisée pour construire des bateaux.
+Une substance mystérieuse extractible sur certains monstres.
+Très résistant à l'eau, mais ne rapportera pas grand chose.
+Composant spongieux jeune. Recherché pour le quotidien plus que pour l'équipement.
+Un des nombreux piquants de Gobul, et l'une des quelques parties immangeables.
+Peau gluante -- un goût ac- quis, mais les connaisseurs ne peuvent s'en passer.
+Organe de monstre empli d'une neurotoxine paralysante.
+Moins belle que d'autres composants aquatiques, mais a quand même ses adeptes.
+Réaction unique à la chaleur, permet d'augmen- ter la force de l'armure.
+Armure de haute qualité. Appréciée comme ajout à la force de l'armure.
+Composant le plus connu, utilisé comme leurre. C'est aussi un conservateur.
+La peau d'un petit animal. A de multiples usages, prin- cipalement les vêtements.
+Augmente très légèrement le niveau maximum de Santé.
+Augmente légèrement le niveau maximum de Santé.
+Un dangereux champignon supposé drainer la vie des gens. Prudence !
+Médicament qui améliore la capacité naturelle de récupération.
+Se mélange à d'autres composants pour améliorer leur effet. Inutile seul.
+Un composant de base pour fabriquer des bombes lancées à la main.
+Les infusions de poudre de corne de Kelbi servent de médicament. Secret local !
+Une corne de Kelbi extrê- mement rare. Prisée chez les marchands.
+Aussi solide qu'une armure de Wyvern dans les mains d'un artisan intelligent.
+Dure à forger -- les résultats dépendront de la surface utilisée.
+Fluide collant trouvé souvent dans les insectes après leur repas.
+Enveloppe de munitions. Plus résistante que la baie-coque.
+Enveloppe de munitions pouvant supporter de puissantes explosions.
+La logique dit de ne pas le manger, mais ne l'éliminez pas complètement.
+Crée un large nuage de fumée dans la zone où elle atterrit.
+Contient un gaz toxique. Utilisée aussi pour la fumigation.
+Diffuse une horrible odeur repoussant les monstres... ou pas.
+Un produit dangereux qui explose lorsqu'il est frappé ou chauffé.
+Outil requis pour installer différents pièges, comme la Fosse piégée.
+Nommé d'après sa forme. Utilisez-le comme appât ; son odeur excite les thons.
+L'appât préféré des thons. "Miam".
+Insecte replet. Utilisez-le comme appât ; son odeur excite les Arowanas.
+L'appât préféré des Arowanas. "Miam".
+Une larve inhabituelle dont l'odeur excite les Poissondors. Bon appât.
+L'appât préféré des Poissondor. "Miam".
+Combinaison d'un cristal de terre et de nutriments. N'existe pas tel quel.
+Pour créer des munitions de Fusarbalète. La poudre les brise, générant des éclats.
+Cristaux mystérieux longtemps révérés comme une source de vitalité.
+Pour créer des munitions de Fusarbalète. La poudre dé- clenche une large explosion.
+Résultat de la combinaison de Cristaux de vie. Fort pouvoir restaurateur.
+Un objet dangereux utilisé pour attirer certains monstres. Fragile.
+Restaure la Santé de ceux qui l'entendent. Fragile.
+Élimine le poison dans le sang de ceux qui l'entendent. Fragile.
+Augmente la force de ceux qui l'entendent. Fragile.
+Améliore la résistance de ceux qui l'entendent. Fragile.
+Vous ramène instantanément au camp de base.
+Médicament utilisé comme anesthésiant lorsqu'il est combiné.
+Guérit le Fléaudragon et augmente temporairement la Résistance au Dragon.
+Parfait pour vous réveil- ler ! Guérit la fatigue et régénère la Stamina.
+Enlève instantanément glace ou boue sur votre corps. Propre comme un sou neuf !
+Déchet produit lorsqu'une tentative de combinaison a échoué.
+Restaure la Santé et la Stamina à leur niveau maximum.
+Active temporairement un 6ème sens pour sentir la présence des monstres.
+Cadeau pour avoir vaincu un Agnaktor dans l'Arène.
+Munition pour installation de Fusarbalète géant. ~C05(Fourniture)
+Munition utilisée contre les grands dragons. Très lourde. ~C05(Fourniture)
+Explose au moindre impact. Attention ! ~C05(Objet compté)
+Petite bombe à retar- dement qui se fixe à l'ennemi. ~C05(Fourniture)
+Munition immobilisante pour installation de Fusarbalète géant. ~C05(Fourniture)
+Peut être coupée en combat dans de très rares cas.
+Corne tordue d'un Diablos. A de nombreux usages (moins tordus) par ici.
+Corne tordue d'un Diablos de grande taille. Pour créer des armes plus puissantes.
+Un must en matière de pêche. Affaiblissez le poisson, puis harponnez-le.
+L'appât préféré des Makros couteaux. "Miam".
+L'appât préféré des Sushipoissons. "Miam"
+Guérit le Fléaufeu et augmente temporairement la Résistance au Feu.
+Guérit le Fléau-eau et augmente temporairement la Résistance à l'Eau.
+Guérit le Fléauglace et augmente temporairement la Résistance à la Glace.
+Guérit le Fléaufoudre et augmente temporairement la Résistance à la Foudre.
+Un œuf volé dans un nid d'herbivore. A l'air vraiment savoureux.
+Un os prisé dans le village pour des raisons inconnues. ~C05(Objet compté)
+Un os en or brillant. Prisé des collectionneurs. ~C05(Objet compté)
+Restaure l'oxygène perdu et vous permet de rester plus longtemps sous l'eau.
+Restaure l'oxygène perdu et vous permet de rester plus longtemps sous l'eau.
+Sac transparent d'Altaroth au contenu inconnu.
+Ces mâchoires solides sont incroyablement dures à découper.
+Champignon unique de par son odeur et son goût matures. ~C05(Objet compté)
+Devient rigide quand la bête est en colère ; la quantité indique le statut.
+Carapace blanche unique. Solide, résistante, et très légère.
+Peau blanche soyeuse aux excellentes propriétés d'absorption des chocs.
+Deux défenses aiguisées de Barioth servant pour les armes et les meubles.
+Griffe aiguisée mortelle qui servait à escalader les murs de glace solide.
+De plusieurs tailles. Aide le Barioth à s'agripper aux murs de glace.
+Organe contenant un liquide en-dessous de zéro. Mani- puler très soigneusement.
+Cet exosquelette fait une armure semblant émoussée mais qui marche bien.
+Résiste plus à la chaleur que la carapace. Censé pro- téger les organes sensibles.
+Dure à obtenir. Sert à créer des choses particulières et a des fins médicales.
+A une forme surprenante ; on trouve du minerai fusionné à l'os.
+Devient rouge vif à la forge. Légère et très résistante à la chaleur.
+Cuir curieux souple et résistant à la chaleur, mais pas forcément solide.
+Une des nombreuses pinnae d'Agnaktor. Sert de composant de bateau.
+Griffe puissante ET qui sort juste du magma bouillant. Attention !
+A une teinte éclatante, mais n'a pas tant de valeur que ça.
+Bec d'Agnaktor distinctif lui permettant de creuser des tunnels sous terre.
+Montre qui est le chef des Jaggis -- et montre que vous devenez un chasseur aguerri.
+Les Barroth se roulent dedans. Riche en nutriments et top pour l'agriculture.
+Un des poils poussant sur le museau d'un Gobul, peut servir à creuser un terrier.
+Libère de l'électricité, n'en génère pas. Manipulable sans danger.
+On chante sa puissance depuis des siècles. Est très demandée.
+Le Qurupeco démarre des feux avec. Il y a une astuce pour le faire marcher.
+Recouverte de plaque dure et difficile à couper.
+Cette pierre pourpre est- elle une relique d'une bête antique ? ~C05(Objet compté)
+Donner pour finir une quête. Vous pourrez peut-être re- partir... ~C05(Objet compté)
+Entrailles de monstre. Un mets raffiné recherché. ~C05(Objet compté)
+Trouvée sous l'eau dans le coin. De l'argent facile ! ~C05(Objet compté)
+À échanger contre un repas spécial aux effets plus forts que d'habitude.
+À échanger contre un repas de roi. Aux goût et effets de qualité supérieure.
+Plaque unique repoussant toutes les attaques et en renvoyant certaines.
+Cette écaille spéciale pousse à l'envers. Aussi aiguisée qu'une épée.
+Si aiguisée qu'on ne peut prédire la force des armes faites avec.
+Le fait de tenir ce joyau légendaire signifie votre FIN.
+Partie des cornes tortueuses d'un Alatreon.
+(Objet masque.)
+(Objet masque.)
+Gri-gri modeste. Finissez la quête pour découvrir ses effets.
+Gri-gri curieux. Finissez la quête pour découvrir ses effets.
+Gri-gri puissant. Finissez la quête pour découvrir ses effets.
+Réagit uniquement à la chaleur. Forme une couche d'armure si combinée.
+Sphère d'armure avancée. Rare au village Moga. Pour améliorations spéciales.
+Sphère d'armure dure et dense. Rare, pour amélio- rations plus avancées.
+Sphère d'armure dense et épaisse. Très rare, crée des armures étonnantes.
+Composant indispensable pour la Décoration.
+Composant indispensable pour la Décoration.
+Composant indispensable pour la Décoration. Honteux qu'il soit si hors de prix.
+Composant indispensable pour la Décoration. Celui- là est rare.
+Carapace blanche unique. Solide, résistante, et très légère.
+Peau blanche soyeuse aux excellentes propriétés d'absorption des chocs.
+Deux défenses aiguisées de Barioth servant pour les armes et les meubles.
+Griffe aiguisée mortelle qui servait à escalader les murs de glace solide.
+Des découvertes récentes ont révélé qu'on pouvait l'utiliser comme adhésif.
+Plus dure qu'une carapace Diablos normale.
+Partie la plus dure d'une pique Diablos. Incroyable- ment difficile à tailler.
+Corne torsadée et dure de Diablos. Difficile à préserver, donc précieuse.
+Incroyablement solide pour une peau de monstre. Fastidieuse à travailler.
+Presque trop grande pour son appellation. Est moins dure qu'il n'y paraît.
+Difficile à croire que de la "fourrure" servirait à forger des armes.
+Immense queue de Ceadeus, ex-ennemi du village. Symbole de paix.
+On ignore pourquoi il brille mais il semble renfermer une puissance incroyable.
+Un composant très dur à extraire d'un Ceadeus. Doté d'un vide sans fond.
+Corne géante formée durant les siècles. Manifeste tout le poids de l'histoire.
+Contient un ingrédient inconnu, objet de nombreuses études.
+Carapace dure comme la pierre prélevée sur le Jhen Mohran durant la chasse.
+Armure couvrant la patte avant du Jhen Mohran, prélevée durant la chasse.
+Écaille bleu vif prélevée sur le Jhen Mohran durant la chasse.
+Ces crocs de dragon ont pris de la valeur, entraînant une "ruée vers le croc".
+Un composant très dur, à prélever sur un Jhen Mohran, et c'est peu de le dire.
+Carapace dure comme la pierre prélevée sur le Jhen Mohran durant la chasse.
+Écaille bleu vif prélevée sur le Jhen Mohran durant la chasse.
+Ces crocs de dragon ont pris de la valeur, entraînant une "ruée vers le croc".
+Armure couvrant la patte avant du Jhen Mohran, prélevée durant la chasse.
+Cuirasse Barroth. Souvent recouverte de boue, mais solide malgré tout.
+Vient de la plaque arrière. Plus rare que la carapace, a donc plus de valeur.
+Peu aiguisée, mais assez solide pour être polyvalente en forgeage.
+Son contenu unique en minéraux lui donne un faible éclat à la lumière.
+Son contenu unique en minéraux lui donne un faible éclat à la lumière.
+Gemme de valeur prélevée rarement sur un Uragaan. Ajoute force quand forgée.
+Cet exosquelette fait une armure semblant émoussée mais qui marche bien.
+Cuir noir bizarrement gluant et difficile à forger.
+A moins de valeur -- assez rare, mais peu de magasins en veulent.
+Une griffe crochue dangereusement aiguisée. Risque de blessure.
+Croc de taille convenable d'une gueule de taille terrifiante.
+Renfermerait un pouvoir Deviljho. Utilisée dans les rituels occultes.
+Son extraction libère une odeur monstrueusement putride.
+Queue énorme semblable à une nageoire. Certains en font collection.
+Composant spongieux mature. Recherché pour le quotidien plus que pour l'équipement.
+Cuir étonnamment élastique. Idéal pour isoler du froid.
+Plus petite que l'écaille de Wyvern volante. Il vous en faudra beaucoup pour forger.
+Ces griffes sont plus adaptées au déplacement qu'à l'attaque.
+Devient rigide quand la bête est en colère ; la quantité indique le statut.
+Une des nombreuses pointes de Gobul, et l'une des quel- ques parties immangeables.
+Peau gluante -- un goût ac- quis, mais les connaisseurs ne peuvent s'en passer.
+Composant le plus connu, utilisé comme leurre. C'est aussi un conservateur.
+Moins belle que d'autres composants aquatiques, mais a quand même ses adeptes.
+Pas très solide, mais souple et malléable. Pour forger de l'équipement de valeur.
+Écaille souple aux éclats bleus à la lumière. Très demandée.
+Griffe aiguisée poussant sur la nageoire. Ne rapportera pas beaucoup d'argent.
+On chante sa puissance depuis des siècles. Est très demandée.
+Gemme de valeur prélevée rarement sur un Lagiacrus. Améliore les résistances.
+Queue coupée sur un Agnaktor. Rapporte peu par manque de demande.
+Devient rouge vif à la forge. Légère et très résistante à la chaleur.
+Cuir curieux souple et résistant à la chaleur, mais pas forcément solide.
+Une des nombreuses pinnae d'Agnaktor. Sert de composant de bateau.
+Griffe puissante ET qui sort juste du magma bouillant. Attention !
+Dépôt semblable à du magma. Seuls les experts savent le manier.
+Partie des cornes tortueuses d'un Alatreon. Casse facile- ment quand découpé.
+On croyait les Alatreons légendaires, mais cette queue prouve le contraire.
+Semblable aux abysses sombres ou aux premières lueurs du jour.
+Meuble fait à partir de corne de Kelbi. Charmant ! Mais n'en restez pas baba.
+Meuble chic fait à partir de corne de Diablos. De grande valeur.
+Meuble ultra-chic, symbole d'urbanisme et de votre dur labeur.
+Meuble sur le thème des cochonnets. Aimé par tout le monde.
+Meuble chic sur le thème des cochonnets. Fait s'envoler tous vos soucis.
+Meuble chic sur le thème des cochonnets. Charmant ET intimidant !
+Meuble. Cette plante en pot relaxante et colorée vient des Plaines de sable.
+Meuble chic. Cette plante en pot est une souche qui ne fleurit pas d'habitude.
+Meuble très chic. Cette plante de la Toundra pousse dans les neiges éternelles.
+Meuble en forme de champignon. Les filles en sont dingues.
+Meuble ultra-chic en forme de Qurupeco. Imite une lampe !
+Meuble super-chic en forme de Gobul qui bouge ! Incroyable.
+Meuble en forme de Lagiacrus. Son eau qui coule apaise l'esprit.
+Meuble chic en forme de Giggi. Quelqu'un s'est amusé en le créant.
+Meuble ultra-chic en forme d'Agnakator. Tout simplement inestimable.
+Meuble découpé dans du minerai de fer. Sa création est fastidieuse.
+Meuble chic découpé dans du minerai précieux. Ne perd jamais son éclat.
+Meuble ultra-chic découpé dans du minerai rare. On fe- rait tout pour en avoir un.
+Meuble. Cette maquette à l'échelle réveille l'enfant en chacun de nous.
+Meuble chic semblable à un vrai dirigeable ! Pour tous âges.
+Meuble très chic avec un co- chonnet sur la voile. Un enfant tuerait pour ça.
+Meuble -- plutôt une poupée. La réceptionniste de quête de la taverne !
+Meuble chic -- plutôt une poupée. L'employée de la guilde !
+Meuble ultra-chic -- plutôt une poupée. L'employée de l'arène !
+Meuble en forme de... cochonnet ? Très curieux en fait.
+Plume au panache tropical. Sert souvent à créer des souvenirs du village Moga.
+Souvent utilisé par ici. Peut être transformé en beaucoup de choses.
+Appliquer de l'électricité à ce papier unique révèle une recette d'arme spéciale.
+Provient d'un de ces grands chefs de meute. Sert à fabriquer des armes.
+La peau d'un petit animal. A de multiples usages, prin- cipalement les vêtements.
+La langue de Popo est saine, appréciée, et amusante à manger. ~C05(Objet compté)
+Carapace très forte si on considère le petit monstre dont elle provient.
+Partie solide du crâne qui produit, disons, de superbes résultats.
+Cuirasse très forte si on considère le petit monstre dont elle provient.
+Partie la plus dure de la carapace. Révèle d'étranges propriétés une fois forgée.
+Riche brouet à base d'épais fluides extraits sur des monstres.
+Poche transparente découpée dans l'abdomen d'un Altaroth.
+Organe de monstre. Contient une poudre qui endort.
+Organe de monstre. Contient une poudre dangereuse qui met dans le coma.
+Son habitat reculé donne plus de valeur à son cuir qu'à celui du Jaggi.
+Son habitat reculé donne plus de valeur à ses écail- les qu'à celles du Jaggi.
+Son habitat reculé donne plus de valeur à son cuir qu'à celui du grand Jaggi.
+Montre qui est le chef des Baggis -- et montre que vous êtes un chasseur aguerri.
+Gemme de valeur de Jaggi et d'autres Wyverns aviaires.
+Écaille de monstre volca- nique. Très résistante au feu, mais de peu de valeur.
+Contient des recettes d'arme et des notes glanées du la- beur d'un forgeron zélé.
+Os de valeur de Jaggi et d'autres Wyverns aviaires. Petit mais de haute qualité.
+De formes et tailles variées -- à chaque nageoire son usage.
+De formes et tailles variées -- à chaque nageoire son usage.
+De formes et tailles variées -- à chaque croc son usage.
+Le cuir de cette créature au poil doux est peu demandé, donc le prix sera bas.
+Petit dard qui libère un léger poison quand le Giggi suce le sang.
+Ticket obtenu en faisant preuve de bravoure. Collectionnez-les. Ça paie.
+Griffe de Jaggi et d'autres Wyverns aviaires. Petite mais de haute qualité.
+Petite bombe baril améliorée puissante. Utilisable sous l'eau.
+Les Melynx en raffolent. Ils ne peuvent s'empêcher d'en voler.
+Œuf d'acier brillant. Très cher et très rare. Inutile pour un chasseur.
+Œuf d'argent brillant. Très cher et très rare. Inutile pour un chasseur.
+Œuf d'or brillant. Extrêmement cher et rare. Inutile pour un chasseur.
+Couronne en or. Un trou suggère qu'il manque une gemme.
+Pierre précieuse pure autrefois sur une couronne. A de la valeur seule.
+Symbole sophistiqué de richesse brillant comme le soleil. Très prisé !
+Texte d'introduction pour les combineurs novices. Augmente vos chances.
+Texte de base. Comme le 1, augmente vos chances de succès en combinaison.
+Texte de niveau moyen. Comme 1 et 2, augmente vos chances de succès en combinaison.
+Texte de niveau avancé. Com- me 1, 2 et 3, augmente vos chances de succès en combi.
+Texte de niveau pro. Comme 1, 2, 3 et 4, augmente vos chances de succès en combi.
+Numéro du célèbre magazine "Vie de chasse" parlant de la Boîte à objets.
+Numéro du célèbre magazine "Vie de chasse" parlant de l'entassement d'objets.
+Version améliorée de la Gd bmb baril. Très puissante. Subaqua. ~C05(Fourniture)
+Munition pour installation de Fusarbalète sous-marin.
+Cadeau pour avoir vaincu un Rathalos dans l'Arène.
+Cadeau pour avoir vaincu un Gobul dans l'Arène.
+Cadeau pour avoir vaincu un Barioth dans l'Arène.
+Pièce d'argent donnée aux vrais chasseurs. Symbole de votre gloire.
+Cadeau pour avoir vaincu un Diablos dans l'Arène.
+Cadeau pour avoir vaincu un Deviljho dans l'Arène.
+Preuve de votre survie à de nombreuses épreuves ; sert à créer des armures spéciales.
+Métal inconnu de la toundra profonde qui aspire la vie de celui qui le touche.
+Recette d'une arme qui se- rait révolutionnaire...si elle était complète.
+Sert à forger une arme uti- lisable juste par ceux qui achèvent une quête spéciale.
+Badge d'honneur accordé aux vrais chasseurs ; sert à créer des armures spéciales.
+Os de grande qualité. Dur à trouver, mais vital pour un équipement puissant.
+Amulette qui augmente l'Attaque. La porter confère la force d'un démon.
+Amulette puissante qui augmente l'Attaque. Faite en griffe de Deviljho.
+Amulette qui augmente la Défense. La peau devient dure comme la pierre.
+Amulette puissante qui augmente l'Attaque. Faite en griffe de Deviljho.
+Bombe modifiée qui rebondit en l'air quand on la lance. Habileté requise.
+Bombe rebond améliorée. Habileté requise.
+Peau d'un poisson carnivore de la côte Moga. Voulu pour son contact unique.
+Vrai badge d'honneur, preuve que vous avez passé bien des épreuves.
+Meuble offert par les dieux bienveillants aux guerriers aguerris.
+Meuble offert par les dieux de la guerre aux dirigeants mortels.
+Cadeau pour avoir vaincu un grand Jaggi dans l'Arène.
+Cadeau pour avoir vaincu un Qurupeco dans l'Arène.
+Cadeau pour avoir vaincu un Barroth dans l'Arène.
+Cadeau pour avoir vaincu un Ludroth royal dans l'Arène.
+Cadeau pour avoir vaincu une Rathian dans l'Arène.
+Cadeau pour avoir vaincu un Lagiacrus dans l'Arène.
+Cadeau pour avoir vaincu un Uragaan dans l'Arène.
+Pièce glorieuse donnée aux maîtres chasseurs. N'a pas de prix.
+Augmente le talent Poison.
+Augmente le talent Poison.
+Augmente le talent Paralysie.
+Augmente le talent Paralysie.
+Augmente le talent Sommeil.
+Augmente le talent Sommeil.
+Augmente le talent Étourdir.
+Augmente le talent Étourdir.
+Augmente le talent Boue/Neige.
+Augmente le talent Boue/Neige.
+Augmente le talent Discrétion.
+Augmente le talent Santé.
+Augmente le talent Récupération.
+Augmente le talent Récupération.
+Augmente le talent Tranchant. ~C05(Épéiste)
+Augmente le talent Tranchant. ~C05(Épéiste)
+Augmente le talent Artisan. ~C05(Épéiste)
+Augmente le talent Artisan. ~C05(Épéiste)
+Augmente le talent Escrime. ~C05(Épéiste)
+Augmente le talent Escrime. ~C05(Épéiste)
+Augmente le talent Expert.
+Augmente le talent Expert.
+Augmente le talent Expert.
+Augmente le talent Aiguiseur. ~C05(Épéiste)
+Augmente le talent Garde.
+Augmente le talent Garde.
+Augmente le talent Paladin.
+Augmente le talent Paladin.
+Augmente le talent Recharger ~C05(Artilleur)
+Augmente le talent Recharger ~C05(Artilleur)
+Augmente le talent Recul. ~C05(Artilleur)
+Augmente le talent Recul. ~C05(Artilleur)
+Augmente le talent Normale G ~C05(Artilleur)
+Augmente le talent Normale G ~C05(Artilleur)
+Augmente le talent Perçante G ~C05(Artilleur)
+Augmente le talent Perçante G ~C05(Artilleur)
+Augmente le talent Plomb G ~C05(Artilleur)
+Augmente le talent Plomb G ~C05(Artilleur)
+Augmente le talent Normale + ~C05(Artilleur)
+Augmente le talent Normale + ~C05(Artilleur)
+Augmente le talent Perçante + ~C05(Artilleur)
+Augmente le talent Perçante + ~C05(Artilleur)
+Augmente le talent Plomb + ~C05(Artilleur)
+Augmente le talent Explosive + ~C05(Artilleur)
+Augmente le talent Frag. + ~C05(Artilleur)
+Augmente le talent Statut.
+Augmente le talent Statut.
+Augmente le talent Élémental.
+Augmente le talent Élémental.
+Augmente le talent Bombardier.
+Augmente le talent Appétit.
+Augmente le talent Appétit.
+Augmente le talent Gastronome.
+Augmente le talent Attaque.
+Augmente le talent Attaque.
+Augmente le talent Attaque.
+Augmente le talent Défense.
+Augmente le talent Défense.
+Augmente le talent Protection.
+Augmente le talent Protection.
+Augmente le talent Ouïe.
+Augmente le talent Ouïe.
+Augmente le talent Antivol.
+Augmente le talent Soutien.
+Augmente le talent Soutien.
+Augmente le talent Transporteur.
+Augmente le talent Feu.
+Augmente le talent Eau.
+Augmente le talent Foudre.
+Augmente le talent Glace.
+Augmente le talent Dragon.
+Augmente le talent Chaleur.
+Augmente le talent Froid.
+Augmente le talent Vent.
+Augmente le talent Vent.
+Augmente le talent Carte.
+Augmente le talent Collecte.
+Augmente le talent Chapardeur.
+Augmente le talent Lubie.
+Augmente le talent Destin.
+Augmente le talent Destin.
+Augmente le talent Pêche.
+Augmente le talent Clareté.
+Augmente le talent Restauration.
+Augmente le talent Restauration.
+Augmente le talent Inventeur.
+Augmente le talent Alchimiste.
+Augmente le talent Évasion.
+Augmente le talent Évasion.
+Augmente le talent Potentiel.
+Augmente le talent Potentiel.
+Augmente le talent Objets.
+Augmente le talent Stamina.
+Augmente le talent Stamina.
+Augmente le talent Munitions. ~C05(Artilleur)
+Augmente le talent Munitions. ~C05(Artilleur)
+Augmente le talent  Précision. ~C05(Artilleur)
+Augmente le talent Repas.
+Augmente le talent Repas.
+Augmente le talent Dépeçage.
+Augmente le talent Dépeçage.
+Augmente le talent Séisme.
+Augmente le talent Séisme.
+Augmente le talent BBQ.
+Augmente le talent Esquive.
+Augmente le talent Esquive.
+Augmente le talent Critique ~C05(Épéiste)
+Augmente le talent Critique ~C05(Épéiste)
+Augmente le talent Piége.
+Augmente le talent Constitution.
+Augmente le talent Constitution.
+Augmente le talent Capture.
+Augmente le talent Capture.
+Augmente le talent Perception.
+Augmente le talent Charger. ~C05(Épéiste)
+Augmente le talent Charger. ~C05(Épéiste)
+Augmente le talent Oxygène.
+Augmente le talent Courant.
+Augmente le talent Natation.
+Augmente le talent Natation.
+Augmente le talent Punition. ~C05(Épéiste)
+Augmente le talent Punition. ~C05(Épéiste)
+Augmente le talent Fléau.
+Augmente le talent Réveil. ~C05(Épéiste)
+Augmente le talent Réveil. ~C05(Épéiste)
+Augmente le talent Survivant.
+Augmente le talent Survivant.
+Augmente le talent Sniper. ~C05(Artilleur)
+Augmente le talent Sniper. ~C05(Artilleur)
+Augmente le talent Bousier.
+Augmente le talent Aura de feu.
